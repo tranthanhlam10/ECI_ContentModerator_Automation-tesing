@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "success": {
+          "type": "boolean"
+        },
+        "deck_id": {
+          "type": "string"
+        },
+        "cards": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "images": {
+                  "type": "object",
+                  "properties": {
+                    "svg": {
+                      "type": "string"
+                    },
+                    "png": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "svg",
+                    "png"
+                  ]
+                },
+                "value": {
+                  "type": "string"
+                },
+                "suit": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "image",
+                "images",
+                "value",
+                "suit"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "images": {
+                  "type": "object",
+                  "properties": {
+                    "svg": {
+                      "type": "string"
+                    },
+                    "png": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "svg",
+                    "png"
+                  ]
+                },
+                "value": {
+                  "type": "string"
+                },
+                "suit": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "image",
+                "images",
+                "value",
+                "suit"
+              ]
+            }
+          ]
+        },
+        "remaining": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "success",
+        "deck_id",
+        "cards",
+        "remaining"
+      ]
+    }
+  ]
+}

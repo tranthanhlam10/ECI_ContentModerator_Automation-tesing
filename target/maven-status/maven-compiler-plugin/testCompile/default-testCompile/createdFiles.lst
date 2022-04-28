@@ -1,0 +1,5 @@
+Tests\DeckTest.class
+APIs\BaseSetup.class
+APIs\DeckApis.class
+Tests\CardsTest.class
+APIs\CardsApis.class

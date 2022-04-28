@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest-Assured Tests">
+    <test name="Tran Thanh Lam dep trai co tai cua gai's tests cases">
+        <classes>
+            <class name="Tests.DeckTest">
+                <methods>
+                    <include name="shuffeDeck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
