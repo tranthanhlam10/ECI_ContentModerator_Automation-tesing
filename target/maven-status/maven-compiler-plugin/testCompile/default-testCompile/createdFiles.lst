@@ -1,5 +1,7 @@
+Tests\ModelTest.class
+APIs\ModelAPIs.class
 Tests\DeckTest.class
 APIs\BaseSetup.class
-APIs\DeckApis.class
 Tests\CardsTest.class
+APIs\DeckApis.class
 APIs\CardsApis.class
