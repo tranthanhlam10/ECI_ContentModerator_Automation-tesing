@@ -1,10 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Rest-Assured Tests">
-    <test name="Tran Thanh Lam dep trai co tai cua gai's tests cases">
+    <test name="ECI content moderator's tests cases">
         <classes>
-            <class name="Tests.DeckTest">
+            <class name="Tests.ModelTest">
                 <methods>
-                    <include name="shuffeDeck"/>
+                    <include name="getListModelDefault"/>
                 </methods>
             </class>
         </classes>
