@@ -1,25 +1,24 @@
 package Tests;
 
-import APIs.ModelAPIs;
+import APIs.ProductLineAPIs;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
-
-public class ModelTest {
-    ModelAPIs modelAPIs = new ModelAPIs();
+public class ProductLineTest {
+    ProductLineAPIs productLineAPIs = new ProductLineAPIs();
 
     @BeforeMethod
-    public void setModelApis(){
-        modelAPIs.setUpBasePath();
+    public void setProductLineApis(){
+        productLineAPIs.setUpBasePath();
     }
 
     @Test
-    public void getListModelDefault(){
+    public void getListProductLineDefault(){
 
-        Response res = modelAPIs.getListModels();
+        Response res = productLineAPIs.getListProductLine();
         res.prettyPrint();
 
         //JsonPath jsonPath = res.jsonPath();
@@ -29,25 +28,10 @@ public class ModelTest {
         Assert.assertEquals(statuscode, 200);
 
     }
-
     @Test
-    public void createModel(){
+    public void createProductLine(){
 
-        Response res = modelAPIs.createModels();
-        res.prettyPrint();
-
-        //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
-
-        // check by TestNG
-        Assert.assertEquals(statuscode, 201);
-
-    }
-
-
-    @Test
-    public void updateModel(){
-        Response res = modelAPIs.updateModel();
+        Response res = productLineAPIs.createProductLines();
         res.prettyPrint();
 
         //JsonPath jsonPath = res.jsonPath();
@@ -59,8 +43,25 @@ public class ModelTest {
     }
 
     @Test
-    public void deleteModel(){
-        Response res = modelAPIs.deleteModel();
+    public void updateProductLine(){
+
+        Response res = productLineAPIs.updateProductLines();
+        res.prettyPrint();
+
+        //JsonPath jsonPath = res.jsonPath();
+        int statuscode = res.statusCode();
+
+        // check by TestNG
+        Assert.assertEquals(statuscode, 201);
+
+    }
+
+    @Test
+    public void deleteProductLine(){
+
+        Response res = productLineAPIs.deleteProductLine();
+        res.prettyPrint();
+
         //JsonPath jsonPath = res.jsonPath();
         int statuscode = res.statusCode();
 
