@@ -1,10 +1,15 @@
 package Tests;
 
 import APIs.BrandAPIs;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.Matchers.emptyString;
+
 
 public class BrandTest {
     BrandAPIs brandAPIs = new BrandAPIs();
@@ -21,10 +26,13 @@ public class BrandTest {
         res.prettyPrint();
 
         //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
+        String content_type = res.contentType();
 
-        // check by TestNG
-        Assert.assertEquals(statuscode, 200);
+        // check by Hamcrest
+        assertThat(status_code, is(200));
+        assertThat(content_type, is("application/json"));
+
 
     }
     @Test
@@ -33,11 +41,24 @@ public class BrandTest {
         Response res = brandAPIs.createBrands();
         res.prettyPrint();
 
-        //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
+        String content_type = res.contentType();
 
-        // check by TestNG
-        Assert.assertEquals(statuscode, 201);
+        JsonPath jsonPath = res.jsonPath();
+
+        // check by Hamcrest
+        // Kiem tra header API
+        assertThat(status_code, is(200));
+        assertThat(content_type, is("application/json"));
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+        // Kiem tra ten model duoc tao co giong voi ten da truyen vao khong
+        assertThat(jsonPath.get("name"), is("Lam Test Autoamtion"));
+        // Kiem tra manufacturer duoc tao co giong voi id da truyen vao khong
+        assertThat(jsonPath.get("manufacturer_id"), is(100));
+
+
 
         // check by Hamcrest
 
@@ -50,11 +71,21 @@ public class BrandTest {
         Response res = brandAPIs.updateBrand();
         res.prettyPrint();
 
-        //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
+        String content_type = res.contentType();
+        JsonPath jsonPath = res.jsonPath();
 
-        // check by TestNG
-        Assert.assertEquals(statuscode, 201);
+        // check by Hamcrest
+        assertThat(status_code, is(200));
+        assertThat(content_type, is("application/json"));
+
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+        // Kiem tra ten model duoc tao co giong voi ten da truyen vao khong
+        assertThat(jsonPath.get("name"), is("Lam Test Autoamtion"));
+        // Kiem tra manufacturer duoc tao co giong voi id da truyen vao khong
+        assertThat(jsonPath.get("manufacturer_id"), is(100));
 
     }
 
@@ -64,12 +95,21 @@ public class BrandTest {
         Response res = brandAPIs.deleteBrand();
         res.prettyPrint();
 
-        //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
+        String content_type = res.contentType();
 
-        // check by TestNG
-        Assert.assertEquals(statuscode, 201);
+        JsonPath jsonPath = res.jsonPath();
 
+        // check by Hamcrest
+        assertThat(status_code, is(200));
+        assertThat(content_type, is("application/json"));
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+        // Kiem tra ten brand duoc tao co giong voi ten da truyen vao khong
+        assertThat(jsonPath.get("name"), is("Lam Test Autoamtion"));
+        // Kiem tra manufacturer duoc tao co giong voi id da truyen vao khong
+        assertThat(jsonPath.get("manufacturer_id"), is(100));
     }
 
 }
