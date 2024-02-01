@@ -39,6 +39,9 @@ public class BrandTest {
         // check by TestNG
         Assert.assertEquals(statuscode, 201);
 
+        // check by Hamcrest
+
+
     }
 
     @Test
