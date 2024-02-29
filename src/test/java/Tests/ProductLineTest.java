@@ -1,10 +1,15 @@
 package Tests;
 
 import APIs.ProductLineAPIs;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.emptyString;
 
 
 public class ProductLineTest {
@@ -22,10 +27,14 @@ public class ProductLineTest {
         res.prettyPrint();
 
         //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
+        JsonPath jsonPath = res.jsonPath();
 
         // check by TestNG
-        Assert.assertEquals(statuscode, 200);
+        Assert.assertEquals(status_code, 200);
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
 
     }
     @Test
@@ -34,11 +43,17 @@ public class ProductLineTest {
         Response res = productLineAPIs.createProductLines();
         res.prettyPrint();
 
-        //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
+
+        JsonPath jsonPath = res.jsonPath();
 
         // check by TestNG
-        Assert.assertEquals(statuscode, 201);
+        Assert.assertEquals(status_code, 201);
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+        // Kiem tra ten product line duoc tao co giong voi ten da truyen vao khong
+        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
 
     }
 
@@ -49,10 +64,17 @@ public class ProductLineTest {
         res.prettyPrint();
 
         //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
+
+        JsonPath jsonPath = res.jsonPath();
 
         // check by TestNG
-        Assert.assertEquals(statuscode, 201);
+        Assert.assertEquals(status_code, 201);
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+        // Kiem tra ten product line duoc tao co giong voi ten da truyen vao khong
+        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
 
     }
 
@@ -63,10 +85,17 @@ public class ProductLineTest {
         res.prettyPrint();
 
         //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
+
+        JsonPath jsonPath = res.jsonPath();
 
         // check by TestNG
-        Assert.assertEquals(statuscode, 201);
+        Assert.assertEquals(status_code, 201);
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+        // Kiem tra ten product line duoc tao co giong voi ten da truyen vao khong
+        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
 
     }
 }

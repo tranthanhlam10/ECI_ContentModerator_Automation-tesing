@@ -11,7 +11,11 @@ public class PropertiesReader {
     public String propertiesValue;
     Properties p;
 
-    public PropertiesReader(){}
+    public PropertiesReader(String fileName, String propertiesValue){
+        this.fileName = fileName;
+        this.propertiesValue = propertiesValue;
+    }
+
 
     public PropertiesReader(String fileName) throws IOException {
 

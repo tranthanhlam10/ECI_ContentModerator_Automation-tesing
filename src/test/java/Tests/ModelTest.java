@@ -1,11 +1,15 @@
 package Tests;
 
 import APIs.ModelAPIs;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.emptyString;
 
 
 public class ModelTest {
@@ -22,11 +26,18 @@ public class ModelTest {
         Response res = modelAPIs.getListModels();
         res.prettyPrint();
 
+        JsonPath jsonPath = res.jsonPath();
+
         //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
 
         // check by TestNG
-        Assert.assertEquals(statuscode, 200);
+        Assert.assertEquals(status_code, 200);
+
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+
 
     }
 
@@ -37,10 +48,18 @@ public class ModelTest {
         res.prettyPrint();
 
         //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
+
+        JsonPath jsonPath = res.jsonPath();
 
         // check by TestNG
-        Assert.assertEquals(statuscode, 201);
+        Assert.assertEquals(status_code, 201);
+
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+        // Kiem tra ten model duoc tao co giong voi ten da truyen vao khong
+        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
 
     }
 
@@ -51,10 +70,17 @@ public class ModelTest {
         res.prettyPrint();
 
         //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
 
         // check by TestNG
-        Assert.assertEquals(statuscode, 201);
+        Assert.assertEquals(status_code, 201);
+
+        JsonPath jsonPath = res.jsonPath();
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+        // Kiem tra ten model duoc tao co giong voi ten da truyen vao khong
+        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
 
     }
 
@@ -62,10 +88,18 @@ public class ModelTest {
     public void deleteModel(){
         Response res = modelAPIs.deleteModel();
         //JsonPath jsonPath = res.jsonPath();
-        int statuscode = res.statusCode();
+        int status_code = res.statusCode();
 
         // check by TestNG
-        Assert.assertEquals(statuscode, 201);
+        Assert.assertEquals(status_code, 201);
+
+
+        JsonPath jsonPath = res.jsonPath();
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+        // Kiem tra ten model duoc tao co giong voi ten da truyen vao khong
+        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
 
     }
 }
