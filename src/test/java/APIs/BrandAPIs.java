@@ -10,13 +10,22 @@ public class BrandAPIs {
         basePath = "/eca";
     }
 
-    String access_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE2OTUxMzE1MTcsImV4cCI6MTY5NzcyMzUxNywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQwYWIwMzRiLWFhYjctNGYzYy1hYjIxLWZjZTY3NzBjZDdiZCJ9.-GcJfFR2HoOJtJHHrdawojAWEdVgz2K-XNm2R6zGaZc";
+
+    // String là kiểu dữ liệu tham chiếu
+    String access_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk1MTU0NDgsImV4cCI6MTcyMjEwNzQ0OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ2NDgyMDU1LWQ5ZDYtNDhiNi1hMzU0LWVmZDAxOWNmN2M4OSJ9.29Cn5ossMU-h6EfugfQe1IBQPSJDMKUD1PvBGA1fo2o";
 
     public Response getListBrands(){
         String endpoint_getlist = "/brands";
         return given().auth().oauth2(access_token).when().get(endpoint_getlist);
+
     }
 
+
+    //int, double, float là các kiểu dữ liệu nguyên thuỷ
+    //kiểu dữ liệu tham chiếu thì cũng có rất nhiều dạng (class, string, interface)
+    //mọi biến trong Java phải được khai báo thì mới có thể sử dụng
+    //trong quá trính khai báo, thì thường tạo giá trị ban đầu danh cho biến (nta hay gọi là khỏi tạo giá trị khia báo ban đầu)
+    //Prefit < Toán tử < Assignment < Postfit (được tính toán từ trái qua phải)
     public Response createBrands(){
 
         String endpoint_addBrand = "/brands?$eager=[manufacturer]";
@@ -34,7 +43,7 @@ public class BrandAPIs {
         // Tao mot file excel doc het cac properties do len
 
         Brand brand = new Brand();
-        brand.setName("Lam Test Autoamtion");
+        brand.setName("Lam Test Automation");
         brand.setManufacturer_id(100);
 
 

@@ -1,11 +1,9 @@
-APIs/ModelAPIs.class
-APIs/CardsApis.class
-Tests/ModelTest.class
-Tests/CardsTest.class
-APIs/DeckApis.class
 APIs/ProductLineAPIs.class
-Tests/DeckTest.class
+APIs/ModelAPIs.class
+Tests/AuthencationTest.class
 APIs/BrandAPIs.class
+APIs/AuthencationAPIs.class
+Tests/ModelTest.class
 Tests/ProductLineTest.class
 Tests/BrandTest.class
 APIs/BaseSetup.class
