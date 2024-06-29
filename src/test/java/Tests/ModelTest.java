@@ -1,10 +1,12 @@
 package Tests;
 
+import APIs.BaseSetup;
 import APIs.ModelAPIs;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -12,10 +14,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.emptyString;
 
 
-public class ModelTest {
+public class ModelTest extends BaseSetup {
     ModelAPIs modelAPIs = new ModelAPIs();
 
-    @BeforeMethod
+    @BeforeTest
     public void setModelApis(){
         modelAPIs.setUpBasePath();
     }

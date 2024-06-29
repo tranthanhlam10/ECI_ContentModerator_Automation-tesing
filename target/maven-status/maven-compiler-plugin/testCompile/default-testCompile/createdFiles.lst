@@ -1,8 +1,6 @@
 APIs/ProductLineAPIs.class
 APIs/ModelAPIs.class
-Tests/AuthencationTest.class
 APIs/BrandAPIs.class
-APIs/AuthencationAPIs.class
 Tests/ModelTest.class
 Tests/ProductLineTest.class
 Tests/BrandTest.class

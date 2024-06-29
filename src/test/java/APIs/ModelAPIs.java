@@ -14,7 +14,7 @@ public class ModelAPIs {
 
     public Response getListModels(){
         String endpoint_getlist_1 = "view-product-models";
-        return given().auth().oauth2(access_token).when().get(endpoint_getlist_1);
+        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").when().get(endpoint_getlist_1);
     }
 
     public Response createModels(){
@@ -28,7 +28,7 @@ public class ModelAPIs {
 
 
 
-        return given().auth().oauth2(access_token).contentType("application/json").when().body(model).post(endpoint_addModel);
+        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").contentType("application/json").when().body(model).post(endpoint_addModel);
     }
 
     public Response updateModel(){
@@ -44,12 +44,12 @@ public class ModelAPIs {
         model_update.setQuery("Samsung");
 
 
-        return given().auth().oauth2(access_token).when().body(model_update).put(endpoint_updateModel);
+        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").when().body(model_update).put(endpoint_updateModel);
     }
 
     public Response deleteModel(){
         String endpoint_deleteModel = "/models/17407";
-        return given().auth().oauth2(access_token).when().delete(endpoint_deleteModel);
+        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").when().delete(endpoint_deleteModel);
     }
 
 

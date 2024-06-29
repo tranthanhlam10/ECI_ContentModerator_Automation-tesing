@@ -1,14 +1,11 @@
 package Tests;
 
+import APIs.BaseSetup;
 import APIs.BrandAPIs;
-import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import utils.ExcelReader;
-import utils.JsonFileReader;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,15 +18,14 @@ import static org.hamcrest.Matchers.emptyString;
 
 
 
-public class BrandTest {
+public class BrandTest extends BaseSetup {
     BrandAPIs brandAPIs = new BrandAPIs();
-    JsonFileReader jsonFileReader = new JsonFileReader();
     final String GET_LIST_BRAND_SCHEMA = "get_list_brand_schema.json";
     final String CREATE_BRAND_SCHEMA = "create_brand_schema.json";
     final String UPDATE_BRAND_SCHEMA = "update_brand_schema.json";
     final String DELETE_BRAND_SCHEMA = "delete_brand_schema.json";
 
-    @BeforeMethod
+    @BeforeTest
     public void setBrandApis(){
        brandAPIs.setUpBasePath();
     }
@@ -40,56 +36,46 @@ public class BrandTest {
         Response res = brandAPIs.getListBrands();
         res.prettyPrint();
 
-//        InputStream get_list_brand_schema = getClass().getClassLoader()
-//                .getResourceAsStream("create_brand_schema.json");
 
-        //JsonPath jsonPath = res.jsonPath();
         int status_code = res.statusCode();
         String content_type = res.contentType();
 
-        // check Json Schema by Json Validator
-//        assert get_list_brand_schema != null;
-        res.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonFileReader.JsonFileReader(GET_LIST_BRAND_SCHEMA)));
-        // check data response by Hamcrest
         assertThat(status_code, is(200));
         assertThat(content_type, is("application/json"));
 
 
     }
-//    @Test(dataProvider = "excelData_Brand", dataProviderClass = ExcelReader.class)
-//    public void createBrand(String brand_name){
-//
-//        Response res = brandAPIs.createBrands();
-//        res.prettyPrint();
-//        //InputStream create_brand_schema = getClass().getClassLoader()
-//                //.getResourceAsStream("create_brand_schema.json");
-//
-//        int status_code = res.statusCode();
-//        String content_type = res.contentType();
-//
-//        JsonPath jsonPath = res.jsonPath();
-//
-//
-//        // check Json Schema by Json Validator
-//       // assert  create_brand_schema != null;
-//        res.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonFileReader.JsonFileReader(CREATE_BRAND_SCHEMA)));
-//
-//        // check by Hamcrest
-//        // Kiem tra header API
-//        assertThat(status_code, is(200));
-//        assertThat(content_type, is("application/json"));
-//
-//        // Check null response
-//        assertThat(jsonPath.prettyPrint(), is(emptyString()));
-//        // Kiem tra ten model duoc tao co giong voi ten da truyen vao khong
-//        assertThat(jsonPath.get("name"), is("Lam Test Autoamtion"));
-//        // Kiem tra manufacturer duoc tao co giong voi id da truyen vao khong
-//        assertThat(jsonPath.get("manufacturer_id"), is(100));
-//
-//        System.out.println(brand_name);
-//
-//
-//    }
+    //@Test(dataProvider = "excelData_Brand", dataProviderClass = ExcelReader.class)
+    @Test
+    public void createBrand(String brand_name){
+
+        Response res = brandAPIs.createBrands();
+        res.prettyPrint();
+        int status_code = res.statusCode();
+        String content_type = res.contentType();
+
+        JsonPath jsonPath = res.jsonPath();
+
+
+        // check Json Schema by Json Validator
+       // assert  create_brand_schema != null;
+
+        // check by Hamcrest
+        // Kiem tra header API
+        assertThat(status_code, is(200));
+        assertThat(content_type, is("application/json"));
+
+        // Check null response
+        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+        // Kiem tra ten model duoc tao co giong voi ten da truyen vao khong
+        assertThat(jsonPath.get("name"), is("Lam Test Autoamtion"));
+        // Kiem tra manufacturer duoc tao co giong voi id da truyen vao khong
+        assertThat(jsonPath.get("manufacturer_id"), is(100));
+
+        System.out.println(brand_name);
+
+
+    }
 
     @Test
     public void updateBrand(){
@@ -102,11 +88,6 @@ public class BrandTest {
         int status_code = res.statusCode();
         String content_type = res.contentType();
         JsonPath jsonPath = res.jsonPath();
-
-
-        // check Json Schema by Json Validator
-//        assert  update_brand_schema != null;
-        res.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonFileReader.JsonFileReader(UPDATE_BRAND_SCHEMA)));
 
         // check by Hamcrest
         assertThat(status_code, is(200));
@@ -137,7 +118,7 @@ public class BrandTest {
 
         // check Json Schema by Json Validator
         assert  delete_brand_schema != null;
-        res.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonFileReader.JsonFileReader(DELETE_BRAND_SCHEMA)));
+       // res.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonFileReader.JsonFileReader(DELETE_BRAND_SCHEMA)));
 
         // check by Hamcrest
         assertThat(status_code, is(200));

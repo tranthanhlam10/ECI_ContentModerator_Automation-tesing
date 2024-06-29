@@ -1,10 +1,11 @@
 package Tests;
 
+import APIs.BaseSetup;
 import APIs.ProductLineAPIs;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -12,10 +13,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.emptyString;
 
 
-public class ProductLineTest {
+public class ProductLineTest extends BaseSetup {
     ProductLineAPIs productLineAPIs = new ProductLineAPIs();
 
-    @BeforeMethod
+    @BeforeTest
     public void setProductLineApis(){
         productLineAPIs.setUpBasePath();
     }

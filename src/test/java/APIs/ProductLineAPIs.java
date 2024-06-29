@@ -14,7 +14,7 @@ public class ProductLineAPIs {
 
     public Response getListProductLine(){
         String endpoint_getlist = "product-lines";
-        return given().auth().oauth2(access_token).when().get(endpoint_getlist);
+        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").when().get(endpoint_getlist);
     }
 
     public Response createProductLines(){
@@ -26,7 +26,7 @@ public class ProductLineAPIs {
         productLine.setBrand_id(1);
         productLine.setIndustry_id(1);
 
-        return given().auth().oauth2(access_token).contentType("application/json").when().body(productLine).post(endpoint_addProductLine);
+        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").contentType("application/json").when().body(productLine).post(endpoint_addProductLine);
     }
 
     public Response updateProductLines(){
@@ -38,12 +38,12 @@ public class ProductLineAPIs {
         productLine.setBrand_id(1);
         productLine.setIndustry_id(1);
 
-        return given().auth().oauth2(access_token).contentType("application/json").when().body(productLine).put(endpoint_updateProductLine);
+        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").contentType("application/json").when().body(productLine).put(endpoint_updateProductLine);
     }
 
     public Response deleteProductLine(){
         String endpoint_deleteProductLine = "/product-lines/9630";
-        return given().auth().oauth2(access_token).when().delete(endpoint_deleteProductLine);
+        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").when().delete(endpoint_deleteProductLine);
     }
 
 
