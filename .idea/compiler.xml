@@ -7,8 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DeckOfCardsAPIs" />
+        <module name="Ecomheat_API_ContentModerator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DeckOfCardsAPIs" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

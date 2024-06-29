@@ -1,9 +1,6 @@
+Objects/Brand.class
 Objects/Model_Update.class
+Objects/ProductLine.class
 Objects/User.class
 Objects/Model.class
-utils/ExcelReader.class
 utils/PropertiesReader.class
-SheetsQuickstart.class
-Objects/Brand.class
-Objects/ProductLine.class
-utils/JsonFileReader.class
