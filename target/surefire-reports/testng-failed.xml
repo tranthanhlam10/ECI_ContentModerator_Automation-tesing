@@ -9,8 +9,8 @@
           <include name="getListProductLineDefault"/>
           <include name="setProductLineApis"/>
           <include name="setUp"/>
-          <include name="deleteProductLine"/>
           <include name="updateProductLine"/>
+          <include name="deleteProductLine"/>
         </methods>
       </class> <!-- Tests.ProductLineTest -->
       <class name="Tests.BrandTest">
@@ -18,8 +18,8 @@
           <include name="createBrand"/>
           <include name="updateBrand"/>
           <include name="setBrandApis"/>
-          <include name="setUp"/>
           <include name="deleteBrand"/>
+          <include name="setUp"/>
           <include name="getListBrandDefault"/>
         </methods>
       </class> <!-- Tests.BrandTest -->

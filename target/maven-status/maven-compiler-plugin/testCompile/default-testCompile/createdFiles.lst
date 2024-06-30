@@ -4,4 +4,5 @@ APIs/BrandAPIs.class
 Tests/ModelTest.class
 Tests/ProductLineTest.class
 Tests/BrandTest.class
+APIs/Authencation.class
 APIs/BaseSetup.class
