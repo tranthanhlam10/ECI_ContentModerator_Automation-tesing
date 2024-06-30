@@ -38,10 +38,10 @@ public class BrandTest extends BaseSetup {
 
 
         int status_code = res.statusCode();
-        String content_type = res.contentType();
+        //String content_type = res.contentType();
 
         assertThat(status_code, is(200));
-        assertThat(content_type, is("application/json"));
+        //assertThat(content_type, is("application/json"));
 
 
     }

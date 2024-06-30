@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.logging.Logger;
 
 import static io.restassured.RestAssured.baseURI;
-import static io.restassured.RestAssured.basic;
+
 
 public class BaseSetup {
     static Logger logger = Logger.getLogger("BaseSetup");

@@ -6,15 +6,17 @@ import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 
 public class ModelAPIs {
+    Authencation authencation = new Authencation();
     public void setUpBasePath(){
         basePath = "/eca";
     }
+
 
     String access_token =  "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk1MTU0NDgsImV4cCI6MTcyMjEwNzQ0OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ2NDgyMDU1LWQ5ZDYtNDhiNi1hMzU0LWVmZDAxOWNmN2M4OSJ9.29Cn5ossMU-h6EfugfQe1IBQPSJDMKUD1PvBGA1fo2o";
 
     public Response getListModels(){
         String endpoint_getlist_1 = "view-product-models";
-        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").when().get(endpoint_getlist_1);
+        return given().auth().oauth2(authencation.getToken()).when().get(endpoint_getlist_1);
     }
 
     public Response createModels(){
@@ -28,7 +30,7 @@ public class ModelAPIs {
 
 
 
-        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").contentType("application/json").when().body(model).post(endpoint_addModel);
+        return given().auth().oauth2(authencation.getToken()).contentType("application/json").when().body(model).post(endpoint_addModel);
     }
 
     public Response updateModel(){
@@ -44,12 +46,12 @@ public class ModelAPIs {
         model_update.setQuery("Samsung");
 
 
-        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").when().body(model_update).put(endpoint_updateModel);
+        return given().auth().oauth2(authencation.getToken()).when().body(model_update).put(endpoint_updateModel);
     }
 
     public Response deleteModel(){
         String endpoint_deleteModel = "/models/17407";
-        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").when().delete(endpoint_deleteModel);
+        return given().auth().oauth2(authencation.getToken()).when().delete(endpoint_deleteModel);
     }
 
 

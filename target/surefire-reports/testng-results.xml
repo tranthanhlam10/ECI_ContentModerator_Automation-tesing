@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="12" passed="0" failed="12" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-29T18:54:14 ICT" name="Surefire suite" finished-at="2024-06-29T18:54:15 ICT" duration-ms="1245">
+  <suite started-at="2024-07-01T03:11:06 ICT" name="Surefire suite" finished-at="2024-07-01T03:11:10 ICT" duration-ms="4324">
     <groups>
     </groups>
-    <test started-at="2024-06-29T18:54:14 ICT" name="Surefire test" finished-at="2024-06-29T18:54:15 ICT" duration-ms="1245">
+    <test started-at="2024-07-01T03:11:06 ICT" name="Surefire test" finished-at="2024-07-01T03:11:10 ICT" duration-ms="4324">
       <class name="Tests.BrandTest">
-        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@358c99f5]" started-at="2024-06-29T18:54:14 ICT" name="setBrandApis" finished-at="2024-06-29T18:54:14 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@48524010]" started-at="2024-07-01T03:11:06 ICT" name="setBrandApis" finished-at="2024-07-01T03:11:06 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrandApis -->
-        <test-method signature="createBrand(java.lang.String)[pri:0, instance:Tests.BrandTest@358c99f5]" started-at="2024-06-29T18:54:15 ICT" name="createBrand" finished-at="2024-06-29T18:54:15 ICT" duration-ms="0" status="FAIL">
+        <test-method signature="createBrand(java.lang.String)[pri:0, instance:Tests.BrandTest@48524010]" started-at="2024-07-01T03:11:09 ICT" name="createBrand" finished-at="2024-07-01T03:11:09 ICT" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -60,7 +60,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBrand -->
-        <test-method signature="deleteBrand()[pri:0, instance:Tests.BrandTest@358c99f5]" started-at="2024-06-29T18:54:15 ICT" name="deleteBrand" finished-at="2024-06-29T18:54:15 ICT" duration-ms="25" status="FAIL">
+        <test-method signature="deleteBrand()[pri:0, instance:Tests.BrandTest@48524010]" started-at="2024-07-01T03:11:09 ICT" name="deleteBrand" finished-at="2024-07-01T03:11:09 ICT" duration-ms="239" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -102,20 +102,20 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBrand -->
-        <test-method signature="getListBrandDefault()[pri:0, instance:Tests.BrandTest@358c99f5]" started-at="2024-06-29T18:54:15 ICT" name="getListBrandDefault" finished-at="2024-06-29T18:54:15 ICT" duration-ms="443" status="FAIL">
+        <test-method signature="getListBrandDefault()[pri:0, instance:Tests.BrandTest@48524010]" started-at="2024-07-01T03:11:09 ICT" name="getListBrandDefault" finished-at="2024-07-01T03:11:09 ICT" duration-ms="258" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
-Expected: is "application/json"
-     but: was "application/json; charset=utf-8"]]>
+Expected: is <200>
+     but: was <404>]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
-Expected: is "application/json"
-     but: was "application/json; charset=utf-8"
+Expected: is <200>
+     but: was <404>
 at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-at Tests.BrandTest.getListBrandDefault(BrandTest.java:44)
+at Tests.BrandTest.getListBrandDefault(BrandTest.java:43)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -153,17 +153,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListBrandDefault -->
-        <test-method signature="updateBrand()[pri:0, instance:Tests.BrandTest@358c99f5]" started-at="2024-06-29T18:54:15 ICT" name="updateBrand" finished-at="2024-06-29T18:54:15 ICT" duration-ms="32" status="FAIL">
+        <test-method signature="updateBrand()[pri:0, instance:Tests.BrandTest@48524010]" started-at="2024-07-01T03:11:09 ICT" name="updateBrand" finished-at="2024-07-01T03:11:09 ICT" duration-ms="290" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
 Expected: is <200>
-     but: was <401>]]>
+     but: was <404>]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
 Expected: is <200>
-     but: was <401>
+     but: was <404>
 at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
 at Tests.BrandTest.updateBrand(BrandTest.java:93)
@@ -206,21 +206,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- updateBrand -->
       </class> <!-- Tests.BrandTest -->
       <class name="Tests.ProductLineTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.ProductLineTest@780cb77]" started-at="2024-06-29T18:54:14 ICT" name="setUp" finished-at="2024-06-29T18:54:14 ICT" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:06 ICT" name="setUp" finished-at="2024-07-01T03:11:06 ICT" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@780cb77]" started-at="2024-06-29T18:54:14 ICT" name="setProductLineApis" finished-at="2024-06-29T18:54:14 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:06 ICT" name="setProductLineApis" finished-at="2024-07-01T03:11:06 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProductLineApis -->
-        <test-method signature="createProductLine()[pri:0, instance:Tests.ProductLineTest@780cb77]" started-at="2024-06-29T18:54:14 ICT" name="createProductLine" finished-at="2024-06-29T18:54:14 ICT" duration-ms="518" status="FAIL">
+        <test-method signature="createProductLine()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:06 ICT" name="createProductLine" finished-at="2024-07-01T03:11:08 ICT" duration-ms="1855" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [201] but found [401]]]>
+              <![CDATA[expected [201] but found [400]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+              <![CDATA[java.lang.AssertionError: expected [201] but found [400]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -266,13 +266,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProductLine -->
-        <test-method signature="deleteProductLine()[pri:0, instance:Tests.ProductLineTest@780cb77]" started-at="2024-06-29T18:54:14 ICT" name="deleteProductLine" finished-at="2024-06-29T18:54:15 ICT" duration-ms="39" status="FAIL">
+        <test-method signature="deleteProductLine()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:08 ICT" name="deleteProductLine" finished-at="2024-07-01T03:11:08 ICT" duration-ms="477" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [201] but found [401]]]>
+              <![CDATA[expected [201] but found [404]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+              <![CDATA[java.lang.AssertionError: expected [201] but found [404]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -318,13 +318,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteProductLine -->
-        <test-method signature="getListProductLineDefault()[pri:0, instance:Tests.ProductLineTest@780cb77]" started-at="2024-06-29T18:54:15 ICT" name="getListProductLineDefault" finished-at="2024-06-29T18:54:15 ICT" duration-ms="28" status="FAIL">
+        <test-method signature="getListProductLineDefault()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:08 ICT" name="getListProductLineDefault" finished-at="2024-07-01T03:11:08 ICT" duration-ms="243" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [200] but found [401]]]>
+              <![CDATA[expected [200] but found [404]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found [401]
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -370,13 +370,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListProductLineDefault -->
-        <test-method signature="updateProductLine()[pri:0, instance:Tests.ProductLineTest@780cb77]" started-at="2024-06-29T18:54:15 ICT" name="updateProductLine" finished-at="2024-06-29T18:54:15 ICT" duration-ms="29" status="FAIL">
+        <test-method signature="updateProductLine()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:08 ICT" name="updateProductLine" finished-at="2024-07-01T03:11:09 ICT" duration-ms="166" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [201] but found [401]]]>
+              <![CDATA[expected [201] but found [404]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+              <![CDATA[java.lang.AssertionError: expected [201] but found [404]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -424,17 +424,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- updateProductLine -->
       </class> <!-- Tests.ProductLineTest -->
       <class name="Tests.ModelTest">
-        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@48524010]" started-at="2024-06-29T18:54:14 ICT" name="setModelApis" finished-at="2024-06-29T18:54:14 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@1a84f40f]" started-at="2024-07-01T03:11:06 ICT" name="setModelApis" finished-at="2024-07-01T03:11:06 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setModelApis -->
-        <test-method signature="createModel()[pri:0, instance:Tests.ModelTest@48524010]" started-at="2024-06-29T18:54:15 ICT" name="createModel" finished-at="2024-06-29T18:54:15 ICT" duration-ms="28" status="FAIL">
+        <test-method signature="createModel()[pri:0, instance:Tests.ModelTest@1a84f40f]" started-at="2024-07-01T03:11:09 ICT" name="createModel" finished-at="2024-07-01T03:11:10 ICT" duration-ms="178" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [201] but found [401]]]>
+              <![CDATA[expected [201] but found [404]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+              <![CDATA[java.lang.AssertionError: expected [201] but found [404]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -480,13 +480,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createModel -->
-        <test-method signature="deleteModel()[pri:0, instance:Tests.ModelTest@48524010]" started-at="2024-06-29T18:54:15 ICT" name="deleteModel" finished-at="2024-06-29T18:54:15 ICT" duration-ms="29" status="FAIL">
+        <test-method signature="deleteModel()[pri:0, instance:Tests.ModelTest@1a84f40f]" started-at="2024-07-01T03:11:10 ICT" name="deleteModel" finished-at="2024-07-01T03:11:10 ICT" duration-ms="180" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [201] but found [401]]]>
+              <![CDATA[expected [201] but found [404]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+              <![CDATA[java.lang.AssertionError: expected [201] but found [404]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -532,13 +532,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteModel -->
-        <test-method signature="getListModelDefault()[pri:0, instance:Tests.ModelTest@48524010]" started-at="2024-06-29T18:54:15 ICT" name="getListModelDefault" finished-at="2024-06-29T18:54:15 ICT" duration-ms="26" status="FAIL">
+        <test-method signature="getListModelDefault()[pri:0, instance:Tests.ModelTest@1a84f40f]" started-at="2024-07-01T03:11:10 ICT" name="getListModelDefault" finished-at="2024-07-01T03:11:10 ICT" duration-ms="214" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [200] but found [401]]]>
+              <![CDATA[expected [200] but found [404]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [200] but found [401]
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -584,13 +584,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListModelDefault -->
-        <test-method signature="updateModel()[pri:0, instance:Tests.ModelTest@48524010]" started-at="2024-06-29T18:54:15 ICT" name="updateModel" finished-at="2024-06-29T18:54:15 ICT" duration-ms="28" status="FAIL">
+        <test-method signature="updateModel()[pri:0, instance:Tests.ModelTest@1a84f40f]" started-at="2024-07-01T03:11:10 ICT" name="updateModel" finished-at="2024-07-01T03:11:10 ICT" duration-ms="202" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [201] but found [401]]]>
+              <![CDATA[expected [201] but found [404]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [201] but found [401]
+              <![CDATA[java.lang.AssertionError: expected [201] but found [404]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)

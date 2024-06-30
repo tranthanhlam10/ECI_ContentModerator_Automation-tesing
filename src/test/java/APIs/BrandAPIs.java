@@ -6,17 +6,17 @@ import static io.restassured.RestAssured.basePath;
 import static io.restassured.RestAssured.given;
 
 public class BrandAPIs {
+
+    Authencation authencation = new Authencation();
     public  void setUpBasePath(){
         basePath = "/eca";
     }
 
 
-
-
     public Response getListBrands(){
 
         String endpoint_getlist = "/brands";
-        return given().auth().oauth2("eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk1MTcyMDUsImV4cCI6MTcyMjEwOTIwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImZmN2I3OTUzLWFmZDEtNGU1MC04M2ZjLTk5NGIzZWEwNmZjMyJ9.G2waV6NP7E9h5yPNGNSaPFzS_d0BBkbp-hEMBA42SnQ").when().get(endpoint_getlist);
+        return given().auth().oauth2(authencation.getToken()).when().get(endpoint_getlist);
 
     }
 
@@ -34,7 +34,7 @@ public class BrandAPIs {
         brand.setName("Lam Test Autoamtion");
         brand.setManufacturer_id(100);
 
-        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").contentType("application/json").when().body(brand).post(endpoint_addBrand);
+        return given().auth().oauth2(authencation.getToken()).contentType("application/json").when().body(brand).post(endpoint_addBrand);
     }
 
     public Response updateBrand(){
@@ -47,12 +47,12 @@ public class BrandAPIs {
         brand.setManufacturer_id(100);
 
 
-        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").when().body(brand).put(endpoint_updateBrand);
+        return given().auth().oauth2(authencation.getToken()).when().body(brand).put(endpoint_updateBrand);
     }
 
     public Response deleteBrand(){
         String endpoint_deleteBrand = "/brands/17407";
-        return given().auth().basic("lamtt@younetgroup.com","Lam@12345").when().delete(endpoint_deleteBrand);
+        return given().auth().oauth2(authencation.getToken()).when().delete(endpoint_deleteBrand);
     }
 
 
