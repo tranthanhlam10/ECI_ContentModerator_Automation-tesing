@@ -176,6 +176,62 @@
           <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">Tests.ModelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createModel">
+                  </a> <!-- createModel -->
+                  <span class="method-name">createModel</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [404]
+	at Tests.ModelTest.createModel(ModelTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteModel">
+                  </a> <!-- deleteModel -->
+                  <span class="method-name">deleteModel</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [404]
+	at Tests.ModelTest.deleteModel(ModelTest.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getListModelDefault">
+                  </a> <!-- getListModelDefault -->
+                  <span class="method-name">getListModelDefault</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at Tests.ModelTest.getListModelDefault(ModelTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateModel">
+                  </a> <!-- updateModel -->
+                  <span class="method-name">updateModel</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [404]
+	at Tests.ModelTest.updateModel(ModelTest.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">Tests.ProductLineTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -265,13 +321,15 @@ For more information on native dependency injection please refer to https://test
                   <a name="getListBrandDefault">
                   </a> <!-- getListBrandDefault -->
                   <span class="method-name">getListBrandDefault</span>
-                  <div class="stack-trace">java.lang.AssertionError: 
-Expected: is &lt;200&gt;
-     but: was &lt;404&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at Tests.BrandTest.getListBrandDefault(BrandTest.java:43)
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: io/qameta/allure/restassured/AllureRestAssured
+	at APIs.BrandAPIs.getListBrands(BrandAPIs.java:20)
+	at Tests.BrandTest.getListBrandDefault(BrandTest.java:36)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: java.lang.ClassNotFoundException: io.qameta.allure.restassured.AllureRestAssured
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 33 more
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -289,62 +347,6 @@ Expected: is &lt;200&gt;
 	at Tests.BrandTest.updateBrand(BrandTest.java:93)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 ... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-failed -->
-          <div class="suite-Surefire_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Tests.ModelTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createModel">
-                  </a> <!-- createModel -->
-                  <span class="method-name">createModel</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [404]
-	at Tests.ModelTest.createModel(ModelTest.java:58)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="deleteModel">
-                  </a> <!-- deleteModel -->
-                  <span class="method-name">deleteModel</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [404]
-	at Tests.ModelTest.deleteModel(ModelTest.java:96)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getListModelDefault">
-                  </a> <!-- getListModelDefault -->
-                  <span class="method-name">getListModelDefault</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
-	at Tests.ModelTest.getListModelDefault(ModelTest.java:37)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="updateModel">
-                  </a> <!-- updateModel -->
-                  <span class="method-name">updateModel</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [404]
-	at Tests.ModelTest.updateModel(ModelTest.java:78)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -407,47 +409,47 @@ data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createProductLine')
 data.setCell(0, 2, 'Tests.ProductLineTest')
-data.setCell(0, 3, 1855);
+data.setCell(0, 3, 1948);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'deleteProductLine')
+data.setCell(1, 1, 'updateProductLine')
 data.setCell(1, 2, 'Tests.ProductLineTest')
-data.setCell(1, 3, 477);
+data.setCell(1, 3, 835);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'updateBrand')
-data.setCell(2, 2, 'Tests.BrandTest')
-data.setCell(2, 3, 290);
+data.setCell(2, 1, 'createModel')
+data.setCell(2, 2, 'Tests.ModelTest')
+data.setCell(2, 3, 570);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'getListBrandDefault')
+data.setCell(3, 1, 'deleteBrand')
 data.setCell(3, 2, 'Tests.BrandTest')
-data.setCell(3, 3, 258);
+data.setCell(3, 3, 566);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'getListProductLineDefault')
-data.setCell(4, 2, 'Tests.ProductLineTest')
-data.setCell(4, 3, 243);
+data.setCell(4, 1, 'deleteModel')
+data.setCell(4, 2, 'Tests.ModelTest')
+data.setCell(4, 3, 549);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'deleteBrand')
-data.setCell(5, 2, 'Tests.BrandTest')
-data.setCell(5, 3, 239);
+data.setCell(5, 1, 'updateModel')
+data.setCell(5, 2, 'Tests.ModelTest')
+data.setCell(5, 3, 356);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'getListModelDefault')
-data.setCell(6, 2, 'Tests.ModelTest')
-data.setCell(6, 3, 214);
+data.setCell(6, 1, 'getListProductLineDefault')
+data.setCell(6, 2, 'Tests.ProductLineTest')
+data.setCell(6, 3, 332);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'updateModel')
+data.setCell(7, 1, 'getListModelDefault')
 data.setCell(7, 2, 'Tests.ModelTest')
-data.setCell(7, 3, 202);
+data.setCell(7, 3, 316);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'deleteModel')
-data.setCell(8, 2, 'Tests.ModelTest')
-data.setCell(8, 3, 180);
+data.setCell(8, 1, 'updateBrand')
+data.setCell(8, 2, 'Tests.BrandTest')
+data.setCell(8, 3, 284);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'createModel')
-data.setCell(9, 2, 'Tests.ModelTest')
-data.setCell(9, 3, 178);
+data.setCell(9, 1, 'deleteProductLine')
+data.setCell(9, 2, 'Tests.ProductLineTest')
+data.setCell(9, 3, 254);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'updateProductLine')
-data.setCell(10, 2, 'Tests.ProductLineTest')
-data.setCell(10, 3, 166);
+data.setCell(10, 1, 'getListBrandDefault')
+data.setCell(10, 2, 'Tests.BrandTest')
+data.setCell(10, 3, 4);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'createBrand')
 data.setCell(11, 2, 'Tests.BrandTest')
@@ -456,7 +458,7 @@ window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -475,14 +477,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">Tests.BrandTest</span>
+              <span class="ignored-class-name">Tests.ModelTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">setUp</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">Tests.ModelTest</span>
+              <span class="ignored-class-name">Tests.BrandTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">setUp</span>
                 <br/>
@@ -506,45 +508,48 @@ return data;
               <div class="chronological-class-name">Tests.BrandTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setBrandApis</span>
-                <span class="method-start">169 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Tests.ModelTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setModelApis</span>
-                <span class="method-start">169 ms</span>
+                <span class="method-start">143 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.ProductLineTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setProductLineApis</span>
-                <span class="method-start">169 ms</span>
+                <span class="method-start">144 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.ModelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setModelApis</span>
+                <span class="method-start">144 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.ProductLineTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">createProductLine</span>
-                <span class="method-start">178 ms</span>
+                <span class="method-start">152 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">deleteProductLine</span>
-                <span class="method-start">2036 ms</span>
+                <span class="method-start">2136 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">getListProductLineDefault</span>
-                <span class="method-start">2514 ms</span>
+                <span class="method-start">2392 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">updateProductLine</span>
-                <span class="method-start">2758 ms</span>
+                <span class="method-start">2726 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -553,19 +558,19 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">deleteBrand</span>
-                <span class="method-start">2927 ms</span>
+                <span class="method-start">3570 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">getListBrandDefault</span>
-                <span class="method-start">3166 ms</span>
+                <span class="method-start">4140 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">updateBrand</span>
-                <span class="method-start">3425 ms</span>
+                <span class="method-start">4149 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -574,25 +579,25 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">createModel</span>
-                <span class="method-start">3716 ms</span>
+                <span class="method-start">4434 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">deleteModel</span>
-                <span class="method-start">3894 ms</span>
+                <span class="method-start">5007 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">getListModelDefault</span>
-                <span class="method-start">4074 ms</span>
+                <span class="method-start">5559 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">updateModel</span>
-                <span class="method-start">4288 ms</span>
+                <span class="method-start">5877 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

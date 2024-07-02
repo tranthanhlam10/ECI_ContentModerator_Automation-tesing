@@ -9,8 +9,8 @@
           <include name="getListProductLineDefault"/>
           <include name="setProductLineApis"/>
           <include name="setUp"/>
-          <include name="updateProductLine"/>
           <include name="deleteProductLine"/>
+          <include name="updateProductLine"/>
         </methods>
       </class> <!-- Tests.ProductLineTest -->
       <class name="Tests.BrandTest">

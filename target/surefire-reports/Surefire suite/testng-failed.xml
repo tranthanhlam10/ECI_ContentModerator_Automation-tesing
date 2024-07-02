@@ -9,20 +9,10 @@
           <include name="getListProductLineDefault"/>
           <include name="setProductLineApis"/>
           <include name="setUp"/>
-          <include name="updateProductLine"/>
           <include name="deleteProductLine"/>
+          <include name="updateProductLine"/>
         </methods>
       </class> <!-- Tests.ProductLineTest -->
-      <class name="Tests.BrandTest">
-        <methods>
-          <include name="createBrand"/>
-          <include name="updateBrand"/>
-          <include name="setBrandApis"/>
-          <include name="deleteBrand"/>
-          <include name="setUp"/>
-          <include name="getListBrandDefault"/>
-        </methods>
-      </class> <!-- Tests.BrandTest -->
       <class name="Tests.ModelTest">
         <methods>
           <include name="createModel"/>
@@ -33,6 +23,16 @@
           <include name="deleteModel"/>
         </methods>
       </class> <!-- Tests.ModelTest -->
+      <class name="Tests.BrandTest">
+        <methods>
+          <include name="createBrand"/>
+          <include name="updateBrand"/>
+          <include name="setBrandApis"/>
+          <include name="deleteBrand"/>
+          <include name="setUp"/>
+          <include name="getListBrandDefault"/>
+        </methods>
+      </class> <!-- Tests.BrandTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

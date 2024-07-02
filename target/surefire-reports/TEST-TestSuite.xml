@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.854" tests="12" errors="0" skipped="0" failures="12">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.527" tests="12" errors="0" skipped="0" failures="12">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/test-classes:/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/classes:/Users/tranthanhlam/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tranthanhlam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tranthanhlam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/tranthanhlam/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/tranthanhlam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/tranthanhlam/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/tranthanhlam/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/tranthanhlam/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/tranthanhlam/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/tranthanhlam/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/json-schema-validator/5.0.1/json-schema-validator-5.0.1.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/tranthanhlam/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/tranthanhlam/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/tranthanhlam/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/tranthanhlam/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/tranthanhlam/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/tranthanhlam/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/tranthanhlam/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/tranthanhlam/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/tranthanhlam/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/tranthanhlam/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/tranthanhlam/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/tranthanhlam/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi-ooxml-full/5.2.5/poi-ooxml-full-5.2.5.jar:/Users/tranthanhlam/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:"/>
+    <property name="java.class.path" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/test-classes:/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/classes:/Users/tranthanhlam/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tranthanhlam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tranthanhlam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/tranthanhlam/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/tranthanhlam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/tranthanhlam/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/tranthanhlam/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/tranthanhlam/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/tranthanhlam/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/tranthanhlam/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi-ooxml-full/5.2.5/poi-ooxml-full-5.2.5.jar:/Users/tranthanhlam/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-testng/2.25.0/allure-testng-2.25.0.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-java-commons/2.25.0/allure-java-commons-2.25.0.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-model/2.25.0/allure-model-2.25.0.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-test-filter/2.25.0/allure-test-filter-2.25.0.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -13,10 +13,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="VN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/22.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire/surefirebooter-20240701031105864_3.jar /Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire 2024-07-01T03-11-05_814-jvmRun1 surefire-20240701031105864_1tmp surefire_0-20240701031105864_2tmp"/>
+    <property name="sun.java.command" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire/surefirebooter-20240703012459514_3.jar /Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire 2024-07-03T01-24-59_465-jvmRun1 surefire-20240703012459514_1tmp surefire_0-20240703012459514_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/test-classes:/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/classes:/Users/tranthanhlam/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tranthanhlam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tranthanhlam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/tranthanhlam/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/tranthanhlam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/tranthanhlam/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/tranthanhlam/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/tranthanhlam/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/tranthanhlam/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/tranthanhlam/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/json-schema-validator/5.0.1/json-schema-validator-5.0.1.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/tranthanhlam/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/tranthanhlam/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/tranthanhlam/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/tranthanhlam/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/tranthanhlam/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/tranthanhlam/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/tranthanhlam/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/tranthanhlam/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/tranthanhlam/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/tranthanhlam/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/tranthanhlam/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/tranthanhlam/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/tranthanhlam/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi-ooxml-full/5.2.5/poi-ooxml-full-5.2.5.jar:/Users/tranthanhlam/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/test-classes:/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/classes:/Users/tranthanhlam/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tranthanhlam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tranthanhlam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/tranthanhlam/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/tranthanhlam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/tranthanhlam/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/tranthanhlam/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/tranthanhlam/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/tranthanhlam/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/tranthanhlam/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi-ooxml-full/5.2.5/poi-ooxml-full-5.2.5.jar:/Users/tranthanhlam/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-testng/2.25.0/allure-testng-2.25.0.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-java-commons/2.25.0/allure-java-commons-2.25.0.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-model/2.25.0/allure-model-2.25.0.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-test-filter/2.25.0/allure-test-filter-2.25.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/tranthanhlam"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire/surefirebooter-20240701031105864_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire/surefirebooter-20240703012459514_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="22.0.1"/>
@@ -59,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="createProductLine" classname="Tests.ProductLineTest" time="1.858">
+  <testcase name="createProductLine" classname="Tests.ProductLineTest" time="1.983">
     <failure message="expected [201] but found [400]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [400]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -102,10 +102,10 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjcsImV4cCI6MTcyMjM3MDI2NywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwYTQzMWM5LThjMGEtNDQwYS1hNzk0LTNiNjYyOWMxODkxNSJ9.K54hF4DfsL9HRQOukqBGqf39JPloMQU8XlfnhBQDIB4",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDEsImV4cCI6MTcyMjUzNjcwMSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwYmU3ZjFhLWRlNWQtNDk2Ny1hNTg4LTI1MmFiYWYyZTgzNSJ9.ztt70IRe9rdBKhVEnuhe7liLwRwmbWLX5yzf-3bY0Sw",
     "authentication": {
         "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjcsImV4cCI6MTcyMjM3MDI2NywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwYTQzMWM5LThjMGEtNDQwYS1hNzk0LTNiNjYyOWMxODkxNSJ9.K54hF4DfsL9HRQOukqBGqf39JPloMQU8XlfnhBQDIB4",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDEsImV4cCI6MTcyMjUzNjcwMSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwYmU3ZjFhLWRlNWQtNDk2Ny1hNTg4LTI1MmFiYWYyZTgzNSJ9.ztt70IRe9rdBKhVEnuhe7liLwRwmbWLX5yzf-3bY0Sw",
         "payload": {
             "userId": 5812,
             "id": 5812,
@@ -115,12 +115,12 @@
                 "phone": "0000000000",
                 "fullname": "Lâm TT"
             },
-            "iat": 1719778267,
-            "exp": 1722370267,
+            "iat": 1719944701,
+            "exp": 1722536701,
             "aud": "https://yourdomain.com",
             "iss": "feathers",
             "sub": "5812",
-            "jti": "20a431c9-8c0a-440a-a794-3b6629c18915"
+            "jti": "20be7f1a-de5d-4967-a588-252abaf2e835"
         }
     },
     "user": {
@@ -136,7 +136,7 @@
         "phone": "0000000000",
         "google_id": null,
         "google_email": null,
-        "last_login": "2024-06-30 20:07:46",
+        "last_login": "2024-07-01 10:33:33",
         "last_login_social_trend": "2023-06-30 10:31:41",
         "verified": 1,
         "is_trial": 0,
@@ -151,7 +151,7 @@
         "is_socialtrend_internal": 0,
         "updated_by": 5812,
         "created_by": 5812,
-        "updated_at": "2024-06-30T20:07:46.000Z",
+        "updated_at": "2024-07-01T10:33:33.000Z",
         "created_at": "2022-07-25T04:57:30.000Z",
         "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
         "bitrix_crm_contact_id": null,
@@ -216,7 +216,7 @@
     }
 }
 http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjcsImV4cCI6MTcyMjM3MDI2NywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwYTQzMWM5LThjMGEtNDQwYS1hNzk0LTNiNjYyOWMxODkxNSJ9.K54hF4DfsL9HRQOukqBGqf39JPloMQU8XlfnhBQDIB4
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDEsImV4cCI6MTcyMjUzNjcwMSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwYmU3ZjFhLWRlNWQtNDk2Ny1hNTg4LTI1MmFiYWYyZTgzNSJ9.ztt70IRe9rdBKhVEnuhe7liLwRwmbWLX5yzf-3bY0Sw
 {
     "error": {
         "name": "BadRequest",
@@ -239,15 +239,15 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Jul 01, 2024 3:11:06 AM APIs.BaseSetup setUp
+Jul 03, 2024 1:25:00 AM APIs.BaseSetup setUp
 WARNING: BASE_URL in http://sl-api-eci-v1-20-0.datatrend.io Environment has been created
-Jul 01, 2024 3:11:06 AM APIs.BaseSetup setUp
+Jul 03, 2024 1:25:00 AM APIs.BaseSetup setUp
 WARNING: BASE_URL in dev Environment has been created
-Jul 01, 2024 3:11:06 AM APIs.BaseSetup setUp
+Jul 03, 2024 1:25:00 AM APIs.BaseSetup setUp
 WARNING: BASE_PATH  dev Environment has been already created
 ]]></system-err>
   </testcase>
-  <testcase name="deleteProductLine" classname="Tests.ProductLineTest" time="0.482">
+  <testcase name="deleteProductLine" classname="Tests.ProductLineTest" time="0.255">
     <failure message="expected [201] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -290,10 +290,10 @@ WARNING: BASE_PATH  dev Environment has been already created
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjgsImV4cCI6MTcyMjM3MDI2OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImFmYTUwODgzLTU4MjItNDVhYi05OGM2LTgyMGJlMTczNzJiMCJ9.44-xvuW5976r8HrLnHHcs33zuy0om4v0wV516fHi_Ts",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ3ZmM0NTRiLTJkYjUtNGJlOC1iOTJjLTQyMTM0YTQ5ZDU1YSJ9.BO-i9lMw1nF0jP2sJpMCJmfV-yYTqfBmYJ5JwvFe0FA",
     "authentication": {
         "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjgsImV4cCI6MTcyMjM3MDI2OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImFmYTUwODgzLTU4MjItNDVhYi05OGM2LTgyMGJlMTczNzJiMCJ9.44-xvuW5976r8HrLnHHcs33zuy0om4v0wV516fHi_Ts",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ3ZmM0NTRiLTJkYjUtNGJlOC1iOTJjLTQyMTM0YTQ5ZDU1YSJ9.BO-i9lMw1nF0jP2sJpMCJmfV-yYTqfBmYJ5JwvFe0FA",
         "payload": {
             "userId": 5812,
             "id": 5812,
@@ -303,12 +303,12 @@ WARNING: BASE_PATH  dev Environment has been already created
                 "phone": "0000000000",
                 "fullname": "Lâm TT"
             },
-            "iat": 1719778268,
-            "exp": 1722370268,
+            "iat": 1719944702,
+            "exp": 1722536702,
             "aud": "https://yourdomain.com",
             "iss": "feathers",
             "sub": "5812",
-            "jti": "afa50883-5822-45ab-98c6-820be17372b0"
+            "jti": "47fc454b-2db5-4be8-b92c-42134a49d55a"
         }
     },
     "user": {
@@ -324,7 +324,7 @@ WARNING: BASE_PATH  dev Environment has been already created
         "phone": "0000000000",
         "google_id": null,
         "google_email": null,
-        "last_login": "2024-06-30 20:07:46",
+        "last_login": "2024-07-01 10:33:33",
         "last_login_social_trend": "2023-06-30 10:31:41",
         "verified": 1,
         "is_trial": 0,
@@ -339,7 +339,7 @@ WARNING: BASE_PATH  dev Environment has been already created
         "is_socialtrend_internal": 0,
         "updated_by": 5812,
         "created_by": 5812,
-        "updated_at": "2024-06-30T20:07:46.000Z",
+        "updated_at": "2024-07-01T10:33:33.000Z",
         "created_at": "2022-07-25T04:57:30.000Z",
         "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
         "bitrix_crm_contact_id": null,
@@ -404,7 +404,7 @@ WARNING: BASE_PATH  dev Environment has been already created
     }
 }
 http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjgsImV4cCI6MTcyMjM3MDI2OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImFmYTUwODgzLTU4MjItNDVhYi05OGM2LTgyMGJlMTczNzJiMCJ9.44-xvuW5976r8HrLnHHcs33zuy0om4v0wV516fHi_Ts
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ3ZmM0NTRiLTJkYjUtNGJlOC1iOTJjLTQyMTM0YTQ5ZDU1YSJ9.BO-i9lMw1nF0jP2sJpMCJmfV-yYTqfBmYJ5JwvFe0FA
 {
     "error": {
         "name": "NotFound",
@@ -421,7 +421,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="getListProductLineDefault" classname="Tests.ProductLineTest" time="0.238">
+  <testcase name="getListProductLineDefault" classname="Tests.ProductLineTest" time="0.334">
     <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -464,10 +464,10 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImIxNjZkODZhLTYzMDItNDQ5ZS04YmJmLTNjNWI2MDk4NzQ1ZiJ9.ZPmwzxu6-3TdYZOymQN8jTkDD3EWUb2h-IiZYOVI9kY",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ4ZDE2NTUxLTAwMWUtNGE4NS04Yzg0LTdiNGUxZGQyMWJjZCJ9.s6yh_pUxRoPe3lUGXHcxaMdZeUQ9o_sLfRa6t2E-XlI",
     "authentication": {
         "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImIxNjZkODZhLTYzMDItNDQ5ZS04YmJmLTNjNWI2MDk4NzQ1ZiJ9.ZPmwzxu6-3TdYZOymQN8jTkDD3EWUb2h-IiZYOVI9kY",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ4ZDE2NTUxLTAwMWUtNGE4NS04Yzg0LTdiNGUxZGQyMWJjZCJ9.s6yh_pUxRoPe3lUGXHcxaMdZeUQ9o_sLfRa6t2E-XlI",
         "payload": {
             "userId": 5812,
             "id": 5812,
@@ -477,12 +477,12 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
                 "phone": "0000000000",
                 "fullname": "Lâm TT"
             },
-            "iat": 1719778269,
-            "exp": 1722370269,
+            "iat": 1719944702,
+            "exp": 1722536702,
             "aud": "https://yourdomain.com",
             "iss": "feathers",
             "sub": "5812",
-            "jti": "b166d86a-6302-449e-8bbf-3c5b6098745f"
+            "jti": "48d16551-001e-4a85-8c84-7b4e1dd21bcd"
         }
     },
     "user": {
@@ -498,7 +498,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "phone": "0000000000",
         "google_id": null,
         "google_email": null,
-        "last_login": "2024-06-30 20:07:46",
+        "last_login": "2024-07-01 10:33:33",
         "last_login_social_trend": "2023-06-30 10:31:41",
         "verified": 1,
         "is_trial": 0,
@@ -513,7 +513,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "is_socialtrend_internal": 0,
         "updated_by": 5812,
         "created_by": 5812,
-        "updated_at": "2024-06-30T20:07:46.000Z",
+        "updated_at": "2024-07-01T10:33:33.000Z",
         "created_at": "2022-07-25T04:57:30.000Z",
         "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
         "bitrix_crm_contact_id": null,
@@ -578,7 +578,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
     }
 }
 http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImIxNjZkODZhLTYzMDItNDQ5ZS04YmJmLTNjNWI2MDk4NzQ1ZiJ9.ZPmwzxu6-3TdYZOymQN8jTkDD3EWUb2h-IiZYOVI9kY
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ4ZDE2NTUxLTAwMWUtNGE4NS04Yzg0LTdiNGUxZGQyMWJjZCJ9.s6yh_pUxRoPe3lUGXHcxaMdZeUQ9o_sLfRa6t2E-XlI
 {
     "error": {
         "name": "NotFound",
@@ -595,7 +595,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="updateProductLine" classname="Tests.ProductLineTest" time="0.171">
+  <testcase name="updateProductLine" classname="Tests.ProductLineTest" time="0.838">
     <failure message="expected [201] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -638,10 +638,10 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImQzMTUxNjk1LTc4NmYtNGQ3MS1iZDA4LTgxYWU3ZmRjMGQzNiJ9.Z5hGHqqB-ReyThqi_5kp7C3T4SESU7vcMssrYTIfDEQ",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjY5NWQ3N2JjLTZiOGYtNDk4YS04ODQxLThmNmYzNzBhNDc4YSJ9.RG8HHFzSeSyWrwE34le-t8vaUuXj-Be_y706BqQcwXE",
     "authentication": {
         "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImQzMTUxNjk1LTc4NmYtNGQ3MS1iZDA4LTgxYWU3ZmRjMGQzNiJ9.Z5hGHqqB-ReyThqi_5kp7C3T4SESU7vcMssrYTIfDEQ",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjY5NWQ3N2JjLTZiOGYtNDk4YS04ODQxLThmNmYzNzBhNDc4YSJ9.RG8HHFzSeSyWrwE34le-t8vaUuXj-Be_y706BqQcwXE",
         "payload": {
             "userId": 5812,
             "id": 5812,
@@ -651,12 +651,12 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
                 "phone": "0000000000",
                 "fullname": "Lâm TT"
             },
-            "iat": 1719778269,
-            "exp": 1722370269,
+            "iat": 1719944702,
+            "exp": 1722536702,
             "aud": "https://yourdomain.com",
             "iss": "feathers",
             "sub": "5812",
-            "jti": "d3151695-786f-4d71-bd08-81ae7fdc0d36"
+            "jti": "695d77bc-6b8f-498a-8841-8f6f370a478a"
         }
     },
     "user": {
@@ -672,7 +672,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "phone": "0000000000",
         "google_id": null,
         "google_email": null,
-        "last_login": "2024-06-30 20:07:46",
+        "last_login": "2024-07-01 10:33:33",
         "last_login_social_trend": "2023-06-30 10:31:41",
         "verified": 1,
         "is_trial": 0,
@@ -687,7 +687,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "is_socialtrend_internal": 0,
         "updated_by": 5812,
         "created_by": 5812,
-        "updated_at": "2024-06-30T20:07:46.000Z",
+        "updated_at": "2024-07-01T10:33:33.000Z",
         "created_at": "2022-07-25T04:57:30.000Z",
         "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
         "bitrix_crm_contact_id": null,
@@ -752,7 +752,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
     }
 }
 http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImQzMTUxNjk1LTc4NmYtNGQ3MS1iZDA4LTgxYWU3ZmRjMGQzNiJ9.Z5hGHqqB-ReyThqi_5kp7C3T4SESU7vcMssrYTIfDEQ
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjY5NWQ3N2JjLTZiOGYtNDk4YS04ODQxLThmNmYzNzBhNDc4YSJ9.RG8HHFzSeSyWrwE34le-t8vaUuXj-Be_y706BqQcwXE
 {
     "error": {
         "name": "NotFound",
@@ -769,7 +769,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createBrand" classname="Tests.BrandTest" time="0.171">
+  <testcase name="createBrand" classname="Tests.BrandTest" time="0.845">
     <failure message="&#10;Cannot inject @Test annotated Method [createBrand] with [class java.lang.String].&#10;For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Cannot inject @Test annotated Method [createBrand] with [class java.lang.String].
@@ -808,7 +808,7 @@ For more information on native dependency injection please refer to https://test
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="deleteBrand" classname="Tests.BrandTest" time="0.242">
+  <testcase name="deleteBrand" classname="Tests.BrandTest" time="0.569">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
 	at Tests.BrandTest.deleteBrand(BrandTest.java:120)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -844,10 +844,10 @@ For more information on native dependency injection please refer to https://test
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImQzMDBjZDE2LWE0ODMtNDQwZi1hY2EzLWI4ZmRkODY5OGJiOCJ9.Z6zdotwTQMrDrda6P6TsHZ13aPUOcAlSZeLY5m9-04o",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDMsImV4cCI6MTcyMjUzNjcwMywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImUzZjEwMGU3LTc0NjMtNDNmNS1hMjI1LTk2MWFlZDRhNmJlNiJ9.QlVex34JzCZjCTh8q8wrne4DGuLxNuiwZ9FLCBAih7M",
     "authentication": {
         "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImQzMDBjZDE2LWE0ODMtNDQwZi1hY2EzLWI4ZmRkODY5OGJiOCJ9.Z6zdotwTQMrDrda6P6TsHZ13aPUOcAlSZeLY5m9-04o",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDMsImV4cCI6MTcyMjUzNjcwMywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImUzZjEwMGU3LTc0NjMtNDNmNS1hMjI1LTk2MWFlZDRhNmJlNiJ9.QlVex34JzCZjCTh8q8wrne4DGuLxNuiwZ9FLCBAih7M",
         "payload": {
             "userId": 5812,
             "id": 5812,
@@ -857,12 +857,12 @@ For more information on native dependency injection please refer to https://test
                 "phone": "0000000000",
                 "fullname": "Lâm TT"
             },
-            "iat": 1719778269,
-            "exp": 1722370269,
+            "iat": 1719944703,
+            "exp": 1722536703,
             "aud": "https://yourdomain.com",
             "iss": "feathers",
             "sub": "5812",
-            "jti": "d300cd16-a483-440f-aca3-b8fdd8698bb8"
+            "jti": "e3f100e7-7463-43f5-a225-961aed4a6be6"
         }
     },
     "user": {
@@ -878,7 +878,7 @@ For more information on native dependency injection please refer to https://test
         "phone": "0000000000",
         "google_id": null,
         "google_email": null,
-        "last_login": "2024-06-30 20:07:46",
+        "last_login": "2024-07-01 10:33:33",
         "last_login_social_trend": "2023-06-30 10:31:41",
         "verified": 1,
         "is_trial": 0,
@@ -893,7 +893,7 @@ For more information on native dependency injection please refer to https://test
         "is_socialtrend_internal": 0,
         "updated_by": 5812,
         "created_by": 5812,
-        "updated_at": "2024-06-30T20:07:46.000Z",
+        "updated_at": "2024-07-01T10:33:33.000Z",
         "created_at": "2022-07-25T04:57:30.000Z",
         "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
         "bitrix_crm_contact_id": null,
@@ -958,7 +958,7 @@ For more information on native dependency injection please refer to https://test
     }
 }
 http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImQzMDBjZDE2LWE0ODMtNDQwZi1hY2EzLWI4ZmRkODY5OGJiOCJ9.Z6zdotwTQMrDrda6P6TsHZ13aPUOcAlSZeLY5m9-04o
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDMsImV4cCI6MTcyMjUzNjcwMywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImUzZjEwMGU3LTc0NjMtNDNmNS1hMjI1LTk2MWFlZDRhNmJlNiJ9.QlVex34JzCZjCTh8q8wrne4DGuLxNuiwZ9FLCBAih7M
 {
     "error": {
         "name": "NotFound",
@@ -975,14 +975,10 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="getListBrandDefault" classname="Tests.BrandTest" time="0.259">
-    <failure message="&#10;Expected: is &lt;200&gt;&#10;     but: was &lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-
-Expected: is <200>
-     but: was <404>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at Tests.BrandTest.getListBrandDefault(BrandTest.java:43)
+  <testcase name="getListBrandDefault" classname="Tests.BrandTest" time="0.007">
+    <failure message="io/qameta/allure/restassured/AllureRestAssured" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: io/qameta/allure/restassured/AllureRestAssured
+	at APIs.BrandAPIs.getListBrands(BrandAPIs.java:20)
+	at Tests.BrandTest.getListBrandDefault(BrandTest.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1014,140 +1010,14 @@ Expected: is <200>
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.ClassNotFoundException: io.qameta.allure.restassured.AllureRestAssured
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 33 more
 ]]></failure>
-    <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjM0MzQwZjRiLWViNTktNDk1Mi05Mzc5LTg0ZDA0NWFiZjI4MiJ9.VROUx9jZsYi6iAOIg0gkgWonOC3gyWvZiS0VbAiXCYU",
-    "authentication": {
-        "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjM0MzQwZjRiLWViNTktNDk1Mi05Mzc5LTg0ZDA0NWFiZjI4MiJ9.VROUx9jZsYi6iAOIg0gkgWonOC3gyWvZiS0VbAiXCYU",
-        "payload": {
-            "userId": 5812,
-            "id": 5812,
-            "user": {
-                "id": 5812,
-                "email": "lamtt@younetgroup.com",
-                "phone": "0000000000",
-                "fullname": "Lâm TT"
-            },
-            "iat": 1719778269,
-            "exp": 1722370269,
-            "aud": "https://yourdomain.com",
-            "iss": "feathers",
-            "sub": "5812",
-            "jti": "34340f4b-eb59-4952-9379-84d045abf282"
-        }
-    },
-    "user": {
-        "id": 5812,
-        "username": null,
-        "email": "lamtt@younetgroup.com",
-        "domain": null,
-        "fullname": "Lâm TT",
-        "department": null,
-        "status": "active",
-        "company_name": null,
-        "younet_company": "YouNet Media",
-        "phone": "0000000000",
-        "google_id": null,
-        "google_email": null,
-        "last_login": "2024-06-30 20:07:46",
-        "last_login_social_trend": "2023-06-30 10:31:41",
-        "verified": 1,
-        "is_trial": 0,
-        "verified_date": null,
-        "trial_expired_date": null,
-        "upgrade_popup_info": null,
-        "is_finish_step_guide": 0,
-        "is_used_socialheat": null,
-        "is_create_account_by_mobile": 0,
-        "potential_client": 0,
-        "is_external": 0,
-        "is_socialtrend_internal": 0,
-        "updated_by": 5812,
-        "created_by": 5812,
-        "updated_at": "2024-06-30T20:07:46.000Z",
-        "created_at": "2022-07-25T04:57:30.000Z",
-        "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
-        "bitrix_crm_contact_id": null,
-        "bitrix_crm_lead_id": null,
-        "social_trend_expired_date": "2023-01-21T16:59:59.000Z",
-        "following_passion_point": null,
-        "socialtrend_source": null,
-        "socialtrend_department": null,
-        "socialtrend_assignee_id": null,
-        "is_survey": 1,
-        "survey_reports": "Báo cáo phân tích chuyển động ngành hàng|||Báo cáo phân tích hành vi người dùng MXH",
-        "survey_industry": "CNTT & Viễn thông",
-        "eca_dashboard_daterange": "|||||",
-        "eca_view_undefined_industry": 0,
-        "eca_view_all_include_without_industry": 0,
-        "eca_dashboard_platform_access": "",
-        "socialtrend_utm_source": null,
-        "is_display_tiktok_banner": 1,
-        "group_members": [
-            {
-                "id": 2920,
-                "id_group": 17,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4624,
-                "id_group": 5031,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4626,
-                "id_group": 5324,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4694,
-                "id_group": 5341,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4724,
-                "id_group": 5351,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4726,
-                "id_group": 5104,
-                "id_user": 5812,
-                "is_main_member": 1
-            }
-        ],
-        "isSetupPwdAlready": 1,
-        "avatar_url": "",
-        "id_group": -1,
-        "current_status": "",
-        "id_account": 17
-    }
-}
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjM0MzQwZjRiLWViNTktNDk1Mi05Mzc5LTg0ZDA0NWFiZjI4MiJ9.VROUx9jZsYi6iAOIg0gkgWonOC3gyWvZiS0VbAiXCYU
-{
-    "error": {
-        "name": "NotFound",
-        "message": "Page not found",
-        "code": 404,
-        "className": "not-found",
-        "data": {
-            "url": "/brands"
-        },
-        "errors": {
-            
-        }
-    }
-}
-]]></system-out>
   </testcase>
-  <testcase name="updateBrand" classname="Tests.BrandTest" time="0.285">
+  <testcase name="updateBrand" classname="Tests.BrandTest" time="0.29">
     <failure message="&#10;Expected: is &lt;200&gt;&#10;     but: was &lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 
 Expected: is <200>
@@ -1188,10 +1058,10 @@ Expected: is <200>
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImJiYjk5NzcwLWYxNTMtNDNmMC04NjFkLTIxMTg3YWQ0YzA0MSJ9.S9QYQJa2XCrMqtQynag1sq9_tL74f5PQxrdHgra_2DU",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImFmMThjYzBmLTQxMWYtNDQzMy04ZGY4LTc1NDhiZDRjODhjYiJ9.qTO7R7rI-WvQ3E_xAy7PDgjd0MTIOP3GzZBaHWAohxE",
     "authentication": {
         "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImJiYjk5NzcwLWYxNTMtNDNmMC04NjFkLTIxMTg3YWQ0YzA0MSJ9.S9QYQJa2XCrMqtQynag1sq9_tL74f5PQxrdHgra_2DU",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImFmMThjYzBmLTQxMWYtNDQzMy04ZGY4LTc1NDhiZDRjODhjYiJ9.qTO7R7rI-WvQ3E_xAy7PDgjd0MTIOP3GzZBaHWAohxE",
         "payload": {
             "userId": 5812,
             "id": 5812,
@@ -1201,12 +1071,12 @@ Expected: is <200>
                 "phone": "0000000000",
                 "fullname": "Lâm TT"
             },
-            "iat": 1719778269,
-            "exp": 1722370269,
+            "iat": 1719944704,
+            "exp": 1722536704,
             "aud": "https://yourdomain.com",
             "iss": "feathers",
             "sub": "5812",
-            "jti": "bbb99770-f153-43f0-861d-21187ad4c041"
+            "jti": "af18cc0f-411f-4433-8df8-7548bd4c88cb"
         }
     },
     "user": {
@@ -1222,7 +1092,7 @@ Expected: is <200>
         "phone": "0000000000",
         "google_id": null,
         "google_email": null,
-        "last_login": "2024-06-30 20:07:46",
+        "last_login": "2024-07-01 10:33:33",
         "last_login_social_trend": "2023-06-30 10:31:41",
         "verified": 1,
         "is_trial": 0,
@@ -1237,7 +1107,7 @@ Expected: is <200>
         "is_socialtrend_internal": 0,
         "updated_by": 5812,
         "created_by": 5812,
-        "updated_at": "2024-06-30T20:07:46.000Z",
+        "updated_at": "2024-07-01T10:33:33.000Z",
         "created_at": "2022-07-25T04:57:30.000Z",
         "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
         "bitrix_crm_contact_id": null,
@@ -1302,7 +1172,7 @@ Expected: is <200>
     }
 }
 http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNjksImV4cCI6MTcyMjM3MDI2OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImJiYjk5NzcwLWYxNTMtNDNmMC04NjFkLTIxMTg3YWQ0YzA0MSJ9.S9QYQJa2XCrMqtQynag1sq9_tL74f5PQxrdHgra_2DU
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImFmMThjYzBmLTQxMWYtNDQzMy04ZGY4LTc1NDhiZDRjODhjYiJ9.qTO7R7rI-WvQ3E_xAy7PDgjd0MTIOP3GzZBaHWAohxE
 {
     "error": {
         "name": "NotFound",
@@ -1319,7 +1189,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createModel" classname="Tests.ModelTest" time="0.183">
+  <testcase name="createModel" classname="Tests.ModelTest" time="0.567">
     <failure message="expected [201] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1362,10 +1232,10 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjE4OTNjYWNhLWQ3MTEtNGRkMC1iODA0LTlhZjEyZDU2MWNmZiJ9.9azeX3xKCteoV19ON3u8uFiFFaynfd-uc0BqdnG_nDc",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjA2MDZlZWRjLWUwZDEtNDE2MC1iNDQ3LWQ3NzJjZjUyNTUxNyJ9.JdE_QGjohAw4QobmNyssfZkxqDJgu69vhAVn412rVIY",
     "authentication": {
         "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjE4OTNjYWNhLWQ3MTEtNGRkMC1iODA0LTlhZjEyZDU2MWNmZiJ9.9azeX3xKCteoV19ON3u8uFiFFaynfd-uc0BqdnG_nDc",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjA2MDZlZWRjLWUwZDEtNDE2MC1iNDQ3LWQ3NzJjZjUyNTUxNyJ9.JdE_QGjohAw4QobmNyssfZkxqDJgu69vhAVn412rVIY",
         "payload": {
             "userId": 5812,
             "id": 5812,
@@ -1375,12 +1245,12 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
                 "phone": "0000000000",
                 "fullname": "Lâm TT"
             },
-            "iat": 1719778270,
-            "exp": 1722370270,
+            "iat": 1719944704,
+            "exp": 1722536704,
             "aud": "https://yourdomain.com",
             "iss": "feathers",
             "sub": "5812",
-            "jti": "1893caca-d711-4dd0-b804-9af12d561cff"
+            "jti": "0606eedc-e0d1-4160-b447-d772cf525517"
         }
     },
     "user": {
@@ -1396,7 +1266,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "phone": "0000000000",
         "google_id": null,
         "google_email": null,
-        "last_login": "2024-06-30 20:07:46",
+        "last_login": "2024-07-01 10:33:33",
         "last_login_social_trend": "2023-06-30 10:31:41",
         "verified": 1,
         "is_trial": 0,
@@ -1411,7 +1281,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "is_socialtrend_internal": 0,
         "updated_by": 5812,
         "created_by": 5812,
-        "updated_at": "2024-06-30T20:07:46.000Z",
+        "updated_at": "2024-07-01T10:33:33.000Z",
         "created_at": "2022-07-25T04:57:30.000Z",
         "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
         "bitrix_crm_contact_id": null,
@@ -1476,7 +1346,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
     }
 }
 http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjE4OTNjYWNhLWQ3MTEtNGRkMC1iODA0LTlhZjEyZDU2MWNmZiJ9.9azeX3xKCteoV19ON3u8uFiFFaynfd-uc0BqdnG_nDc
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjA2MDZlZWRjLWUwZDEtNDE2MC1iNDQ3LWQ3NzJjZjUyNTUxNyJ9.JdE_QGjohAw4QobmNyssfZkxqDJgu69vhAVn412rVIY
 {
     "error": {
         "name": "NotFound",
@@ -1493,7 +1363,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="deleteModel" classname="Tests.ModelTest" time="0.18">
+  <testcase name="deleteModel" classname="Tests.ModelTest" time="0.557">
     <failure message="expected [201] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1536,10 +1406,10 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImZiZDBlMzFlLTQyODEtNDk0NC1hYWU4LTg5NTU1YTgwZTcwNyJ9.miX-AnKjw87-xMS4-nwb5scQMUA5o4pWW76LZ47Tap8",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImY5MGQzNDU4LWFkYjctNDg0ZS04MWI2LTA0OTliZjhiMmY1ZCJ9.blNyE_tksRY7jRKXNJpt4sY_9n4gz5PD96kzaPfXYlE",
     "authentication": {
         "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImZiZDBlMzFlLTQyODEtNDk0NC1hYWU4LTg5NTU1YTgwZTcwNyJ9.miX-AnKjw87-xMS4-nwb5scQMUA5o4pWW76LZ47Tap8",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImY5MGQzNDU4LWFkYjctNDg0ZS04MWI2LTA0OTliZjhiMmY1ZCJ9.blNyE_tksRY7jRKXNJpt4sY_9n4gz5PD96kzaPfXYlE",
         "payload": {
             "userId": 5812,
             "id": 5812,
@@ -1549,12 +1419,12 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
                 "phone": "0000000000",
                 "fullname": "Lâm TT"
             },
-            "iat": 1719778270,
-            "exp": 1722370270,
+            "iat": 1719944705,
+            "exp": 1722536705,
             "aud": "https://yourdomain.com",
             "iss": "feathers",
             "sub": "5812",
-            "jti": "fbd0e31e-4281-4944-aae8-89555a80e707"
+            "jti": "f90d3458-adb7-484e-81b6-0499bf8b2f5d"
         }
     },
     "user": {
@@ -1570,7 +1440,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "phone": "0000000000",
         "google_id": null,
         "google_email": null,
-        "last_login": "2024-06-30 20:07:46",
+        "last_login": "2024-07-01 10:33:33",
         "last_login_social_trend": "2023-06-30 10:31:41",
         "verified": 1,
         "is_trial": 0,
@@ -1585,7 +1455,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "is_socialtrend_internal": 0,
         "updated_by": 5812,
         "created_by": 5812,
-        "updated_at": "2024-06-30T20:07:46.000Z",
+        "updated_at": "2024-07-01T10:33:33.000Z",
         "created_at": "2022-07-25T04:57:30.000Z",
         "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
         "bitrix_crm_contact_id": null,
@@ -1650,10 +1520,10 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
     }
 }
 http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImZiZDBlMzFlLTQyODEtNDk0NC1hYWU4LTg5NTU1YTgwZTcwNyJ9.miX-AnKjw87-xMS4-nwb5scQMUA5o4pWW76LZ47Tap8
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImY5MGQzNDU4LWFkYjctNDg0ZS04MWI2LTA0OTliZjhiMmY1ZCJ9.blNyE_tksRY7jRKXNJpt4sY_9n4gz5PD96kzaPfXYlE
 ]]></system-out>
   </testcase>
-  <testcase name="getListModelDefault" classname="Tests.ModelTest" time="0.214">
+  <testcase name="getListModelDefault" classname="Tests.ModelTest" time="0.315">
     <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1696,10 +1566,10 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwZTVmNDdmLTQyZTEtNGQyOS1hYTE5LTFlYTZmZjY5M2ZkNiJ9.f7w2HZ3qaf1Sa60r-zaKWX6NCoZkpHFnuYw0_--Hzhc",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImMyNWYyZTRhLTI1NmYtNDFmZS05M2MwLWQ5ZDM2NjY4YzU1YyJ9.KW50Gdy_xNnT83PDE83esUhtRH8hE2M4GKcP35ur9FA",
     "authentication": {
         "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwZTVmNDdmLTQyZTEtNGQyOS1hYTE5LTFlYTZmZjY5M2ZkNiJ9.f7w2HZ3qaf1Sa60r-zaKWX6NCoZkpHFnuYw0_--Hzhc",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImMyNWYyZTRhLTI1NmYtNDFmZS05M2MwLWQ5ZDM2NjY4YzU1YyJ9.KW50Gdy_xNnT83PDE83esUhtRH8hE2M4GKcP35ur9FA",
         "payload": {
             "userId": 5812,
             "id": 5812,
@@ -1709,12 +1579,12 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
                 "phone": "0000000000",
                 "fullname": "Lâm TT"
             },
-            "iat": 1719778270,
-            "exp": 1722370270,
+            "iat": 1719944705,
+            "exp": 1722536705,
             "aud": "https://yourdomain.com",
             "iss": "feathers",
             "sub": "5812",
-            "jti": "20e5f47f-42e1-4d29-aa19-1ea6ff693fd6"
+            "jti": "c25f2e4a-256f-41fe-93c0-d9d36668c55c"
         }
     },
     "user": {
@@ -1730,7 +1600,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "phone": "0000000000",
         "google_id": null,
         "google_email": null,
-        "last_login": "2024-06-30 20:07:46",
+        "last_login": "2024-07-01 10:33:33",
         "last_login_social_trend": "2023-06-30 10:31:41",
         "verified": 1,
         "is_trial": 0,
@@ -1745,7 +1615,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "is_socialtrend_internal": 0,
         "updated_by": 5812,
         "created_by": 5812,
-        "updated_at": "2024-06-30T20:07:46.000Z",
+        "updated_at": "2024-07-01T10:33:33.000Z",
         "created_at": "2022-07-25T04:57:30.000Z",
         "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
         "bitrix_crm_contact_id": null,
@@ -1810,7 +1680,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
     }
 }
 http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwZTVmNDdmLTQyZTEtNGQyOS1hYTE5LTFlYTZmZjY5M2ZkNiJ9.f7w2HZ3qaf1Sa60r-zaKWX6NCoZkpHFnuYw0_--Hzhc
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImMyNWYyZTRhLTI1NmYtNDFmZS05M2MwLWQ5ZDM2NjY4YzU1YyJ9.KW50Gdy_xNnT83PDE83esUhtRH8hE2M4GKcP35ur9FA
 {
     "error": {
         "name": "NotFound",
@@ -1827,7 +1697,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="updateModel" classname="Tests.ModelTest" time="0.202">
+  <testcase name="updateModel" classname="Tests.ModelTest" time="0.353">
     <failure message="expected [201] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1870,10 +1740,10 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImI5ODY5YjIyLWI0NWItNGI5NC1iNDUzLTRlMDkxNTRkN2YxNSJ9.tGopZzw95KEQ6Ns9YbTG7Hae2qice7WcOZE-rsv1Ad0",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDYsImV4cCI6MTcyMjUzNjcwNiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjdiZjkwZGM2LTc2YWYtNDI2Yi1hMjcxLWY2NWNkYWIzMTAxNiJ9.rE-sw-BEjl4xv4qggwRab1uon7AtZh74nChtB9RAVmo",
     "authentication": {
         "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImI5ODY5YjIyLWI0NWItNGI5NC1iNDUzLTRlMDkxNTRkN2YxNSJ9.tGopZzw95KEQ6Ns9YbTG7Hae2qice7WcOZE-rsv1Ad0",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDYsImV4cCI6MTcyMjUzNjcwNiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjdiZjkwZGM2LTc2YWYtNDI2Yi1hMjcxLWY2NWNkYWIzMTAxNiJ9.rE-sw-BEjl4xv4qggwRab1uon7AtZh74nChtB9RAVmo",
         "payload": {
             "userId": 5812,
             "id": 5812,
@@ -1883,12 +1753,12 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
                 "phone": "0000000000",
                 "fullname": "Lâm TT"
             },
-            "iat": 1719778270,
-            "exp": 1722370270,
+            "iat": 1719944706,
+            "exp": 1722536706,
             "aud": "https://yourdomain.com",
             "iss": "feathers",
             "sub": "5812",
-            "jti": "b9869b22-b45b-4b94-b453-4e09154d7f15"
+            "jti": "7bf90dc6-76af-426b-a271-f65cdab31016"
         }
     },
     "user": {
@@ -1904,7 +1774,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "phone": "0000000000",
         "google_id": null,
         "google_email": null,
-        "last_login": "2024-06-30 20:07:46",
+        "last_login": "2024-07-01 10:33:33",
         "last_login_social_trend": "2023-06-30 10:31:41",
         "verified": 1,
         "is_trial": 0,
@@ -1919,7 +1789,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         "is_socialtrend_internal": 0,
         "updated_by": 5812,
         "created_by": 5812,
-        "updated_at": "2024-06-30T20:07:46.000Z",
+        "updated_at": "2024-07-01T10:33:33.000Z",
         "created_at": "2022-07-25T04:57:30.000Z",
         "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
         "bitrix_crm_contact_id": null,
@@ -1984,7 +1854,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
     }
 }
 http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk3NzgyNzAsImV4cCI6MTcyMjM3MDI3MCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImI5ODY5YjIyLWI0NWItNGI5NC1iNDUzLTRlMDkxNTRkN2YxNSJ9.tGopZzw95KEQ6Ns9YbTG7Hae2qice7WcOZE-rsv1Ad0
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDYsImV4cCI6MTcyMjUzNjcwNiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjdiZjkwZGM2LTc2YWYtNDI2Yi1hMjcxLWY2NWNkYWIzMTAxNiJ9.rE-sw-BEjl4xv4qggwRab1uon7AtZh74nChtB9RAVmo
 {
     "error": {
         "name": "NotFound",
