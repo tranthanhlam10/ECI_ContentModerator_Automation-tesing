@@ -1,6 +1,7 @@
 package APIs;
 
 import Objects.Brand;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.basePath;
 import static io.restassured.RestAssured.given;
@@ -16,9 +17,10 @@ public class BrandAPIs {
     public Response getListBrands(){
 
         String endpoint_getlist = "/brands";
-        return given().auth().oauth2(authencation.getToken()).when().get(endpoint_getlist);
+        return given().filter(new AllureRestAssured()).auth().oauth2(authencation.getToken()).when().get(endpoint_getlist);
 
     }
+
 
 
     //int, double, float là các kiểu dữ liệu nguyên thuỷ

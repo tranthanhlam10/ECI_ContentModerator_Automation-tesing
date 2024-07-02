@@ -1,1 +1,2 @@
-DeckofCardRestAssured
+allure generate
+allure open

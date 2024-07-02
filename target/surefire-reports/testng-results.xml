@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="12" passed="0" failed="12" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-01T03:11:06 ICT" name="Surefire suite" finished-at="2024-07-01T03:11:10 ICT" duration-ms="4324">
+  <suite started-at="2024-07-03T01:25:00 ICT" name="Surefire suite" finished-at="2024-07-03T01:25:06 ICT" duration-ms="6093">
     <groups>
     </groups>
-    <test started-at="2024-07-01T03:11:06 ICT" name="Surefire test" finished-at="2024-07-01T03:11:10 ICT" duration-ms="4324">
+    <test started-at="2024-07-03T01:25:00 ICT" name="Surefire test" finished-at="2024-07-03T01:25:06 ICT" duration-ms="6093">
       <class name="Tests.BrandTest">
-        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@48524010]" started-at="2024-07-01T03:11:06 ICT" name="setBrandApis" finished-at="2024-07-01T03:11:06 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@7671cb68]" started-at="2024-07-03T01:25:00 ICT" name="setBrandApis" finished-at="2024-07-03T01:25:00 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrandApis -->
-        <test-method signature="createBrand(java.lang.String)[pri:0, instance:Tests.BrandTest@48524010]" started-at="2024-07-01T03:11:09 ICT" name="createBrand" finished-at="2024-07-01T03:11:09 ICT" duration-ms="0" status="FAIL">
+        <test-method signature="createBrand(java.lang.String)[pri:0, instance:Tests.BrandTest@7671cb68]" started-at="2024-07-03T01:25:03 ICT" name="createBrand" finished-at="2024-07-03T01:25:03 ICT" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -60,7 +60,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBrand -->
-        <test-method signature="deleteBrand()[pri:0, instance:Tests.BrandTest@48524010]" started-at="2024-07-01T03:11:09 ICT" name="deleteBrand" finished-at="2024-07-01T03:11:09 ICT" duration-ms="239" status="FAIL">
+        <test-method signature="deleteBrand()[pri:0, instance:Tests.BrandTest@7671cb68]" started-at="2024-07-03T01:25:03 ICT" name="deleteBrand" finished-at="2024-07-03T01:25:04 ICT" duration-ms="566" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -102,20 +102,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBrand -->
-        <test-method signature="getListBrandDefault()[pri:0, instance:Tests.BrandTest@48524010]" started-at="2024-07-01T03:11:09 ICT" name="getListBrandDefault" finished-at="2024-07-01T03:11:09 ICT" duration-ms="258" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="getListBrandDefault()[pri:0, instance:Tests.BrandTest@7671cb68]" started-at="2024-07-03T01:25:04 ICT" name="getListBrandDefault" finished-at="2024-07-03T01:25:04 ICT" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
             <message>
-              <![CDATA[
-Expected: is <200>
-     but: was <404>]]>
+              <![CDATA[io/qameta/allure/restassured/AllureRestAssured]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-Expected: is <200>
-     but: was <404>
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-at Tests.BrandTest.getListBrandDefault(BrandTest.java:43)
+              <![CDATA[java.lang.NoClassDefFoundError: io/qameta/allure/restassured/AllureRestAssured
+at APIs.BrandAPIs.getListBrands(BrandAPIs.java:20)
+at Tests.BrandTest.getListBrandDefault(BrandTest.java:36)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -147,13 +142,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.ClassNotFoundException: io.qameta.allure.restassured.AllureRestAssured
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+... 33 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NoClassDefFoundError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListBrandDefault -->
-        <test-method signature="updateBrand()[pri:0, instance:Tests.BrandTest@48524010]" started-at="2024-07-01T03:11:09 ICT" name="updateBrand" finished-at="2024-07-01T03:11:09 ICT" duration-ms="290" status="FAIL">
+        <test-method signature="updateBrand()[pri:0, instance:Tests.BrandTest@7671cb68]" started-at="2024-07-03T01:25:04 ICT" name="updateBrand" finished-at="2024-07-03T01:25:04 ICT" duration-ms="284" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
@@ -206,15 +206,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- updateBrand -->
       </class> <!-- Tests.BrandTest -->
       <class name="Tests.ProductLineTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:06 ICT" name="setUp" finished-at="2024-07-01T03:11:06 ICT" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.ProductLineTest@770d3326]" started-at="2024-07-03T01:24:59 ICT" name="setUp" finished-at="2024-07-03T01:25:00 ICT" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:06 ICT" name="setProductLineApis" finished-at="2024-07-01T03:11:06 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@770d3326]" started-at="2024-07-03T01:25:00 ICT" name="setProductLineApis" finished-at="2024-07-03T01:25:00 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProductLineApis -->
-        <test-method signature="createProductLine()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:06 ICT" name="createProductLine" finished-at="2024-07-01T03:11:08 ICT" duration-ms="1855" status="FAIL">
+        <test-method signature="createProductLine()[pri:0, instance:Tests.ProductLineTest@770d3326]" started-at="2024-07-03T01:25:00 ICT" name="createProductLine" finished-at="2024-07-03T01:25:01 ICT" duration-ms="1948" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [201] but found [400]]]>
@@ -266,7 +266,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProductLine -->
-        <test-method signature="deleteProductLine()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:08 ICT" name="deleteProductLine" finished-at="2024-07-01T03:11:08 ICT" duration-ms="477" status="FAIL">
+        <test-method signature="deleteProductLine()[pri:0, instance:Tests.ProductLineTest@770d3326]" started-at="2024-07-03T01:25:02 ICT" name="deleteProductLine" finished-at="2024-07-03T01:25:02 ICT" duration-ms="254" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [201] but found [404]]]>
@@ -318,7 +318,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteProductLine -->
-        <test-method signature="getListProductLineDefault()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:08 ICT" name="getListProductLineDefault" finished-at="2024-07-01T03:11:08 ICT" duration-ms="243" status="FAIL">
+        <test-method signature="getListProductLineDefault()[pri:0, instance:Tests.ProductLineTest@770d3326]" started-at="2024-07-03T01:25:02 ICT" name="getListProductLineDefault" finished-at="2024-07-03T01:25:02 ICT" duration-ms="332" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [404]]]>
@@ -370,7 +370,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListProductLineDefault -->
-        <test-method signature="updateProductLine()[pri:0, instance:Tests.ProductLineTest@50a7bc6e]" started-at="2024-07-01T03:11:08 ICT" name="updateProductLine" finished-at="2024-07-01T03:11:09 ICT" duration-ms="166" status="FAIL">
+        <test-method signature="updateProductLine()[pri:0, instance:Tests.ProductLineTest@770d3326]" started-at="2024-07-03T01:25:02 ICT" name="updateProductLine" finished-at="2024-07-03T01:25:03 ICT" duration-ms="835" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [201] but found [404]]]>
@@ -424,11 +424,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- updateProductLine -->
       </class> <!-- Tests.ProductLineTest -->
       <class name="Tests.ModelTest">
-        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@1a84f40f]" started-at="2024-07-01T03:11:06 ICT" name="setModelApis" finished-at="2024-07-01T03:11:06 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@6b8ca3c8]" started-at="2024-07-03T01:25:00 ICT" name="setModelApis" finished-at="2024-07-03T01:25:00 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setModelApis -->
-        <test-method signature="createModel()[pri:0, instance:Tests.ModelTest@1a84f40f]" started-at="2024-07-01T03:11:09 ICT" name="createModel" finished-at="2024-07-01T03:11:10 ICT" duration-ms="178" status="FAIL">
+        <test-method signature="createModel()[pri:0, instance:Tests.ModelTest@6b8ca3c8]" started-at="2024-07-03T01:25:04 ICT" name="createModel" finished-at="2024-07-03T01:25:04 ICT" duration-ms="570" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [201] but found [404]]]>
@@ -480,7 +480,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createModel -->
-        <test-method signature="deleteModel()[pri:0, instance:Tests.ModelTest@1a84f40f]" started-at="2024-07-01T03:11:10 ICT" name="deleteModel" finished-at="2024-07-01T03:11:10 ICT" duration-ms="180" status="FAIL">
+        <test-method signature="deleteModel()[pri:0, instance:Tests.ModelTest@6b8ca3c8]" started-at="2024-07-03T01:25:04 ICT" name="deleteModel" finished-at="2024-07-03T01:25:05 ICT" duration-ms="549" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [201] but found [404]]]>
@@ -532,7 +532,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteModel -->
-        <test-method signature="getListModelDefault()[pri:0, instance:Tests.ModelTest@1a84f40f]" started-at="2024-07-01T03:11:10 ICT" name="getListModelDefault" finished-at="2024-07-01T03:11:10 ICT" duration-ms="214" status="FAIL">
+        <test-method signature="getListModelDefault()[pri:0, instance:Tests.ModelTest@6b8ca3c8]" started-at="2024-07-03T01:25:05 ICT" name="getListModelDefault" finished-at="2024-07-03T01:25:05 ICT" duration-ms="316" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [404]]]>
@@ -584,7 +584,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListModelDefault -->
-        <test-method signature="updateModel()[pri:0, instance:Tests.ModelTest@1a84f40f]" started-at="2024-07-01T03:11:10 ICT" name="updateModel" finished-at="2024-07-01T03:11:10 ICT" duration-ms="202" status="FAIL">
+        <test-method signature="updateModel()[pri:0, instance:Tests.ModelTest@6b8ca3c8]" started-at="2024-07-03T01:25:05 ICT" name="updateModel" finished-at="2024-07-03T01:25:06 ICT" duration-ms="356" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [201] but found [404]]]>
