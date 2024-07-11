@@ -1,79 +1,86 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Generated schema for Root",
-  "type": "object",
-  "properties": {
-    "id": {
-      "type": "number"
-    },
-    "name": {
-      "type": "string"
-    },
-    "slug": {},
-    "manufacturer_id": {
-      "type": "number"
-    },
-    "created_at": {
-      "type": "string"
-    },
-    "created_by": {
-      "type": "number"
-    },
-    "updated_at": {
-      "type": "string"
-    },
-    "updated_by": {
-      "type": "number"
-    },
-    "deleted_at": {},
-    "is_active": {
-      "type": "number"
-    },
-    "name_exactly": {
-      "type": "string"
-    },
-    "not_archived": {
-      "type": "number"
-    },
-    "title": {
-      "type": "string"
-    },
-    "manufacturer": {
+  "definitions": {
+    "Welcome10": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "id": {
-          "type": "number"
+          "type": "integer"
         },
         "name": {
           "type": "string"
         },
-        "updated_by": {
-          "type": "number"
+        "slug": {
+          "type": "null"
         },
-        "created_by": {
-          "type": "number"
-        },
-        "updated_at": {
-          "type": "string"
+        "manufacturer_id": {
+          "type": "integer"
         },
         "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "integer"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_by": {
+          "type": "integer"
+        },
+        "deleted_at": {
+          "type": "null"
+        },
+        "is_active": {
+          "type": "integer"
+        },
+        "name_exactly": {
           "type": "string"
+        },
+        "not_archived": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        },
+        "manufacturer": {
+          "$ref": "#/definitions/Manufacturer"
+        },
+        "createdBy": {
+          "$ref": "#/definitions/AtedBy"
+        },
+        "updatedBy": {
+          "$ref": "#/definitions/AtedBy"
         }
       },
       "required": [
-        "id",
-        "name",
-        "updated_by",
+        "createdBy",
+        "created_at",
         "created_by",
+        "deleted_at",
+        "id",
+        "is_active",
+        "manufacturer",
+        "manufacturer_id",
+        "name",
+        "name_exactly",
+        "not_archived",
+        "slug",
+        "title",
+        "updatedBy",
         "updated_at",
-        "created_at"
-      ]
+        "updated_by"
+      ],
+      "title": "Welcome10"
     },
-    "createdBy": {
+    "AtedBy": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "id": {
-          "type": "number"
+          "type": "integer"
         },
         "email": {
           "type": "string"
@@ -83,47 +90,28 @@
         }
       },
       "required": [
-        "id",
         "email",
-        "fullname"
-      ]
+        "fullname",
+        "id"
+      ],
+      "title": "AtedBy"
     },
-    "updatedBy": {
+    "Manufacturer": {
       "type": "object",
+      "additionalProperties": false,
       "properties": {
         "id": {
-          "type": "number"
+          "type": "integer"
         },
-        "email": {
-          "type": "string"
-        },
-        "fullname": {
+        "name": {
           "type": "string"
         }
       },
       "required": [
         "id",
-        "email",
-        "fullname"
-      ]
+        "name"
+      ],
+      "title": "Manufacturer"
     }
-  },
-  "required": [
-    "id",
-    "name",
-    "slug",
-    "manufacturer_id",
-    "created_at",
-    "created_by",
-    "updated_at",
-    "updated_by",
-    "deleted_at",
-    "is_active",
-    "name_exactly",
-    "not_archived",
-    "title",
-    "manufacturer",
-    "createdBy",
-    "updatedBy"
-  ]
+  }
 }

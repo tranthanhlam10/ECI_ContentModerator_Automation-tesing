@@ -1,129 +1,179 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Generated schema for Root",
-  "type": "object",
-  "properties": {
-    "total": {
-      "type": "number"
-    },
-    "limit": {
-      "type": "number"
-    },
-    "skip": {
-      "type": "number"
-    },
-    "data": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
-          },
-          "name": {},
-          "display_name": {
-            "type": "string"
-          },
-          "query": {
-            "type": "string"
-          },
-          "product_line_id": {
-            "type": "number"
-          },
-          "product_line_name": {
-            "type": "string"
-          },
-          "brand_id": {
-            "type": "number"
-          },
-          "brand_name": {
-            "type": "string"
-          },
-          "industry_id": {
-            "type": "number"
-          },
-          "industry_name": {
-            "type": "string"
-          },
-          "created_by": {
-            "type": "number"
-          },
-          "created_at": {
-            "type": "string"
-          },
-          "updated_by": {
-            "type": "number"
-          },
-          "updated_at": {
-            "type": "string"
-          },
-          "query_exactly": {
-            "type": "number"
-          },
-          "createdBy": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "number"
-              },
-              "email": {
-                "type": "string"
-              },
-              "fullname": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "id",
-              "email",
-              "fullname"
-            ]
-          },
-          "updatedBy": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "number"
-              },
-              "email": {
-                "type": "string"
-              },
-              "fullname": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "id",
-              "email",
-              "fullname"
-            ]
-          }
+  "definitions": {
+    "Welcome5": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "total": {
+          "type": "integer"
         },
-        "required": [
-          "id",
-          "name",
-          "display_name",
-          "product_line_id",
-          "product_line_name",
-          "brand_id",
-          "brand_name",
-          "industry_id",
-          "industry_name",
-          "created_by",
-          "created_at",
-          "updated_by",
-          "updated_at",
-          "query_exactly",
-          "createdBy",
-          "updatedBy"
-        ]
-      }
+        "limit": {
+          "type": "integer"
+        },
+        "skip": {
+          "type": "integer"
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Datum"
+          }
+        }
+      },
+      "required": [
+        "data",
+        "limit",
+        "skip",
+        "total"
+      ],
+      "title": "Welcome5"
+    },
+    "Datum": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "query": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "product_line_id": {
+          "type": "integer"
+        },
+        "product_line_name": {
+          "type": "string"
+        },
+        "brand_id": {
+          "type": "integer"
+        },
+        "brand_name": {
+          "$ref": "#/definitions/BrandName"
+        },
+        "industry_id": {
+          "type": "integer"
+        },
+        "industry_name": {
+          "$ref": "#/definitions/IndustryName"
+        },
+        "created_by": {
+          "type": "integer"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_by": {
+          "type": "integer"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "query_exactly": {
+          "type": "integer"
+        },
+        "createdBy": {
+          "$ref": "#/definitions/AtedBy"
+        },
+        "updatedBy": {
+          "$ref": "#/definitions/AtedBy"
+        }
+      },
+      "required": [
+        "brand_id",
+        "brand_name",
+        "createdBy",
+        "created_at",
+        "created_by",
+        "display_name",
+        "id",
+        "industry_id",
+        "industry_name",
+        "name",
+        "product_line_id",
+        "product_line_name",
+        "query",
+        "query_exactly",
+        "updatedBy",
+        "updated_at",
+        "updated_by"
+      ],
+      "title": "Datum"
+    },
+    "AtedBy": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "email": {
+          "$ref": "#/definitions/Email"
+        },
+        "fullname": {
+          "$ref": "#/definitions/Fullname"
+        }
+      },
+      "required": [
+        "email",
+        "fullname",
+        "id"
+      ],
+      "title": "AtedBy"
+    },
+    "BrandName": {
+      "type": "string",
+      "enum": [
+        "Iphone",
+        "Samsung"
+      ],
+      "title": "BrandName"
+    },
+    "Email": {
+      "type": "string",
+      "enum": [
+        "lamtest_content_moderator@gmail.com",
+        "lamtt@younetgroup.com",
+        "lamtest_contentmoderator@gmail.com"
+      ],
+      "title": "Email"
+    },
+    "Fullname": {
+      "type": "string",
+      "enum": [
+        "lamtest_content_moderator@gmail.com",
+        "Lâm TT",
+        "Lam Test API Content Moderator"
+      ],
+      "title": "Fullname"
+    },
+    "IndustryName": {
+      "type": "string",
+      "enum": [
+        "Hand Phone"
+      ],
+      "title": "IndustryName"
     }
-  },
-  "required": [
-    "total",
-    "limit",
-    "skip",
-    "data"
-  ]
+  }
 }

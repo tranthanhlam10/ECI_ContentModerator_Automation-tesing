@@ -1,190 +1,254 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Generated schema for Root",
-  "type": "object",
-  "properties": {
-    "total": {
-      "type": "number"
+  "definitions": {
+    "Welcome1": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "total": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "skip": {
+          "type": "integer"
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Datum"
+          }
+        }
+      },
+      "required": [
+        "data",
+        "limit",
+        "skip",
+        "total"
+      ],
+      "title": "Welcome1"
     },
-    "limit": {
-      "type": "number"
-    },
-    "skip": {
-      "type": "number"
-    },
-    "data": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
-          },
-          "name": {
-            "type": "string"
-          },
-          "manufacturer_id": {
-            "type": "number"
-          },
-          "created_by": {
-            "type": "number"
-          },
-          "created_at": {
-            "type": "string"
-          },
-          "updated_by": {
-            "type": "number"
-          },
-          "updated_at": {
-            "type": "string"
-          },
-          "manufacturer": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "number"
-              },
-              "name": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "number"
-              },
-              "created_by": {
-                "type": "number"
-              },
-              "updated_at": {
-                "type": "string"
-              },
-              "created_at": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "id",
-              "name",
-              "updated_by",
-              "created_by",
-              "updated_at",
-              "created_at"
-            ]
-          },
-          "industries": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                },
-                "code": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "slug": {
-                  "type": "string"
-                },
-                "spam_query": {
-                  "type": "string"
-                },
-                "is_model_ready": {
-                  "type": "number"
-                },
-                "created_at": {
-                  "type": "string"
-                },
-                "created_by": {},
-                "updated_at": {
-                  "type": "string"
-                },
-                "updated_by": {}
-              },
-              "required": [
-                "id",
-                "code",
-                "name",
-                "slug",
-                "is_model_ready",
-                "created_at",
-                "created_by",
-                "updated_at",
-                "updated_by"
-              ]
-            }
-          },
-          "count": {
-            "type": "object",
-            "properties": {
-              "count_product_lines": {
-                "type": "string"
-              },
-              "count_models": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "count_product_lines",
-              "count_models"
-            ]
-          },
-          "createdBy": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "number"
-              },
-              "email": {
-                "type": "string"
-              },
-              "fullname": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "id",
-              "email",
-              "fullname"
-            ]
-          },
-          "updatedBy": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "number"
-              },
-              "email": {
-                "type": "string"
-              },
-              "fullname": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "id",
-              "email",
-              "fullname"
-            ]
+    "Datum": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "manufacturer_id": {
+          "type": "integer"
+        },
+        "created_by": {
+          "type": "integer"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_by": {
+          "type": "integer"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "industries": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Industry"
           }
         },
-        "required": [
-          "id",
-          "name",
-          "created_by",
-          "created_at",
-          "updated_by",
-          "updated_at",
-          "industries",
-          "count"
-        ]
-      }
+        "count": {
+          "$ref": "#/definitions/Count"
+        },
+        "manufacturer": {
+          "$ref": "#/definitions/Manufacturer"
+        },
+        "createdBy": {
+          "$ref": "#/definitions/AtedBy"
+        },
+        "updatedBy": {
+          "$ref": "#/definitions/AtedBy"
+        }
+      },
+      "required": [
+        "count",
+        "createdBy",
+        "created_at",
+        "created_by",
+        "id",
+        "industries",
+        "manufacturer",
+        "manufacturer_id",
+        "name",
+        "updatedBy",
+        "updated_at",
+        "updated_by"
+      ],
+      "title": "Datum"
+    },
+    "Count": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "count_product_lines": {
+          "type": "string",
+          "format": "integer"
+        },
+        "count_models": {
+          "type": "string",
+          "format": "integer"
+        }
+      },
+      "required": [
+        "count_models",
+        "count_product_lines"
+      ],
+      "title": "Count"
+    },
+    "AtedBy": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "email": {
+          "type": "string"
+        },
+        "fullname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "email",
+        "fullname",
+        "id"
+      ],
+      "title": "AtedBy"
+    },
+    "Industry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "code": {
+          "$ref": "#/definitions/Code"
+        },
+        "name": {
+          "$ref": "#/definitions/Name"
+        },
+        "slug": {
+          "$ref": "#/definitions/Slug"
+        },
+        "spam_query": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "is_model_ready": {
+          "type": "integer"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "null"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_by": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "code",
+        "created_at",
+        "created_by",
+        "id",
+        "is_model_ready",
+        "name",
+        "slug",
+        "spam_query",
+        "updated_at",
+        "updated_by"
+      ],
+      "title": "Industry"
+    },
+    "Manufacturer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "title": "Manufacturer"
+    },
+    "Code": {
+      "type": "string",
+      "enum": [
+        "HP",
+        "MP",
+        "TV",
+        "BD",
+        "SH",
+        "BN",
+        "CH",
+        "CL",
+        "DEO"
+      ],
+      "title": "Code"
+    },
+    "Name": {
+      "type": "string",
+      "enum": [
+        "Hand Phone",
+        "Milk Powder",
+        "Tivi",
+        "Baby Diaper",
+        "Shampoo",
+        "Bakery Mixes",
+        "Chocolate",
+        "Cleanser",
+        "Deodorant"
+      ],
+      "title": "Name"
+    },
+    "Slug": {
+      "type": "string",
+      "enum": [
+        "handphone",
+        "milkpowder",
+        "tivi",
+        "babydiaper",
+        "shampoo",
+        "bakerymixes",
+        "chocolate",
+        "cleanser",
+        "Deodorant"
+      ],
+      "title": "Slug"
     }
-  },
-  "required": [
-    "total",
-    "limit",
-    "skip",
-    "data"
-  ]
+  }
 }

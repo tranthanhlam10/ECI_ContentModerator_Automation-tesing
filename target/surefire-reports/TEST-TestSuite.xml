@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.527" tests="12" errors="0" skipped="0" failures="12">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.019" tests="12" errors="0" skipped="0" failures="12">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="VN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/22.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire/surefirebooter-20240703012459514_3.jar /Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire 2024-07-03T01-24-59_465-jvmRun1 surefire-20240703012459514_1tmp surefire_0-20240703012459514_2tmp"/>
+    <property name="sun.java.command" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire/surefirebooter-20240703014137631_3.jar /Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire 2024-07-03T01-41-37_588-jvmRun1 surefire-20240703014137631_1tmp surefire_0-20240703014137631_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/test-classes:/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/classes:/Users/tranthanhlam/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tranthanhlam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tranthanhlam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/tranthanhlam/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/tranthanhlam/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/tranthanhlam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/tranthanhlam/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/tranthanhlam/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/tranthanhlam/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/tranthanhlam/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/tranthanhlam/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/tranthanhlam/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/Users/tranthanhlam/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/tranthanhlam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/tranthanhlam/.m2/repository/org/apache/poi/poi-ooxml-full/5.2.5/poi-ooxml-full-5.2.5.jar:/Users/tranthanhlam/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-testng/2.25.0/allure-testng-2.25.0.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-java-commons/2.25.0/allure-java-commons-2.25.0.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-model/2.25.0/allure-model-2.25.0.jar:/Users/tranthanhlam/.m2/repository/io/qameta/allure/allure-test-filter/2.25.0/allure-test-filter-2.25.0.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire/surefirebooter-20240703012459514_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/target/surefire/surefirebooter-20240703014137631_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="22.0.1"/>
@@ -59,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="createProductLine" classname="Tests.ProductLineTest" time="1.983">
+  <testcase name="createProductLine" classname="Tests.ProductLineTest" time="1.36">
     <failure message="expected [201] but found [400]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [400]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -101,122 +101,8 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDEsImV4cCI6MTcyMjUzNjcwMSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwYmU3ZjFhLWRlNWQtNDk2Ny1hNTg4LTI1MmFiYWYyZTgzNSJ9.ztt70IRe9rdBKhVEnuhe7liLwRwmbWLX5yzf-3bY0Sw",
-    "authentication": {
-        "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDEsImV4cCI6MTcyMjUzNjcwMSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwYmU3ZjFhLWRlNWQtNDk2Ny1hNTg4LTI1MmFiYWYyZTgzNSJ9.ztt70IRe9rdBKhVEnuhe7liLwRwmbWLX5yzf-3bY0Sw",
-        "payload": {
-            "userId": 5812,
-            "id": 5812,
-            "user": {
-                "id": 5812,
-                "email": "lamtt@younetgroup.com",
-                "phone": "0000000000",
-                "fullname": "Lâm TT"
-            },
-            "iat": 1719944701,
-            "exp": 1722536701,
-            "aud": "https://yourdomain.com",
-            "iss": "feathers",
-            "sub": "5812",
-            "jti": "20be7f1a-de5d-4967-a588-252abaf2e835"
-        }
-    },
-    "user": {
-        "id": 5812,
-        "username": null,
-        "email": "lamtt@younetgroup.com",
-        "domain": null,
-        "fullname": "Lâm TT",
-        "department": null,
-        "status": "active",
-        "company_name": null,
-        "younet_company": "YouNet Media",
-        "phone": "0000000000",
-        "google_id": null,
-        "google_email": null,
-        "last_login": "2024-07-01 10:33:33",
-        "last_login_social_trend": "2023-06-30 10:31:41",
-        "verified": 1,
-        "is_trial": 0,
-        "verified_date": null,
-        "trial_expired_date": null,
-        "upgrade_popup_info": null,
-        "is_finish_step_guide": 0,
-        "is_used_socialheat": null,
-        "is_create_account_by_mobile": 0,
-        "potential_client": 0,
-        "is_external": 0,
-        "is_socialtrend_internal": 0,
-        "updated_by": 5812,
-        "created_by": 5812,
-        "updated_at": "2024-07-01T10:33:33.000Z",
-        "created_at": "2022-07-25T04:57:30.000Z",
-        "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
-        "bitrix_crm_contact_id": null,
-        "bitrix_crm_lead_id": null,
-        "social_trend_expired_date": "2023-01-21T16:59:59.000Z",
-        "following_passion_point": null,
-        "socialtrend_source": null,
-        "socialtrend_department": null,
-        "socialtrend_assignee_id": null,
-        "is_survey": 1,
-        "survey_reports": "Báo cáo phân tích chuyển động ngành hàng|||Báo cáo phân tích hành vi người dùng MXH",
-        "survey_industry": "CNTT & Viễn thông",
-        "eca_dashboard_daterange": "|||||",
-        "eca_view_undefined_industry": 0,
-        "eca_view_all_include_without_industry": 0,
-        "eca_dashboard_platform_access": "",
-        "socialtrend_utm_source": null,
-        "is_display_tiktok_banner": 1,
-        "group_members": [
-            {
-                "id": 2920,
-                "id_group": 17,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4624,
-                "id_group": 5031,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4626,
-                "id_group": 5324,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4694,
-                "id_group": 5341,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4724,
-                "id_group": 5351,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4726,
-                "id_group": 5104,
-                "id_user": 5812,
-                "is_main_member": 1
-            }
-        ],
-        "isSetupPwdAlready": 1,
-        "avatar_url": "",
-        "id_group": -1,
-        "current_status": "",
-        "id_account": 17
-    }
-}
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDEsImV4cCI6MTcyMjUzNjcwMSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjIwYmU3ZjFhLWRlNWQtNDk2Ny1hNTg4LTI1MmFiYWYyZTgzNSJ9.ztt70IRe9rdBKhVEnuhe7liLwRwmbWLX5yzf-3bY0Sw
+    <system-out><![CDATA[http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDU2OTgsImV4cCI6MTcyMjUzNzY5OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6Ijc2YjM5ZTU1LTE4YzctNGZiZS04YWY0LWUzZjFmMjhkMjA2MSJ9.kuJwGA0ecTFK1eniLxheXnyyMeHct9YO-TT3q04PEIU
 {
     "error": {
         "name": "BadRequest",
@@ -239,15 +125,15 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Jul 03, 2024 1:25:00 AM APIs.BaseSetup setUp
+Jul 03, 2024 1:41:38 AM APIs.BaseSetup setUp
 WARNING: BASE_URL in http://sl-api-eci-v1-20-0.datatrend.io Environment has been created
-Jul 03, 2024 1:25:00 AM APIs.BaseSetup setUp
+Jul 03, 2024 1:41:38 AM APIs.BaseSetup setUp
 WARNING: BASE_URL in dev Environment has been created
-Jul 03, 2024 1:25:00 AM APIs.BaseSetup setUp
+Jul 03, 2024 1:41:38 AM APIs.BaseSetup setUp
 WARNING: BASE_PATH  dev Environment has been already created
 ]]></system-err>
   </testcase>
-  <testcase name="deleteProductLine" classname="Tests.ProductLineTest" time="0.255">
+  <testcase name="deleteProductLine" classname="Tests.ProductLineTest" time="0.334">
     <failure message="expected [201] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -289,122 +175,8 @@ WARNING: BASE_PATH  dev Environment has been already created
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ3ZmM0NTRiLTJkYjUtNGJlOC1iOTJjLTQyMTM0YTQ5ZDU1YSJ9.BO-i9lMw1nF0jP2sJpMCJmfV-yYTqfBmYJ5JwvFe0FA",
-    "authentication": {
-        "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ3ZmM0NTRiLTJkYjUtNGJlOC1iOTJjLTQyMTM0YTQ5ZDU1YSJ9.BO-i9lMw1nF0jP2sJpMCJmfV-yYTqfBmYJ5JwvFe0FA",
-        "payload": {
-            "userId": 5812,
-            "id": 5812,
-            "user": {
-                "id": 5812,
-                "email": "lamtt@younetgroup.com",
-                "phone": "0000000000",
-                "fullname": "Lâm TT"
-            },
-            "iat": 1719944702,
-            "exp": 1722536702,
-            "aud": "https://yourdomain.com",
-            "iss": "feathers",
-            "sub": "5812",
-            "jti": "47fc454b-2db5-4be8-b92c-42134a49d55a"
-        }
-    },
-    "user": {
-        "id": 5812,
-        "username": null,
-        "email": "lamtt@younetgroup.com",
-        "domain": null,
-        "fullname": "Lâm TT",
-        "department": null,
-        "status": "active",
-        "company_name": null,
-        "younet_company": "YouNet Media",
-        "phone": "0000000000",
-        "google_id": null,
-        "google_email": null,
-        "last_login": "2024-07-01 10:33:33",
-        "last_login_social_trend": "2023-06-30 10:31:41",
-        "verified": 1,
-        "is_trial": 0,
-        "verified_date": null,
-        "trial_expired_date": null,
-        "upgrade_popup_info": null,
-        "is_finish_step_guide": 0,
-        "is_used_socialheat": null,
-        "is_create_account_by_mobile": 0,
-        "potential_client": 0,
-        "is_external": 0,
-        "is_socialtrend_internal": 0,
-        "updated_by": 5812,
-        "created_by": 5812,
-        "updated_at": "2024-07-01T10:33:33.000Z",
-        "created_at": "2022-07-25T04:57:30.000Z",
-        "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
-        "bitrix_crm_contact_id": null,
-        "bitrix_crm_lead_id": null,
-        "social_trend_expired_date": "2023-01-21T16:59:59.000Z",
-        "following_passion_point": null,
-        "socialtrend_source": null,
-        "socialtrend_department": null,
-        "socialtrend_assignee_id": null,
-        "is_survey": 1,
-        "survey_reports": "Báo cáo phân tích chuyển động ngành hàng|||Báo cáo phân tích hành vi người dùng MXH",
-        "survey_industry": "CNTT & Viễn thông",
-        "eca_dashboard_daterange": "|||||",
-        "eca_view_undefined_industry": 0,
-        "eca_view_all_include_without_industry": 0,
-        "eca_dashboard_platform_access": "",
-        "socialtrend_utm_source": null,
-        "is_display_tiktok_banner": 1,
-        "group_members": [
-            {
-                "id": 2920,
-                "id_group": 17,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4624,
-                "id_group": 5031,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4626,
-                "id_group": 5324,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4694,
-                "id_group": 5341,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4724,
-                "id_group": 5351,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4726,
-                "id_group": 5104,
-                "id_user": 5812,
-                "is_main_member": 1
-            }
-        ],
-        "isSetupPwdAlready": 1,
-        "avatar_url": "",
-        "id_group": -1,
-        "current_status": "",
-        "id_account": 17
-    }
-}
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ3ZmM0NTRiLTJkYjUtNGJlOC1iOTJjLTQyMTM0YTQ5ZDU1YSJ9.BO-i9lMw1nF0jP2sJpMCJmfV-yYTqfBmYJ5JwvFe0FA
+    <system-out><![CDATA[http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDU2OTksImV4cCI6MTcyMjUzNzY5OSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjRiOWUzMzEyLTk2N2UtNDFiNy1iMDgxLTQ5ODI5MTNmYzk1MiJ9.aX0D8Zj9hE0rpo0OmTPUPdR9Qb9keO9Yge6wI71sE-w
 {
     "error": {
         "name": "NotFound",
@@ -421,7 +193,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="getListProductLineDefault" classname="Tests.ProductLineTest" time="0.334">
+  <testcase name="getListProductLineDefault" classname="Tests.ProductLineTest" time="0.387">
     <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -463,122 +235,8 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ4ZDE2NTUxLTAwMWUtNGE4NS04Yzg0LTdiNGUxZGQyMWJjZCJ9.s6yh_pUxRoPe3lUGXHcxaMdZeUQ9o_sLfRa6t2E-XlI",
-    "authentication": {
-        "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ4ZDE2NTUxLTAwMWUtNGE4NS04Yzg0LTdiNGUxZGQyMWJjZCJ9.s6yh_pUxRoPe3lUGXHcxaMdZeUQ9o_sLfRa6t2E-XlI",
-        "payload": {
-            "userId": 5812,
-            "id": 5812,
-            "user": {
-                "id": 5812,
-                "email": "lamtt@younetgroup.com",
-                "phone": "0000000000",
-                "fullname": "Lâm TT"
-            },
-            "iat": 1719944702,
-            "exp": 1722536702,
-            "aud": "https://yourdomain.com",
-            "iss": "feathers",
-            "sub": "5812",
-            "jti": "48d16551-001e-4a85-8c84-7b4e1dd21bcd"
-        }
-    },
-    "user": {
-        "id": 5812,
-        "username": null,
-        "email": "lamtt@younetgroup.com",
-        "domain": null,
-        "fullname": "Lâm TT",
-        "department": null,
-        "status": "active",
-        "company_name": null,
-        "younet_company": "YouNet Media",
-        "phone": "0000000000",
-        "google_id": null,
-        "google_email": null,
-        "last_login": "2024-07-01 10:33:33",
-        "last_login_social_trend": "2023-06-30 10:31:41",
-        "verified": 1,
-        "is_trial": 0,
-        "verified_date": null,
-        "trial_expired_date": null,
-        "upgrade_popup_info": null,
-        "is_finish_step_guide": 0,
-        "is_used_socialheat": null,
-        "is_create_account_by_mobile": 0,
-        "potential_client": 0,
-        "is_external": 0,
-        "is_socialtrend_internal": 0,
-        "updated_by": 5812,
-        "created_by": 5812,
-        "updated_at": "2024-07-01T10:33:33.000Z",
-        "created_at": "2022-07-25T04:57:30.000Z",
-        "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
-        "bitrix_crm_contact_id": null,
-        "bitrix_crm_lead_id": null,
-        "social_trend_expired_date": "2023-01-21T16:59:59.000Z",
-        "following_passion_point": null,
-        "socialtrend_source": null,
-        "socialtrend_department": null,
-        "socialtrend_assignee_id": null,
-        "is_survey": 1,
-        "survey_reports": "Báo cáo phân tích chuyển động ngành hàng|||Báo cáo phân tích hành vi người dùng MXH",
-        "survey_industry": "CNTT & Viễn thông",
-        "eca_dashboard_daterange": "|||||",
-        "eca_view_undefined_industry": 0,
-        "eca_view_all_include_without_industry": 0,
-        "eca_dashboard_platform_access": "",
-        "socialtrend_utm_source": null,
-        "is_display_tiktok_banner": 1,
-        "group_members": [
-            {
-                "id": 2920,
-                "id_group": 17,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4624,
-                "id_group": 5031,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4626,
-                "id_group": 5324,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4694,
-                "id_group": 5341,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4724,
-                "id_group": 5351,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4726,
-                "id_group": 5104,
-                "id_user": 5812,
-                "is_main_member": 1
-            }
-        ],
-        "isSetupPwdAlready": 1,
-        "avatar_url": "",
-        "id_group": -1,
-        "current_status": "",
-        "id_account": 17
-    }
-}
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQ4ZDE2NTUxLTAwMWUtNGE4NS04Yzg0LTdiNGUxZGQyMWJjZCJ9.s6yh_pUxRoPe3lUGXHcxaMdZeUQ9o_sLfRa6t2E-XlI
+    <system-out><![CDATA[http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDU3MDAsImV4cCI6MTcyMjUzNzcwMCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImVlZDg4MWUyLTRiMzctNDA5Yy1hOWVlLTMwMDQzNzE5ZjIzOSJ9.YjmHOy3NKePVmhn2gwFZ3cQ4xZc68xw8-lc2SIZvlko
 {
     "error": {
         "name": "NotFound",
@@ -595,7 +253,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="updateProductLine" classname="Tests.ProductLineTest" time="0.838">
+  <testcase name="updateProductLine" classname="Tests.ProductLineTest" time="0.282">
     <failure message="expected [201] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -637,122 +295,8 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjY5NWQ3N2JjLTZiOGYtNDk4YS04ODQxLThmNmYzNzBhNDc4YSJ9.RG8HHFzSeSyWrwE34le-t8vaUuXj-Be_y706BqQcwXE",
-    "authentication": {
-        "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjY5NWQ3N2JjLTZiOGYtNDk4YS04ODQxLThmNmYzNzBhNDc4YSJ9.RG8HHFzSeSyWrwE34le-t8vaUuXj-Be_y706BqQcwXE",
-        "payload": {
-            "userId": 5812,
-            "id": 5812,
-            "user": {
-                "id": 5812,
-                "email": "lamtt@younetgroup.com",
-                "phone": "0000000000",
-                "fullname": "Lâm TT"
-            },
-            "iat": 1719944702,
-            "exp": 1722536702,
-            "aud": "https://yourdomain.com",
-            "iss": "feathers",
-            "sub": "5812",
-            "jti": "695d77bc-6b8f-498a-8841-8f6f370a478a"
-        }
-    },
-    "user": {
-        "id": 5812,
-        "username": null,
-        "email": "lamtt@younetgroup.com",
-        "domain": null,
-        "fullname": "Lâm TT",
-        "department": null,
-        "status": "active",
-        "company_name": null,
-        "younet_company": "YouNet Media",
-        "phone": "0000000000",
-        "google_id": null,
-        "google_email": null,
-        "last_login": "2024-07-01 10:33:33",
-        "last_login_social_trend": "2023-06-30 10:31:41",
-        "verified": 1,
-        "is_trial": 0,
-        "verified_date": null,
-        "trial_expired_date": null,
-        "upgrade_popup_info": null,
-        "is_finish_step_guide": 0,
-        "is_used_socialheat": null,
-        "is_create_account_by_mobile": 0,
-        "potential_client": 0,
-        "is_external": 0,
-        "is_socialtrend_internal": 0,
-        "updated_by": 5812,
-        "created_by": 5812,
-        "updated_at": "2024-07-01T10:33:33.000Z",
-        "created_at": "2022-07-25T04:57:30.000Z",
-        "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
-        "bitrix_crm_contact_id": null,
-        "bitrix_crm_lead_id": null,
-        "social_trend_expired_date": "2023-01-21T16:59:59.000Z",
-        "following_passion_point": null,
-        "socialtrend_source": null,
-        "socialtrend_department": null,
-        "socialtrend_assignee_id": null,
-        "is_survey": 1,
-        "survey_reports": "Báo cáo phân tích chuyển động ngành hàng|||Báo cáo phân tích hành vi người dùng MXH",
-        "survey_industry": "CNTT & Viễn thông",
-        "eca_dashboard_daterange": "|||||",
-        "eca_view_undefined_industry": 0,
-        "eca_view_all_include_without_industry": 0,
-        "eca_dashboard_platform_access": "",
-        "socialtrend_utm_source": null,
-        "is_display_tiktok_banner": 1,
-        "group_members": [
-            {
-                "id": 2920,
-                "id_group": 17,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4624,
-                "id_group": 5031,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4626,
-                "id_group": 5324,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4694,
-                "id_group": 5341,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4724,
-                "id_group": 5351,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4726,
-                "id_group": 5104,
-                "id_user": 5812,
-                "is_main_member": 1
-            }
-        ],
-        "isSetupPwdAlready": 1,
-        "avatar_url": "",
-        "id_group": -1,
-        "current_status": "",
-        "id_account": 17
-    }
-}
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDIsImV4cCI6MTcyMjUzNjcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjY5NWQ3N2JjLTZiOGYtNDk4YS04ODQxLThmNmYzNzBhNDc4YSJ9.RG8HHFzSeSyWrwE34le-t8vaUuXj-Be_y706BqQcwXE
+    <system-out><![CDATA[http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDU3MDAsImV4cCI6MTcyMjUzNzcwMCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImRiNmVkMWI3LTkzZmYtNDk1NS04MTVmLWZjY2M0ZTYwMmMyZCJ9.Svgm8QVBI9T-jasy2JKfIZJ6Xbt35eJp0zpcxvdYuIk
 {
     "error": {
         "name": "NotFound",
@@ -769,7 +313,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createBrand" classname="Tests.BrandTest" time="0.845">
+  <testcase name="createBrand" classname="Tests.BrandTest" time="0.285">
     <failure message="&#10;Cannot inject @Test annotated Method [createBrand] with [class java.lang.String].&#10;For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Cannot inject @Test annotated Method [createBrand] with [class java.lang.String].
@@ -808,9 +352,9 @@ For more information on native dependency injection please refer to https://test
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="deleteBrand" classname="Tests.BrandTest" time="0.569">
+  <testcase name="deleteBrand" classname="Tests.BrandTest" time="0.392">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
-	at Tests.BrandTest.deleteBrand(BrandTest.java:120)
+	at Tests.BrandTest.deleteBrand(BrandTest.java:119)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -843,122 +387,8 @@ For more information on native dependency injection please refer to https://test
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDMsImV4cCI6MTcyMjUzNjcwMywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImUzZjEwMGU3LTc0NjMtNDNmNS1hMjI1LTk2MWFlZDRhNmJlNiJ9.QlVex34JzCZjCTh8q8wrne4DGuLxNuiwZ9FLCBAih7M",
-    "authentication": {
-        "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDMsImV4cCI6MTcyMjUzNjcwMywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImUzZjEwMGU3LTc0NjMtNDNmNS1hMjI1LTk2MWFlZDRhNmJlNiJ9.QlVex34JzCZjCTh8q8wrne4DGuLxNuiwZ9FLCBAih7M",
-        "payload": {
-            "userId": 5812,
-            "id": 5812,
-            "user": {
-                "id": 5812,
-                "email": "lamtt@younetgroup.com",
-                "phone": "0000000000",
-                "fullname": "Lâm TT"
-            },
-            "iat": 1719944703,
-            "exp": 1722536703,
-            "aud": "https://yourdomain.com",
-            "iss": "feathers",
-            "sub": "5812",
-            "jti": "e3f100e7-7463-43f5-a225-961aed4a6be6"
-        }
-    },
-    "user": {
-        "id": 5812,
-        "username": null,
-        "email": "lamtt@younetgroup.com",
-        "domain": null,
-        "fullname": "Lâm TT",
-        "department": null,
-        "status": "active",
-        "company_name": null,
-        "younet_company": "YouNet Media",
-        "phone": "0000000000",
-        "google_id": null,
-        "google_email": null,
-        "last_login": "2024-07-01 10:33:33",
-        "last_login_social_trend": "2023-06-30 10:31:41",
-        "verified": 1,
-        "is_trial": 0,
-        "verified_date": null,
-        "trial_expired_date": null,
-        "upgrade_popup_info": null,
-        "is_finish_step_guide": 0,
-        "is_used_socialheat": null,
-        "is_create_account_by_mobile": 0,
-        "potential_client": 0,
-        "is_external": 0,
-        "is_socialtrend_internal": 0,
-        "updated_by": 5812,
-        "created_by": 5812,
-        "updated_at": "2024-07-01T10:33:33.000Z",
-        "created_at": "2022-07-25T04:57:30.000Z",
-        "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
-        "bitrix_crm_contact_id": null,
-        "bitrix_crm_lead_id": null,
-        "social_trend_expired_date": "2023-01-21T16:59:59.000Z",
-        "following_passion_point": null,
-        "socialtrend_source": null,
-        "socialtrend_department": null,
-        "socialtrend_assignee_id": null,
-        "is_survey": 1,
-        "survey_reports": "Báo cáo phân tích chuyển động ngành hàng|||Báo cáo phân tích hành vi người dùng MXH",
-        "survey_industry": "CNTT & Viễn thông",
-        "eca_dashboard_daterange": "|||||",
-        "eca_view_undefined_industry": 0,
-        "eca_view_all_include_without_industry": 0,
-        "eca_dashboard_platform_access": "",
-        "socialtrend_utm_source": null,
-        "is_display_tiktok_banner": 1,
-        "group_members": [
-            {
-                "id": 2920,
-                "id_group": 17,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4624,
-                "id_group": 5031,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4626,
-                "id_group": 5324,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4694,
-                "id_group": 5341,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4724,
-                "id_group": 5351,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4726,
-                "id_group": 5104,
-                "id_user": 5812,
-                "is_main_member": 1
-            }
-        ],
-        "isSetupPwdAlready": 1,
-        "avatar_url": "",
-        "id_group": -1,
-        "current_status": "",
-        "id_account": 17
-    }
-}
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDMsImV4cCI6MTcyMjUzNjcwMywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImUzZjEwMGU3LTc0NjMtNDNmNS1hMjI1LTk2MWFlZDRhNmJlNiJ9.QlVex34JzCZjCTh8q8wrne4DGuLxNuiwZ9FLCBAih7M
+    <system-out><![CDATA[http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDU3MDAsImV4cCI6MTcyMjUzNzcwMCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjZmZTBmZDJkLTg3MWYtNDkyOS05NDc4LTk2ZjhjZDQwMDg5MSJ9.vGsgRn767wqWygoRH2LxIpy4Ou_c9PtSO00E-r603_E
 {
     "error": {
         "name": "NotFound",
@@ -975,56 +405,14 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="getListBrandDefault" classname="Tests.BrandTest" time="0.007">
-    <failure message="io/qameta/allure/restassured/AllureRestAssured" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: io/qameta/allure/restassured/AllureRestAssured
-	at APIs.BrandAPIs.getListBrands(BrandAPIs.java:20)
-	at Tests.BrandTest.getListBrandDefault(BrandTest.java:36)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.ClassNotFoundException: io.qameta.allure.restassured.AllureRestAssured
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-	... 33 more
-]]></failure>
-  </testcase>
-  <testcase name="updateBrand" classname="Tests.BrandTest" time="0.29">
+  <testcase name="getListBrandDefault" classname="Tests.BrandTest" time="0.252">
     <failure message="&#10;Expected: is &lt;200&gt;&#10;     but: was &lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 
 Expected: is <200>
      but: was <404>
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at Tests.BrandTest.updateBrand(BrandTest.java:93)
+	at Tests.BrandTest.getListBrandDefault(BrandTest.java:42)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -1057,122 +445,66 @@ Expected: is <200>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImFmMThjYzBmLTQxMWYtNDQzMy04ZGY4LTc1NDhiZDRjODhjYiJ9.qTO7R7rI-WvQ3E_xAy7PDgjd0MTIOP3GzZBaHWAohxE",
-    "authentication": {
-        "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImFmMThjYzBmLTQxMWYtNDQzMy04ZGY4LTc1NDhiZDRjODhjYiJ9.qTO7R7rI-WvQ3E_xAy7PDgjd0MTIOP3GzZBaHWAohxE",
-        "payload": {
-            "userId": 5812,
-            "id": 5812,
-            "user": {
-                "id": 5812,
-                "email": "lamtt@younetgroup.com",
-                "phone": "0000000000",
-                "fullname": "Lâm TT"
-            },
-            "iat": 1719944704,
-            "exp": 1722536704,
-            "aud": "https://yourdomain.com",
-            "iss": "feathers",
-            "sub": "5812",
-            "jti": "af18cc0f-411f-4433-8df8-7548bd4c88cb"
+    <system-out><![CDATA[http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDU3MDEsImV4cCI6MTcyMjUzNzcwMSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImM4MGU5NGM3LWMzYTQtNDc0MS05ZDMzLTRjOGZiMzIzMmQ1YyJ9.B9kSVEyGcZWOxPMMjIwV7G6ktDeYTH7_i4mNp0ThhyQ
+{
+    "error": {
+        "name": "NotFound",
+        "message": "Page not found",
+        "code": 404,
+        "className": "not-found",
+        "data": {
+            "url": "/brands"
+        },
+        "errors": {
+            
         }
-    },
-    "user": {
-        "id": 5812,
-        "username": null,
-        "email": "lamtt@younetgroup.com",
-        "domain": null,
-        "fullname": "Lâm TT",
-        "department": null,
-        "status": "active",
-        "company_name": null,
-        "younet_company": "YouNet Media",
-        "phone": "0000000000",
-        "google_id": null,
-        "google_email": null,
-        "last_login": "2024-07-01 10:33:33",
-        "last_login_social_trend": "2023-06-30 10:31:41",
-        "verified": 1,
-        "is_trial": 0,
-        "verified_date": null,
-        "trial_expired_date": null,
-        "upgrade_popup_info": null,
-        "is_finish_step_guide": 0,
-        "is_used_socialheat": null,
-        "is_create_account_by_mobile": 0,
-        "potential_client": 0,
-        "is_external": 0,
-        "is_socialtrend_internal": 0,
-        "updated_by": 5812,
-        "created_by": 5812,
-        "updated_at": "2024-07-01T10:33:33.000Z",
-        "created_at": "2022-07-25T04:57:30.000Z",
-        "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
-        "bitrix_crm_contact_id": null,
-        "bitrix_crm_lead_id": null,
-        "social_trend_expired_date": "2023-01-21T16:59:59.000Z",
-        "following_passion_point": null,
-        "socialtrend_source": null,
-        "socialtrend_department": null,
-        "socialtrend_assignee_id": null,
-        "is_survey": 1,
-        "survey_reports": "Báo cáo phân tích chuyển động ngành hàng|||Báo cáo phân tích hành vi người dùng MXH",
-        "survey_industry": "CNTT & Viễn thông",
-        "eca_dashboard_daterange": "|||||",
-        "eca_view_undefined_industry": 0,
-        "eca_view_all_include_without_industry": 0,
-        "eca_dashboard_platform_access": "",
-        "socialtrend_utm_source": null,
-        "is_display_tiktok_banner": 1,
-        "group_members": [
-            {
-                "id": 2920,
-                "id_group": 17,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4624,
-                "id_group": 5031,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4626,
-                "id_group": 5324,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4694,
-                "id_group": 5341,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4724,
-                "id_group": 5351,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4726,
-                "id_group": 5104,
-                "id_user": 5812,
-                "is_main_member": 1
-            }
-        ],
-        "isSetupPwdAlready": 1,
-        "avatar_url": "",
-        "id_group": -1,
-        "current_status": "",
-        "id_account": 17
     }
 }
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImFmMThjYzBmLTQxMWYtNDQzMy04ZGY4LTc1NDhiZDRjODhjYiJ9.qTO7R7rI-WvQ3E_xAy7PDgjd0MTIOP3GzZBaHWAohxE
+]]></system-out>
+  </testcase>
+  <testcase name="updateBrand" classname="Tests.BrandTest" time="0.307">
+    <failure message="&#10;Expected: is &lt;200&gt;&#10;     but: was &lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is <200>
+     but: was <404>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at Tests.BrandTest.updateBrand(BrandTest.java:92)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDU3MDEsImV4cCI6MTcyMjUzNzcwMSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjA3NWQ4YjY5LTA4NzYtNDMxNS04YjQ0LWVlNDIxNDNkYmI1NyJ9.ysNG8HxcUEYmNlTDlIwh6-VFhK-DfnlAGi7hXpziHXs
 {
     "error": {
         "name": "NotFound",
@@ -1189,7 +521,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createModel" classname="Tests.ModelTest" time="0.567">
+  <testcase name="createModel" classname="Tests.ModelTest" time="0.341">
     <failure message="expected [201] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1231,122 +563,8 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjA2MDZlZWRjLWUwZDEtNDE2MC1iNDQ3LWQ3NzJjZjUyNTUxNyJ9.JdE_QGjohAw4QobmNyssfZkxqDJgu69vhAVn412rVIY",
-    "authentication": {
-        "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjA2MDZlZWRjLWUwZDEtNDE2MC1iNDQ3LWQ3NzJjZjUyNTUxNyJ9.JdE_QGjohAw4QobmNyssfZkxqDJgu69vhAVn412rVIY",
-        "payload": {
-            "userId": 5812,
-            "id": 5812,
-            "user": {
-                "id": 5812,
-                "email": "lamtt@younetgroup.com",
-                "phone": "0000000000",
-                "fullname": "Lâm TT"
-            },
-            "iat": 1719944704,
-            "exp": 1722536704,
-            "aud": "https://yourdomain.com",
-            "iss": "feathers",
-            "sub": "5812",
-            "jti": "0606eedc-e0d1-4160-b447-d772cf525517"
-        }
-    },
-    "user": {
-        "id": 5812,
-        "username": null,
-        "email": "lamtt@younetgroup.com",
-        "domain": null,
-        "fullname": "Lâm TT",
-        "department": null,
-        "status": "active",
-        "company_name": null,
-        "younet_company": "YouNet Media",
-        "phone": "0000000000",
-        "google_id": null,
-        "google_email": null,
-        "last_login": "2024-07-01 10:33:33",
-        "last_login_social_trend": "2023-06-30 10:31:41",
-        "verified": 1,
-        "is_trial": 0,
-        "verified_date": null,
-        "trial_expired_date": null,
-        "upgrade_popup_info": null,
-        "is_finish_step_guide": 0,
-        "is_used_socialheat": null,
-        "is_create_account_by_mobile": 0,
-        "potential_client": 0,
-        "is_external": 0,
-        "is_socialtrend_internal": 0,
-        "updated_by": 5812,
-        "created_by": 5812,
-        "updated_at": "2024-07-01T10:33:33.000Z",
-        "created_at": "2022-07-25T04:57:30.000Z",
-        "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
-        "bitrix_crm_contact_id": null,
-        "bitrix_crm_lead_id": null,
-        "social_trend_expired_date": "2023-01-21T16:59:59.000Z",
-        "following_passion_point": null,
-        "socialtrend_source": null,
-        "socialtrend_department": null,
-        "socialtrend_assignee_id": null,
-        "is_survey": 1,
-        "survey_reports": "Báo cáo phân tích chuyển động ngành hàng|||Báo cáo phân tích hành vi người dùng MXH",
-        "survey_industry": "CNTT & Viễn thông",
-        "eca_dashboard_daterange": "|||||",
-        "eca_view_undefined_industry": 0,
-        "eca_view_all_include_without_industry": 0,
-        "eca_dashboard_platform_access": "",
-        "socialtrend_utm_source": null,
-        "is_display_tiktok_banner": 1,
-        "group_members": [
-            {
-                "id": 2920,
-                "id_group": 17,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4624,
-                "id_group": 5031,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4626,
-                "id_group": 5324,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4694,
-                "id_group": 5341,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4724,
-                "id_group": 5351,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4726,
-                "id_group": 5104,
-                "id_user": 5812,
-                "is_main_member": 1
-            }
-        ],
-        "isSetupPwdAlready": 1,
-        "avatar_url": "",
-        "id_group": -1,
-        "current_status": "",
-        "id_account": 17
-    }
-}
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDQsImV4cCI6MTcyMjUzNjcwNCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjA2MDZlZWRjLWUwZDEtNDE2MC1iNDQ3LWQ3NzJjZjUyNTUxNyJ9.JdE_QGjohAw4QobmNyssfZkxqDJgu69vhAVn412rVIY
+    <system-out><![CDATA[http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDU3MDEsImV4cCI6MTcyMjUzNzcwMSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImMwZDZmMGE1LTlhMmEtNDg1Yy04YWFkLWFiNmFkYzUyYmJmNSJ9.T7fXZeTWQSUI4vvyRlSgKnx3OEIeBL1H58CjsqXPd04
 {
     "error": {
         "name": "NotFound",
@@ -1363,7 +581,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="deleteModel" classname="Tests.ModelTest" time="0.557">
+  <testcase name="deleteModel" classname="Tests.ModelTest" time="0.309">
     <failure message="expected [201] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1405,125 +623,11 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImY5MGQzNDU4LWFkYjctNDg0ZS04MWI2LTA0OTliZjhiMmY1ZCJ9.blNyE_tksRY7jRKXNJpt4sY_9n4gz5PD96kzaPfXYlE",
-    "authentication": {
-        "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImY5MGQzNDU4LWFkYjctNDg0ZS04MWI2LTA0OTliZjhiMmY1ZCJ9.blNyE_tksRY7jRKXNJpt4sY_9n4gz5PD96kzaPfXYlE",
-        "payload": {
-            "userId": 5812,
-            "id": 5812,
-            "user": {
-                "id": 5812,
-                "email": "lamtt@younetgroup.com",
-                "phone": "0000000000",
-                "fullname": "Lâm TT"
-            },
-            "iat": 1719944705,
-            "exp": 1722536705,
-            "aud": "https://yourdomain.com",
-            "iss": "feathers",
-            "sub": "5812",
-            "jti": "f90d3458-adb7-484e-81b6-0499bf8b2f5d"
-        }
-    },
-    "user": {
-        "id": 5812,
-        "username": null,
-        "email": "lamtt@younetgroup.com",
-        "domain": null,
-        "fullname": "Lâm TT",
-        "department": null,
-        "status": "active",
-        "company_name": null,
-        "younet_company": "YouNet Media",
-        "phone": "0000000000",
-        "google_id": null,
-        "google_email": null,
-        "last_login": "2024-07-01 10:33:33",
-        "last_login_social_trend": "2023-06-30 10:31:41",
-        "verified": 1,
-        "is_trial": 0,
-        "verified_date": null,
-        "trial_expired_date": null,
-        "upgrade_popup_info": null,
-        "is_finish_step_guide": 0,
-        "is_used_socialheat": null,
-        "is_create_account_by_mobile": 0,
-        "potential_client": 0,
-        "is_external": 0,
-        "is_socialtrend_internal": 0,
-        "updated_by": 5812,
-        "created_by": 5812,
-        "updated_at": "2024-07-01T10:33:33.000Z",
-        "created_at": "2022-07-25T04:57:30.000Z",
-        "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
-        "bitrix_crm_contact_id": null,
-        "bitrix_crm_lead_id": null,
-        "social_trend_expired_date": "2023-01-21T16:59:59.000Z",
-        "following_passion_point": null,
-        "socialtrend_source": null,
-        "socialtrend_department": null,
-        "socialtrend_assignee_id": null,
-        "is_survey": 1,
-        "survey_reports": "Báo cáo phân tích chuyển động ngành hàng|||Báo cáo phân tích hành vi người dùng MXH",
-        "survey_industry": "CNTT & Viễn thông",
-        "eca_dashboard_daterange": "|||||",
-        "eca_view_undefined_industry": 0,
-        "eca_view_all_include_without_industry": 0,
-        "eca_dashboard_platform_access": "",
-        "socialtrend_utm_source": null,
-        "is_display_tiktok_banner": 1,
-        "group_members": [
-            {
-                "id": 2920,
-                "id_group": 17,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4624,
-                "id_group": 5031,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4626,
-                "id_group": 5324,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4694,
-                "id_group": 5341,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4724,
-                "id_group": 5351,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4726,
-                "id_group": 5104,
-                "id_user": 5812,
-                "is_main_member": 1
-            }
-        ],
-        "isSetupPwdAlready": 1,
-        "avatar_url": "",
-        "id_group": -1,
-        "current_status": "",
-        "id_account": 17
-    }
-}
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImY5MGQzNDU4LWFkYjctNDg0ZS04MWI2LTA0OTliZjhiMmY1ZCJ9.blNyE_tksRY7jRKXNJpt4sY_9n4gz5PD96kzaPfXYlE
+    <system-out><![CDATA[http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDU3MDIsImV4cCI6MTcyMjUzNzcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImM2ZTlkMzFkLWNjNWQtNGM3Mi04NzY5LTUwOWI4ZDliYjEwMSJ9.hwmQNQBGwfn4EkNVajZeghogvTIZDjMvyTgL-afelk0
 ]]></system-out>
   </testcase>
-  <testcase name="getListModelDefault" classname="Tests.ModelTest" time="0.315">
+  <testcase name="getListModelDefault" classname="Tests.ModelTest" time="0.344">
     <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1565,122 +669,8 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImMyNWYyZTRhLTI1NmYtNDFmZS05M2MwLWQ5ZDM2NjY4YzU1YyJ9.KW50Gdy_xNnT83PDE83esUhtRH8hE2M4GKcP35ur9FA",
-    "authentication": {
-        "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImMyNWYyZTRhLTI1NmYtNDFmZS05M2MwLWQ5ZDM2NjY4YzU1YyJ9.KW50Gdy_xNnT83PDE83esUhtRH8hE2M4GKcP35ur9FA",
-        "payload": {
-            "userId": 5812,
-            "id": 5812,
-            "user": {
-                "id": 5812,
-                "email": "lamtt@younetgroup.com",
-                "phone": "0000000000",
-                "fullname": "Lâm TT"
-            },
-            "iat": 1719944705,
-            "exp": 1722536705,
-            "aud": "https://yourdomain.com",
-            "iss": "feathers",
-            "sub": "5812",
-            "jti": "c25f2e4a-256f-41fe-93c0-d9d36668c55c"
-        }
-    },
-    "user": {
-        "id": 5812,
-        "username": null,
-        "email": "lamtt@younetgroup.com",
-        "domain": null,
-        "fullname": "Lâm TT",
-        "department": null,
-        "status": "active",
-        "company_name": null,
-        "younet_company": "YouNet Media",
-        "phone": "0000000000",
-        "google_id": null,
-        "google_email": null,
-        "last_login": "2024-07-01 10:33:33",
-        "last_login_social_trend": "2023-06-30 10:31:41",
-        "verified": 1,
-        "is_trial": 0,
-        "verified_date": null,
-        "trial_expired_date": null,
-        "upgrade_popup_info": null,
-        "is_finish_step_guide": 0,
-        "is_used_socialheat": null,
-        "is_create_account_by_mobile": 0,
-        "potential_client": 0,
-        "is_external": 0,
-        "is_socialtrend_internal": 0,
-        "updated_by": 5812,
-        "created_by": 5812,
-        "updated_at": "2024-07-01T10:33:33.000Z",
-        "created_at": "2022-07-25T04:57:30.000Z",
-        "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
-        "bitrix_crm_contact_id": null,
-        "bitrix_crm_lead_id": null,
-        "social_trend_expired_date": "2023-01-21T16:59:59.000Z",
-        "following_passion_point": null,
-        "socialtrend_source": null,
-        "socialtrend_department": null,
-        "socialtrend_assignee_id": null,
-        "is_survey": 1,
-        "survey_reports": "Báo cáo phân tích chuyển động ngành hàng|||Báo cáo phân tích hành vi người dùng MXH",
-        "survey_industry": "CNTT & Viễn thông",
-        "eca_dashboard_daterange": "|||||",
-        "eca_view_undefined_industry": 0,
-        "eca_view_all_include_without_industry": 0,
-        "eca_dashboard_platform_access": "",
-        "socialtrend_utm_source": null,
-        "is_display_tiktok_banner": 1,
-        "group_members": [
-            {
-                "id": 2920,
-                "id_group": 17,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4624,
-                "id_group": 5031,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4626,
-                "id_group": 5324,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4694,
-                "id_group": 5341,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4724,
-                "id_group": 5351,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4726,
-                "id_group": 5104,
-                "id_user": 5812,
-                "is_main_member": 1
-            }
-        ],
-        "isSetupPwdAlready": 1,
-        "avatar_url": "",
-        "id_group": -1,
-        "current_status": "",
-        "id_account": 17
-    }
-}
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDUsImV4cCI6MTcyMjUzNjcwNSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImMyNWYyZTRhLTI1NmYtNDFmZS05M2MwLWQ5ZDM2NjY4YzU1YyJ9.KW50Gdy_xNnT83PDE83esUhtRH8hE2M4GKcP35ur9FA
+    <system-out><![CDATA[http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDU3MDIsImV4cCI6MTcyMjUzNzcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjFjMWQyY2MzLWMzNDQtNGZiOS04NDlkLTAwMmJjYmMwN2RmMyJ9.Tm-Is0Ft_0oYKeHOVLgE8I0gPE_wstzlMcWneS-A1yU
 {
     "error": {
         "name": "NotFound",
@@ -1697,7 +687,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 ]]></system-out>
   </testcase>
-  <testcase name="updateModel" classname="Tests.ModelTest" time="0.353">
+  <testcase name="updateModel" classname="Tests.ModelTest" time="0.247">
     <failure message="expected [201] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -1739,122 +729,8 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[{
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDYsImV4cCI6MTcyMjUzNjcwNiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjdiZjkwZGM2LTc2YWYtNDI2Yi1hMjcxLWY2NWNkYWIzMTAxNiJ9.rE-sw-BEjl4xv4qggwRab1uon7AtZh74nChtB9RAVmo",
-    "authentication": {
-        "strategy": "local",
-        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDYsImV4cCI6MTcyMjUzNjcwNiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjdiZjkwZGM2LTc2YWYtNDI2Yi1hMjcxLWY2NWNkYWIzMTAxNiJ9.rE-sw-BEjl4xv4qggwRab1uon7AtZh74nChtB9RAVmo",
-        "payload": {
-            "userId": 5812,
-            "id": 5812,
-            "user": {
-                "id": 5812,
-                "email": "lamtt@younetgroup.com",
-                "phone": "0000000000",
-                "fullname": "Lâm TT"
-            },
-            "iat": 1719944706,
-            "exp": 1722536706,
-            "aud": "https://yourdomain.com",
-            "iss": "feathers",
-            "sub": "5812",
-            "jti": "7bf90dc6-76af-426b-a271-f65cdab31016"
-        }
-    },
-    "user": {
-        "id": 5812,
-        "username": null,
-        "email": "lamtt@younetgroup.com",
-        "domain": null,
-        "fullname": "Lâm TT",
-        "department": null,
-        "status": "active",
-        "company_name": null,
-        "younet_company": "YouNet Media",
-        "phone": "0000000000",
-        "google_id": null,
-        "google_email": null,
-        "last_login": "2024-07-01 10:33:33",
-        "last_login_social_trend": "2023-06-30 10:31:41",
-        "verified": 1,
-        "is_trial": 0,
-        "verified_date": null,
-        "trial_expired_date": null,
-        "upgrade_popup_info": null,
-        "is_finish_step_guide": 0,
-        "is_used_socialheat": null,
-        "is_create_account_by_mobile": 0,
-        "potential_client": 0,
-        "is_external": 0,
-        "is_socialtrend_internal": 0,
-        "updated_by": 5812,
-        "created_by": 5812,
-        "updated_at": "2024-07-01T10:33:33.000Z",
-        "created_at": "2022-07-25T04:57:30.000Z",
-        "enabled_filters_setting": "[{\"name\":\"Net Sentiment\",\"code\":\"net_sentiment\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tags\",\"code\":\"tags\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Tag Filter Mode\",\"code\":\"tag_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attributes\",\"code\":\"attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Sub-Attributes\",\"code\":\"sub-attributes\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Attribute Filter Mode\",\"code\":\"attribute_filter_mode\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Platform\",\"code\":\"platform\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Media\",\"code\":\"media\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Source\",\"code\":\"id_source\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Id Author\",\"code\":\"id_author\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Author Type\",\"code\":\"author_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Source Type\",\"code\":\"source_type\",\"isShow\":1,\"isAdvanced\":0},{\"name\":\"Search Phrases\",\"code\":\"search_phrases\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sample mentions\",\"code\":\"sample_mentions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention's status\",\"code\":\"mentions_status\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Mention Type\",\"code\":\"mention_type\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Sentiment Level\",\"code\":\"sentiment_level\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Brand Mention\",\"code\":\"brand_mention\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Gender\",\"code\":\"gender\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Macro Regions\",\"code\":\"macro_regions\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Cities\",\"code\":\"cities\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Noise Filter Mode\",\"code\":\"noise_filter_mode\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Source Group\",\"code\":\"source_group\",\"isShow\":1,\"isAdvanced\":1},{\"name\":\"Rating Score\",\"code\":\"rating_score\",\"isShow\":1,\"isAdvanced\":0}]",
-        "bitrix_crm_contact_id": null,
-        "bitrix_crm_lead_id": null,
-        "social_trend_expired_date": "2023-01-21T16:59:59.000Z",
-        "following_passion_point": null,
-        "socialtrend_source": null,
-        "socialtrend_department": null,
-        "socialtrend_assignee_id": null,
-        "is_survey": 1,
-        "survey_reports": "Báo cáo phân tích chuyển động ngành hàng|||Báo cáo phân tích hành vi người dùng MXH",
-        "survey_industry": "CNTT & Viễn thông",
-        "eca_dashboard_daterange": "|||||",
-        "eca_view_undefined_industry": 0,
-        "eca_view_all_include_without_industry": 0,
-        "eca_dashboard_platform_access": "",
-        "socialtrend_utm_source": null,
-        "is_display_tiktok_banner": 1,
-        "group_members": [
-            {
-                "id": 2920,
-                "id_group": 17,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4624,
-                "id_group": 5031,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4626,
-                "id_group": 5324,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4694,
-                "id_group": 5341,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4724,
-                "id_group": 5351,
-                "id_user": 5812,
-                "is_main_member": 1
-            },
-            {
-                "id": 4726,
-                "id_group": 5104,
-                "id_user": 5812,
-                "is_main_member": 1
-            }
-        ],
-        "isSetupPwdAlready": 1,
-        "avatar_url": "",
-        "id_group": -1,
-        "current_status": "",
-        "id_account": 17
-    }
-}
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDQ3MDYsImV4cCI6MTcyMjUzNjcwNiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjdiZjkwZGM2LTc2YWYtNDI2Yi1hMjcxLWY2NWNkYWIzMTAxNiJ9.rE-sw-BEjl4xv4qggwRab1uon7AtZh74nChtB9RAVmo
+    <system-out><![CDATA[http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MTk5NDU3MDIsImV4cCI6MTcyMjUzNzcwMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImY2M2RhMWYzLWM3NTEtNGYxNi05ZDk1LTMzYjlmYzc4NjM3ZCJ9.cDqGOM3ndM6pwibxlkWqG_QYP_AMHbwO3LYZ15jfkiI
 {
     "error": {
         "name": "NotFound",

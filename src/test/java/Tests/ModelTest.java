@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.emptyString;
@@ -16,6 +17,11 @@ import static org.hamcrest.Matchers.emptyString;
 
 public class ModelTest extends BaseSetup {
     ModelAPIs modelAPIs = new ModelAPIs();
+
+    final String GET_LIST_MODEL_SCHEMA = "Schema/Brand/get_list_brand_schema.json";
+    final String CREATE_MODEL_SCHEMA = "Schema/Brand/create_brand_schema.json";
+    final String UPDATE_MODEL_SCHEMA = "Schema/Brand/update_brand_schema.json";
+    final String DELETE_MODEL_SCHEMA = "Schema/Brand/delete_brand_schema.json";
 
     @BeforeTest
     public void setModelApis(){
@@ -28,18 +34,8 @@ public class ModelTest extends BaseSetup {
         Response res = modelAPIs.getListModels();
         res.prettyPrint();
 
-        JsonPath jsonPath = res.jsonPath();
-
-        //JsonPath jsonPath = res.jsonPath();
-        int status_code = res.statusCode();
-
-        // check by TestNG
-        Assert.assertEquals(status_code, 200);
-
-
-        // Check null response
-        assertThat(jsonPath.prettyPrint(), is(emptyString()));
-
+        res.then().assertThat().statusCode(200);
+        res.then().assertThat().body(matchesJsonSchemaInClasspath(GET_LIST_MODEL_SCHEMA));
 
     }
 
@@ -49,19 +45,8 @@ public class ModelTest extends BaseSetup {
         Response res = modelAPIs.createModels();
         res.prettyPrint();
 
-        //JsonPath jsonPath = res.jsonPath();
-        int status_code = res.statusCode();
-
-        JsonPath jsonPath = res.jsonPath();
-
-        // check by TestNG
-        Assert.assertEquals(status_code, 201);
-
-
-        // Check null response
-        assertThat(jsonPath.prettyPrint(), is(emptyString()));
-        // Kiem tra ten model duoc tao co giong voi ten da truyen vao khong
-        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
+        res.then().assertThat().statusCode(201);
+        res.then().assertThat().body(matchesJsonSchemaInClasspath(UPDATE_MODEL_SCHEMA));
 
     }
 
@@ -71,18 +56,8 @@ public class ModelTest extends BaseSetup {
         Response res = modelAPIs.updateModel();
         res.prettyPrint();
 
-        //JsonPath jsonPath = res.jsonPath();
-        int status_code = res.statusCode();
-
-        // check by TestNG
-        Assert.assertEquals(status_code, 201);
-
-        JsonPath jsonPath = res.jsonPath();
-
-        // Check null response
-        assertThat(jsonPath.prettyPrint(), is(emptyString()));
-        // Kiem tra ten model duoc tao co giong voi ten da truyen vao khong
-        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
+        res.then().assertThat().statusCode(200);
+        res.then().assertThat().body(matchesJsonSchemaInClasspath(CREATE_MODEL_SCHEMA));
 
     }
 
@@ -99,9 +74,8 @@ public class ModelTest extends BaseSetup {
         JsonPath jsonPath = res.jsonPath();
 
         // Check null response
-        assertThat(jsonPath.prettyPrint(), is(emptyString()));
-        // Kiem tra ten model duoc tao co giong voi ten da truyen vao khong
-        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
+        res.then().assertThat().statusCode(200);
+        res.then().assertThat().body(matchesJsonSchemaInClasspath(DELETE_MODEL_SCHEMA));
 
     }
 }

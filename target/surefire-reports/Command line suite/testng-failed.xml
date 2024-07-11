@@ -8,21 +8,11 @@
           <include name="createProductLine"/>
           <include name="getListProductLineDefault"/>
           <include name="setProductLineApis"/>
+          <include name="updateProductLine"/>
           <include name="setUp"/>
           <include name="deleteProductLine"/>
-          <include name="updateProductLine"/>
         </methods>
       </class> <!-- Tests.ProductLineTest -->
-      <class name="Tests.BrandTest">
-        <methods>
-          <include name="createBrand"/>
-          <include name="updateBrand"/>
-          <include name="setBrandApis"/>
-          <include name="setUp"/>
-          <include name="deleteBrand"/>
-          <include name="getListBrandDefault"/>
-        </methods>
-      </class> <!-- Tests.BrandTest -->
       <class name="Tests.ModelTest">
         <methods>
           <include name="createModel"/>
@@ -33,6 +23,16 @@
           <include name="setModelApis"/>
         </methods>
       </class> <!-- Tests.ModelTest -->
+      <class name="Tests.BrandTest">
+        <methods>
+          <include name="createBrand"/>
+          <include name="updateBrand"/>
+          <include name="setBrandApis"/>
+          <include name="deleteBrand"/>
+          <include name="setUp"/>
+          <include name="getListBrandDefault"/>
+        </methods>
+      </class> <!-- Tests.BrandTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
