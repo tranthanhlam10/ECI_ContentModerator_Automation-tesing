@@ -20,7 +20,7 @@ public class Authencation extends BaseSetup {
 
         basePath = "";
         Response res = given().header("Content-Type", "application/json").body(user).when().post("/authentication");
-        res.prettyPrint();
+        //res.prettyPrint();
 
         System.out.println(baseURI + basePath +"/authentication" );
 

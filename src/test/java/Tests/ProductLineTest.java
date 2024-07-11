@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.emptyString;
@@ -15,6 +16,11 @@ import static org.hamcrest.Matchers.emptyString;
 
 public class ProductLineTest extends BaseSetup {
     ProductLineAPIs productLineAPIs = new ProductLineAPIs();
+
+    final String GET_LIST_PRODUCT_LINE_SCHEMA = "Schema/Product Line/get_list_product_line_schema.json";
+    final String CREATE_PRODUCT_LINE_SCHEMA = "Schema/Product Line/create_product_line_schema.json";
+    final String UPDATE_PRODUCT_LINE_SCHEMA = "Schema/Product Line/update_product_line_schema.json";
+    final String DELETE_PRODUCT_LINE_SCHEMA = "Schema/Product Line/delete_product_line_schema.json";
 
     @BeforeTest
     public void setProductLineApis(){
@@ -27,15 +33,8 @@ public class ProductLineTest extends BaseSetup {
         Response res = productLineAPIs.getListProductLine();
         res.prettyPrint();
 
-        //JsonPath jsonPath = res.jsonPath();
-        int status_code = res.statusCode();
-        JsonPath jsonPath = res.jsonPath();
-
-        // check by TestNG
-        Assert.assertEquals(status_code, 200);
-
-        // Check null response
-        assertThat(jsonPath.prettyPrint(), is(emptyString()));
+        res.then().assertThat().statusCode(200);
+        res.then().assertThat().body(matchesJsonSchemaInClasspath(GET_LIST_PRODUCT_LINE_SCHEMA));
 
     }
     @Test
@@ -44,17 +43,8 @@ public class ProductLineTest extends BaseSetup {
         Response res = productLineAPIs.createProductLines();
         res.prettyPrint();
 
-        int status_code = res.statusCode();
-
-        JsonPath jsonPath = res.jsonPath();
-
-        // check by TestNG
-        Assert.assertEquals(status_code, 201);
-
-        // Check null response
-        assertThat(jsonPath.prettyPrint(), is(emptyString()));
-        // Kiem tra ten product line duoc tao co giong voi ten da truyen vao khong
-        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
+        res.then().assertThat().statusCode(201);
+        res.then().assertThat().body(matchesJsonSchemaInClasspath(CREATE_PRODUCT_LINE_SCHEMA));
 
     }
 
@@ -64,18 +54,10 @@ public class ProductLineTest extends BaseSetup {
         Response res = productLineAPIs.updateProductLines();
         res.prettyPrint();
 
-        //JsonPath jsonPath = res.jsonPath();
-        int status_code = res.statusCode();
+        res.then().assertThat().statusCode(201);
+        res.then().assertThat().body(matchesJsonSchemaInClasspath(UPDATE_PRODUCT_LINE_SCHEMA));
 
-        JsonPath jsonPath = res.jsonPath();
 
-        // check by TestNG
-        Assert.assertEquals(status_code, 201);
-
-        // Check null response
-        assertThat(jsonPath.prettyPrint(), is(emptyString()));
-        // Kiem tra ten product line duoc tao co giong voi ten da truyen vao khong
-        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
 
     }
 
@@ -85,18 +67,8 @@ public class ProductLineTest extends BaseSetup {
         Response res = productLineAPIs.deleteProductLine();
         res.prettyPrint();
 
-        //JsonPath jsonPath = res.jsonPath();
-        int status_code = res.statusCode();
-
-        JsonPath jsonPath = res.jsonPath();
-
-        // check by TestNG
-        Assert.assertEquals(status_code, 201);
-
-        // Check null response
-        assertThat(jsonPath.prettyPrint(), is(emptyString()));
-        // Kiem tra ten product line duoc tao co giong voi ten da truyen vao khong
-        assertThat(jsonPath.get("display_name"), is("Lam Test Autoamtion"));
+        res.then().assertThat().statusCode(201);
+        res.then().assertThat().body(matchesJsonSchemaInClasspath(DELETE_PRODUCT_LINE_SCHEMA));
 
     }
 }

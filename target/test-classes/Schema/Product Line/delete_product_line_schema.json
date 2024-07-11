@@ -1,43 +1,51 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Generated schema for Root",
-  "type": "object",
-  "properties": {
-    "id": {
-      "type": "number"
-    },
-    "name": {
-      "type": "string"
-    },
-    "slug": {},
-    "brand_id": {
-      "type": "number"
-    },
-    "industry_id": {
-      "type": "number"
-    },
-    "created_at": {
-      "type": "string"
-    },
-    "created_by": {
-      "type": "number"
-    },
-    "updated_at": {
-      "type": "string"
-    },
-    "updated_by": {
-      "type": "number"
+  "definitions": {
+    "Welcome2": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "null"
+        },
+        "brand_id": {
+          "type": "integer"
+        },
+        "industry_id": {
+          "type": "integer"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "integer"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_by": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "brand_id",
+        "created_at",
+        "created_by",
+        "id",
+        "industry_id",
+        "name",
+        "slug",
+        "updated_at",
+        "updated_by"
+      ],
+      "title": "Welcome2"
     }
-  },
-  "required": [
-    "id",
-    "name",
-    "slug",
-    "brand_id",
-    "industry_id",
-    "created_at",
-    "created_by",
-    "updated_at",
-    "updated_by"
-  ]
+  }
 }
