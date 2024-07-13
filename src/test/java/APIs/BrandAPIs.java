@@ -2,12 +2,15 @@ package APIs;
 
 import Objects.Brand;
 import io.restassured.response.Response;
+import utils.RandomString;
+
 import static io.restassured.RestAssured.basePath;
 import static io.restassured.RestAssured.given;
 
 public class BrandAPIs {
 
     Authencation authencation = new Authencation();
+
     public  void setUpBasePath(){
         basePath = "/eca";
     }
@@ -32,8 +35,9 @@ public class BrandAPIs {
         String endpoint_addBrand = "/brands?$eager=[manufacturer]";
 
         Brand brand = new Brand();
-        brand.setName("Lam Test Autoamtion");
+        brand.setName("Lam Test Brand Automation " + RandomString.getRandomString());
         brand.setManufacturer_id(100);
+        brand.setIs_active(0);
 
         return given().auth().oauth2(authencation.getToken()).contentType("application/json").when().body(brand).post(endpoint_addBrand);
     }
@@ -44,8 +48,9 @@ public class BrandAPIs {
         // Tao mot file excel doc het cac properties do len
 
         Brand brand = new Brand();
-        brand.setName("Lam Test Automation");
+        brand.setName("Lam Test Automation " + RandomString.getRandomString());
         brand.setManufacturer_id(100);
+        brand.setIs_active(0);
 
 
         return given().auth().oauth2(authencation.getToken()).when().body(brand).put(endpoint_updateBrand);
