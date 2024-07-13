@@ -41,7 +41,7 @@ public class BrandTest extends BaseSetup {
     }
     //@Test(dataProvider = "excelData_Brand", dataProviderClass = ExcelReader.class)
     @Test
-    public void createBrand(String brand_name){
+    public void createBrand(){
 
         Response res = brandAPIs.createBrands();
         res.prettyPrint();

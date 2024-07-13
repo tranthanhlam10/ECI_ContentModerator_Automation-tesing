@@ -3,6 +3,8 @@ package APIs;
 import Objects.Model;
 import Objects.Model_Update;
 import io.restassured.response.Response;
+import utils.RandomString;
+
 import static io.restassured.RestAssured.*;
 
 public class ModelAPIs {
@@ -22,11 +24,10 @@ public class ModelAPIs {
         String endpoint_addModel = "/models?$eager=product_line.[brand,industry]";
 
         Model model = new Model();
-        model.setDisplay_name("Brand New abc Lam auto");
+        model.setDisplay_name("Lam Test Model Automation " + RandomString.getRandomString());
         model.setProduct_line_id(1);
         model.setQuery_exactly(0);
-
-
+        model.setQuery("Samsung");
 
         return given().auth().oauth2(authencation.getToken()).contentType("application/json").when().body(model).post(endpoint_addModel);
     }
@@ -37,7 +38,7 @@ public class ModelAPIs {
         // Tao mot file excel doc het cac properties do len
 
         Model_Update model_update = new Model_Update();
-        model_update.setDisplay_name("Brand New abc xyz");
+        model_update.setDisplay_name("Lam Test Model Automation " + RandomString.getRandomString() );
         model_update.setName("");
         model_update.setProduct_line_id(2);
         model_update.setQuery_exactly(0);

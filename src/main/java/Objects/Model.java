@@ -8,4 +8,5 @@ public class Model {
     private String display_name;
     private int product_line_id;
     private int query_exactly;
+    private String query;
 }
