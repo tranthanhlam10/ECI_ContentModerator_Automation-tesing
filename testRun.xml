@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest-Assured Tests">
+    <test name="ECI content moderator's tests cases">
+        <classes>
+            <class name="Tests.BrandTest">
+                <methods>
+                    <include name="getListBrandDefaultValidation"/>
+                    <include name="createBrandValidation"/>
+                    <include name="updateBrandValidation"/>
+                    <include name="deleteBrandValidation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

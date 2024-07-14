@@ -1,0 +1,265 @@
+{
+  "definitions": {
+    "Welcome1": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "null"
+        },
+        "slug": {
+          "type": "null"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "query": {
+          "type": "string"
+        },
+        "query_exactly": {
+          "type": "integer"
+        },
+        "product_id": {
+          "type": "null"
+        },
+        "product_line_id": {
+          "type": "integer"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "integer"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_by": {
+          "type": "integer"
+        },
+        "deleted_at": {
+          "type": "null"
+        },
+        "product_line": {
+          "$ref": "#/definitions/ProductLine"
+        },
+        "createdBy": {
+          "$ref": "#/definitions/AtedBy"
+        },
+        "updatedBy": {
+          "$ref": "#/definitions/AtedBy"
+        }
+      },
+      "required": [
+        "createdBy",
+        "created_at",
+        "created_by",
+        "deleted_at",
+        "display_name",
+        "id",
+        "name",
+        "product_id",
+        "product_line",
+        "product_line_id",
+        "query",
+        "query_exactly",
+        "slug",
+        "updatedBy",
+        "updated_at",
+        "updated_by"
+      ],
+      "title": "Welcome1"
+    },
+    "AtedBy": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "email": {
+          "type": "string"
+        },
+        "fullname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "email",
+        "fullname",
+        "id"
+      ],
+      "title": "AtedBy"
+    },
+    "ProductLine": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "brand_id": {
+          "type": "integer"
+        },
+        "industry_id": {
+          "type": "integer"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "null"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_by": {
+          "type": "null"
+        },
+        "brand": {
+          "$ref": "#/definitions/Brand"
+        },
+        "industry": {
+          "$ref": "#/definitions/Industry"
+        }
+      },
+      "required": [
+        "brand",
+        "brand_id",
+        "created_at",
+        "created_by",
+        "id",
+        "industry",
+        "industry_id",
+        "name",
+        "slug",
+        "updated_at",
+        "updated_by"
+      ],
+      "title": "ProductLine"
+    },
+    "Brand": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "manufacturer_id": {
+          "type": "null"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "integer"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_by": {
+          "type": "integer"
+        },
+        "is_active": {
+          "type": "integer"
+        },
+        "name_exactly": {
+          "type": "string"
+        },
+        "not_archived": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "created_at",
+        "created_by",
+        "id",
+        "is_active",
+        "manufacturer_id",
+        "name",
+        "name_exactly",
+        "not_archived",
+        "slug",
+        "title",
+        "updated_at",
+        "updated_by"
+      ],
+      "title": "Brand"
+    },
+    "Industry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "spam_query": {
+          "type": "string"
+        },
+        "is_model_ready": {
+          "type": "integer"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "null"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_by": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "code",
+        "created_at",
+        "created_by",
+        "id",
+        "is_model_ready",
+        "name",
+        "slug",
+        "spam_query",
+        "updated_at",
+        "updated_by"
+      ],
+      "title": "Industry"
+    }
+  }
+}
