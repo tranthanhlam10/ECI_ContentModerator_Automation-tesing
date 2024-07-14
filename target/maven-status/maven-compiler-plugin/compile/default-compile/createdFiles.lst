@@ -1,0 +1,10 @@
+Objects/Model_Update.class
+Objects/User.class
+Objects/Model.class
+utils/PropertiesReader.class
+ObjectResponse/ManufacturerResponse.class
+Objects/Brand.class
+Objects/ProductLine.class
+ObjectResponse/UserResponse.class
+utils/RandomString.class
+ObjectResponse/BrandResponse.class

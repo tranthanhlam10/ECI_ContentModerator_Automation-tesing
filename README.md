@@ -1,0 +1,2 @@
+allure generate
+allure open

@@ -1,0 +1,63 @@
+{
+  "definitions": {
+    "Welcome2": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "null"
+        },
+        "manufacturer_id": {
+          "type": "integer"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "integer"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_by": {
+          "type": "integer"
+        },
+        "is_active": {
+          "type": "integer"
+        },
+        "name_exactly": {
+          "type": "string"
+        },
+        "not_archived": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "created_at",
+        "created_by",
+        "id",
+        "is_active",
+        "manufacturer_id",
+        "name",
+        "name_exactly",
+        "not_archived",
+        "slug",
+        "title",
+        "updated_at",
+        "updated_by"
+      ],
+      "title": "Welcome2"
+    }
+  }
+}
