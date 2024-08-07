@@ -11,8 +11,6 @@ import java.io.IOException;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
-
-
 public class BrandTest extends BaseSetup {
     BrandAPIs brandAPIs = new BrandAPIs();
     final String GET_LIST_BRAND_SCHEMA = "Schema/Brand/get_list_brand_schema.json";

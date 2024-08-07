@@ -10,12 +10,14 @@ import static io.restassured.RestAssured.baseURI;
 
 public class BaseSetup {
     static Logger logger = Logger.getLogger("BaseSetup");
+    private static PropertiesReader reader;
+
 
     @BeforeSuite
     public static void setUp() throws IOException {
 
         String  env = (System.getProperty("env") == null) ? "dev" :System.getProperty("env");
-        PropertiesReader reader = new PropertiesReader("src/test/resources/environments/"+env+"-env.properties");
+        reader = new PropertiesReader("src/test/resources/environments/"+env+"-env.properties");
 
         baseURI = reader.getProperty("uri");
 
@@ -25,6 +27,12 @@ public class BaseSetup {
         logger.warning("BASE_PATH "+" "+env+" "+"Environment has been already created");
 
     }
+
+    public static PropertiesReader getPropertiesReader() {
+        return reader;
+    }
+
+
 
 
 }

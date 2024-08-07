@@ -8,15 +8,32 @@ import static io.restassured.RestAssured.basePath;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.baseURI;
 
+
 public class Authencation extends BaseSetup {
+
+
+    public static Authencation authencation;
+    public static String token;
+
     User user = new User();
 
-    public Authencation(){
+    // Hàm khỏi tạo sẽ được tạo một lần khi khỏi tạo class, nên là vẫn gán giá trị được bình thường
+    private Authencation() {
         user.setPassword("Lam@12345");
         user.setEmail("lamtt@younetgroup.com");
         user.setStrategy("local");
     }
-    public String getToken(){
+
+    //Phương thức tĩnh cung cấp thể hiện duy nhất của lớp. Nếu thể hiện chưa tồn tại, nó sẽ được tạo mới.
+    public static Authencation getInstance(){
+        if (authencation == null) {
+            authencation = new Authencation();
+        }
+        return authencation;
+    }
+
+
+    public  String getToken(){
 
         basePath = "";
         Response res = given().header("Content-Type", "application/json").body(user).when().post("/authentication");
@@ -27,8 +44,11 @@ public class Authencation extends BaseSetup {
         JsonPath jsonPath = res.jsonPath();
         System.out.println("Token "+ jsonPath.getString("accessToken"));
 
-        return jsonPath.getString("accessToken");
+        token = jsonPath.getString("accessToken");
+
+        return token;
 
 
     }
+
 }

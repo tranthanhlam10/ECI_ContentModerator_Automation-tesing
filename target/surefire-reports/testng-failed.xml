@@ -5,20 +5,17 @@
     <classes>
       <class name="Tests.ProductLineTest">
         <methods>
-          <include name="getListProductLineDefaultValidation"/>
           <include name="deleteProductLineValidation"/>
           <include name="updateProductLineValidation"/>
           <include name="setProductLineApis"/>
           <include name="setUp"/>
+          <include name="createProductLineValidation"/>
         </methods>
       </class> <!-- Tests.ProductLineTest -->
       <class name="Tests.BrandTest">
         <methods>
-          <include name="createBrandValidation"/>
-          <include name="getListBrandDefaultValidation"/>
           <include name="setBrandApis"/>
           <include name="updateBrandValidation"/>
-          <include name="deleteBrandValidation"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- Tests.BrandTest -->
@@ -28,7 +25,6 @@
           <include name="getListModelDefaultValidation"/>
           <include name="setUp"/>
           <include name="deleteModelValidation"/>
-          <include name="createModelValidation"/>
           <include name="setModelApis"/>
         </methods>
       </class> <!-- Tests.ModelTest -->

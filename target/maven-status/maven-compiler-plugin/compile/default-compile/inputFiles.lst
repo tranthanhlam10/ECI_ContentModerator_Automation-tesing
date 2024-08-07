@@ -1,10 +1,13 @@
 /Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/utils/PropertiesReader.java
-/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/ObjectResponse/BrandResponse.java
 /Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/Objects/ProductLine.java
-/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/Objects/User.java
-/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/ObjectResponse/ManufacturerResponse.java
-/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/ObjectResponse/UserResponse.java
 /Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/Objects/Model.java
 /Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/Objects/Model_Update.java
 /Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/utils/RandomString.java
+/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/ObjectResponse/BrandResponse.java
+/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/Objects/User.java
+/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/ObjectResponse/ManufacturerResponse.java
+/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/ObjectResponse/ModelResponse.java
+/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/ObjectResponse/UserResponse.java
 /Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/Objects/Brand.java
+/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/ObjectResponse/ProductLineResponse.java
+/Users/tranthanhlam/Desktop/ECI_ContentModerator_Automation tesing/src/main/java/ObjectResponse/IndustryResponse.java

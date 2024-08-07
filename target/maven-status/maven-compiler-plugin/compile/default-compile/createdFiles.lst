@@ -1,10 +1,13 @@
-Objects/Model_Update.class
 Objects/User.class
 Objects/Model.class
-utils/PropertiesReader.class
-ObjectResponse/ManufacturerResponse.class
-Objects/Brand.class
+ObjectResponse/IndustryResponse.class
 Objects/ProductLine.class
 ObjectResponse/UserResponse.class
+Objects/Model_Update.class
+utils/PropertiesReader.class
+ObjectResponse/ModelResponse.class
+ObjectResponse/ManufacturerResponse.class
+Objects/Brand.class
+ObjectResponse/ProductLineResponse.class
 utils/RandomString.class
 ObjectResponse/BrandResponse.class

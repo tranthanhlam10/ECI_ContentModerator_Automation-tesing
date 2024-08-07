@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="11" name="TestSuite" time="6.475" errors="0" skipped="0">
+<testsuite tests="12" failures="7" name="TestSuite" time="8.076" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2023.1.7"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -65,8 +65,95 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="Tests.ProductLineTest" name="createProductLineValidation" time="1.617"/>
-  <testcase classname="Tests.ProductLineTest" name="deleteProductLineValidation" time="0.316">
+  <testcase classname="Tests.ProductLineTest" name="createProductLineValidation" time="1.548">
+    <failure message="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;name&quot; (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: &quot;id&quot;])
+ at [Source: (String)&quot;{&quot;id&quot;:36796,&quot;name&quot;:&quot;Lam Test Product Line Automation 7Oh2l&quot;,&quot;slug&quot;:null,&quot;brand_id&quot;:1,&quot;industry_id&quot;:1,&quot;created_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;updated_by&quot;:5812,&quot;deleted_at&quot;:null,&quot;brand&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Samsung&quot;,&quot;slug&quot;:&quot;samsung&quot;,&quot;manufacturer_id&quot;:210,&quot;created_at&quot;:&quot;2022-08-04T15:54:34.512Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-03-07T04:19:11.162Z&quot;,&quot;updated_by&quot;:5527,&quot;is_active&quot;:1,&quot;name_exactly&quot;:&quot;samsung&quot;,&quot;not_archived&quot;:1,&quot;title&quot;:&quot;Samsung&quot;},&quot;i&quot;[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse[&quot;name&quot;])" type="java.lang.RuntimeException">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;name&quot; (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: &quot;id&quot;])
+ at [Source: (String)&quot;{&quot;id&quot;:36796,&quot;name&quot;:&quot;Lam Test Product Line Automation 7Oh2l&quot;,&quot;slug&quot;:null,&quot;brand_id&quot;:1,&quot;industry_id&quot;:1,&quot;created_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;updated_by&quot;:5812,&quot;deleted_at&quot;:null,&quot;brand&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Samsung&quot;,&quot;slug&quot;:&quot;samsung&quot;,&quot;manufacturer_id&quot;:210,&quot;created_at&quot;:&quot;2022-08-04T15:54:34.512Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-03-07T04:19:11.162Z&quot;,&quot;updated_by&quot;:5527,&quot;is_active&quot;:1,&quot;name_exactly&quot;:&quot;samsung&quot;,&quot;not_archived&quot;:1,&quot;title&quot;:&quot;Samsung&quot;},&quot;i&quot;[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse[&quot;name&quot;])
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
+	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
+	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
+	at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
+	at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
+	at Tests.ProductLineTest.createProductLineValidation(ProductLineTest.java:45)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;name&quot; (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: &quot;id&quot;])
+ at [Source: (String)&quot;{&quot;id&quot;:36796,&quot;name&quot;:&quot;Lam Test Product Line Automation 7Oh2l&quot;,&quot;slug&quot;:null,&quot;brand_id&quot;:1,&quot;industry_id&quot;:1,&quot;created_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;updated_by&quot;:5812,&quot;deleted_at&quot;:null,&quot;brand&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Samsung&quot;,&quot;slug&quot;:&quot;samsung&quot;,&quot;manufacturer_id&quot;:210,&quot;created_at&quot;:&quot;2022-08-04T15:54:34.512Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-03-07T04:19:11.162Z&quot;,&quot;updated_by&quot;:5527,&quot;is_active&quot;:1,&quot;name_exactly&quot;:&quot;samsung&quot;,&quot;not_archived&quot;:1,&quot;title&quot;:&quot;Samsung&quot;},&quot;i&quot;[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse[&quot;name&quot;])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1709)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1687)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
+	... 39 more
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@30c7da1e
+http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjIsImV4cCI6MTcyNTM3NzQ2MiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjM3YmE5ZDcyLThkMzgtNDRlMC05MzZhLWNlMzA5ODg5ZjBkYiJ9.7ePE6GjqwI2a33NyrypFzCD6yyYYUs2mcNf-Xz_pHic
+{
+    &quot;id&quot;: 36796,
+    &quot;name&quot;: &quot;Lam Test Product Line Automation 7Oh2l&quot;,
+    &quot;slug&quot;: null,
+    &quot;brand_id&quot;: 1,
+    &quot;industry_id&quot;: 1,
+    &quot;created_at&quot;: &quot;2024-08-04T15:31:02.000Z&quot;,
+    &quot;created_by&quot;: 5812,
+    &quot;updated_at&quot;: &quot;2024-08-04T15:31:02.000Z&quot;,
+    &quot;updated_by&quot;: 5812,
+    &quot;deleted_at&quot;: null,
+    &quot;brand&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Samsung&quot;,
+        &quot;slug&quot;: &quot;samsung&quot;,
+        &quot;manufacturer_id&quot;: 210,
+        &quot;created_at&quot;: &quot;2022-08-04T15:54:34.512Z&quot;,
+        &quot;created_by&quot;: 5812,
+        &quot;updated_at&quot;: &quot;2024-03-07T04:19:11.162Z&quot;,
+        &quot;updated_by&quot;: 5527,
+        &quot;is_active&quot;: 1,
+        &quot;name_exactly&quot;: &quot;samsung&quot;,
+        &quot;not_archived&quot;: 1,
+        &quot;title&quot;: &quot;Samsung&quot;
+    },
+    &quot;industry&quot;: {
+        &quot;id&quot;: 1,
+        &quot;code&quot;: &quot;HP&quot;,
+        &quot;name&quot;: &quot;Hand Phone&quot;,
+        &quot;slug&quot;: &quot;handphone&quot;,
+        &quot;spam_query&quot;: &quot;[\&quot;search_text:((dây AND (đeo da thép \\\&quot;đồng hồ\\\&quot; \\\&quot;apple watch\\\&quot; \\\&quot;thay thế\\\&quot;)) (\\\&quot;thay\\\&quot; AND (pin nắp \\\&quot;mặt kính\\\&quot; \\\&quot;màn hình\\\&quot;)) (\\\&quot;màn hình\\\&quot; AND (\\\&quot;miếng dán\\\&quot;)) (vỏ AND (\\\&quot;samsung\\\&quot; \\\&quot;iphone\\\&quot; \\\&quot;oppo\\\&quot; sườn độ )) \\\&quot;viền bảo vệ\\\&quot; \\\&quot;đế sạc\\\&quot; \\\&quot;đèn để bàn\\\&quot; \\\&quot;bóc máy\\\&quot; \\\&quot;cường lực\\\&quot; \\\&quot;tông đơ hớt tóc\\\&quot; \\\&quot;tv box\\\&quot; MAINBOARD \\\&quot;cốc sạc\\\&quot; \\\&quot;bóc máy\\\&quot; \\\&quot;miếng dán cường lực\\\&quot; \\\&quot;ppf\\\&quot; \\\&quot;bao da\\\&quot; \\\&quot;son môi\\\&quot; \\\&quot; Camera hành trình\\\&quot; \\\&quot;kính đọc sách\\\&quot; \\\&quot;máy đọc sách\\\&quot; \\\&quot;skin dán\\\&quot; \\\&quot;ốp lưng\\\&quot; \\\&quot;king kong\\\&quot; \\\&quot;kingkong\\\&quot; \\\&quot;remax\\\&quot; \\\&quot;bo mạch\\\&quot; \\\&quot;bộ sạc\\\&quot; \\\&quot;ổ cứng\\\&quot; \\\&quot;củ sạc\\\&quot; \\\&quot;ốp nhựa\\\&quot; \\\&quot;ốp điện thoại\\\&quot; \\\&quot;ốp đt\\\&quot; \\\&quot;tai nghe\\\&quot; \\\&quot;phụ kiện\\\&quot; case cover \\\&quot;sạc dự phòng\\\&quot; \\\&quot;miếng dán mh\\\&quot; \\\&quot;cáp sạc\\\&quot; \\\&quot;dây sạc\\\&quot; \\\&quot;bộ sạc\\\&quot; \\\&quot;mạch\\\&quot; \\\&quot;hư\\\&quot; \\\&quot;xác\\\&quot; \\\&quot;simđt\\\&quot; \\\&quot;kích sim\\\&quot; \\\&quot;main\\\&quot; \\\&quot;mạch\\\&quot; \\\&quot;ốp\\\&quot;)\&quot;,\&quot;-search_text:(\\\&quot;tặng\\\&quot; \\\&quot;kèm\\\&quot; \\\&quot;có sẵn\\\&quot; \\\&quot;combo\\\&quot; \\\&quot;full\\\&quot; \\\&quot;fullbox\\\&quot; ((đủ có) AND \\\&quot;phụ kiện\\\&quot;) \\\&quot;chính hãng\\\&quot; \\\&quot;nhập khẩu\\\&quot; \\\&quot;chưa kích hoạt\\\&quot; \\\&quot;quốc tế\\\&quot; \\\&quot;hàng mới\\\&quot; \\\&quot;màn vô cực\\\&quot; \\\&quot;màn tràn viền\\\&quot;)\&quot;]&quot;,
+        &quot;is_model_ready&quot;: 1,
+        &quot;created_at&quot;: &quot;2022-06-27T09:34:17.438Z&quot;,
+        &quot;created_by&quot;: null,
+        &quot;updated_at&quot;: &quot;2023-09-11T10:10:01.825Z&quot;,
+        &quot;updated_by&quot;: null
+    },
+    &quot;createdBy&quot;: {
+        &quot;id&quot;: 5812,
+        &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
+        &quot;fullname&quot;: &quot;Lâm TT&quot;
+    },
+    &quot;updatedBy&quot;: {
+        &quot;id&quot;: 5812,
+        &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
+        &quot;fullname&quot;: &quot;Lâm TT&quot;
+    }
+}
+</system-out>
+    <system-err>SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 04, 2024 10:31:01 PM APIs.BaseSetup setUp
+WARNING: BASE_URL in http://sl-api-eci-v1-20-0.datatrend.io Environment has been created
+Aug 04, 2024 10:31:01 PM APIs.BaseSetup setUp
+WARNING: BASE_URL in dev Environment has been created
+Aug 04, 2024 10:31:01 PM APIs.BaseSetup setUp
+WARNING: BASE_PATH  dev Environment has been already created
+</system-err>
+  </testcase>
+  <testcase classname="Tests.ProductLineTest" name="deleteProductLineValidation" time="0.569">
     <failure message="1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;404&gt;.
 " type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
@@ -81,6 +168,9 @@ Expected status code &lt;201&gt; but was &lt;404&gt;.
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
 	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -88,24 +178,26 @@ Expected status code &lt;201&gt; but was &lt;404&gt;.
 	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ProductLineTest.deleteProductLineValidation(ProductLineTest.java:65)
+	at Tests.ProductLineTest.deleteProductLineValidation(ProductLineTest.java:72)
 </failure>
     <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjA5ODI1MTgsImV4cCI6MTcyMzU3NDUxOCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjcxOTllNmVjLWJlYjAtNGQ4ZC05ZGE4LTA2ZmZiYmI0MzRkOSJ9.DBrDp5RhuuYe7n4NTmKPo8tCmO_iQ22Hpjk1ubqbJ00
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjIsImV4cCI6MTcyNTM3NzQ2MiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6Ijg2YTdhNGFkLWM4MGQtNGNkNy04MWU2LTNjY2ViNTRmNGIxMyJ9.5nnjZgAGscvxiJ64V93wU3PWMwcnq0pUEMzzZiu9BMo
 {
     &quot;error&quot;: {
         &quot;name&quot;: &quot;NotFound&quot;,
-        &quot;message&quot;: &quot;Page not found&quot;,
+        &quot;message&quot;: &quot;No record found for id &apos;0&apos;&quot;,
         &quot;code&quot;: 404,
         &quot;className&quot;: &quot;not-found&quot;,
-        &quot;data&quot;: {
-            &quot;url&quot;: &quot;/product-lines/9630&quot;
-        },
         &quot;errors&quot;: {
             
         }
@@ -113,52 +205,8 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 </system-out>
   </testcase>
-  <testcase classname="Tests.ProductLineTest" name="getListProductLineDefaultValidation" time="0.383">
-    <failure message="1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ProductLineTest.getListProductLineDefaultValidation(ProductLineTest.java:31)
-</failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjA5ODI1MTksImV4cCI6MTcyMzU3NDUxOSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjBjYzA3ZTU1LTg3NzAtNGJhZC1hODFmLTA5NzExMDRkZDdlNiJ9.5v4e0tbxKEx8iumJ6X24hp8dkvB6GG7G3HDgSfGsDLI
-{
-    &quot;error&quot;: {
-        &quot;name&quot;: &quot;NotFound&quot;,
-        &quot;message&quot;: &quot;Page not found&quot;,
-        &quot;code&quot;: 404,
-        &quot;className&quot;: &quot;not-found&quot;,
-        &quot;data&quot;: {
-            &quot;url&quot;: &quot;/product-lines&quot;
-        },
-        &quot;errors&quot;: {
-            
-        }
-    }
-}
-</system-out>
-  </testcase>
-  <testcase classname="Tests.ProductLineTest" name="updateProductLineValidation" time="0.259">
+  <testcase classname="Tests.ProductLineTest" name="getListProductLineDefaultValidation" time="1.424"/>
+  <testcase classname="Tests.ProductLineTest" name="updateProductLineValidation" time="0.509">
     <failure message="1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;404&gt;.
 " type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
@@ -183,19 +231,16 @@ Expected status code &lt;201&gt; but was &lt;404&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ProductLineTest.updateProductLineValidation(ProductLineTest.java:52)
+	at Tests.ProductLineTest.updateProductLineValidation(ProductLineTest.java:59)
 </failure>
     <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjA5ODI1MTksImV4cCI6MTcyMzU3NDUxOSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjNjMjIwNmQ4LTY4N2ItNGY2YS1hOGY5LWQwNWJjNzkyZDQ5MCJ9.ZSf6k4nLOdyVkztXuQNG9TdSVh8BLcTk_1-bGfSmmGU
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjQsImV4cCI6MTcyNTM3NzQ2NCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImM0YjU3N2E0LTA1MWYtNDE5Yy1hMTViLTI5YWEzYzQ4ZTNiMiJ9.ZCXM4b5o1eBfE1QbaAMDiM0hgKeuDHefuxXLxNHfMwU
 {
     &quot;error&quot;: {
         &quot;name&quot;: &quot;NotFound&quot;,
-        &quot;message&quot;: &quot;Page not found&quot;,
+        &quot;message&quot;: &quot;No record found for id &apos;0&apos;&quot;,
         &quot;code&quot;: 404,
         &quot;className&quot;: &quot;not-found&quot;,
-        &quot;data&quot;: {
-            &quot;url&quot;: &quot;/product-lines/9622?%24eager=%5Bbrand%2Cindustry%5D&quot;
-        },
         &quot;errors&quot;: {
             
         }
@@ -203,140 +248,10 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 </system-out>
   </testcase>
-  <testcase classname="Tests.BrandTest" name="createBrandValidation" time="0.309">
-    <failure message="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;error&quot; (class ObjectResponse.BrandResponse), not marked as ignorable (16 known properties: &quot;manufacturer_id&quot;, &quot;created_at&quot;, &quot;name&quot;, &quot;created_by&quot;, &quot;manufacturer&quot;, &quot;updatedBy&quot;, &quot;updated_at&quot;, &quot;name_exactly&quot;, &quot;deleted_at&quot;, &quot;id&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;not_archived&quot;, &quot;title&quot;, &quot;updated_by&quot;, &quot;is_active&quot;])
- at [Source: (String)&quot;{&quot;error&quot;:{&quot;name&quot;:&quot;NotFound&quot;,&quot;message&quot;:&quot;Page not found&quot;,&quot;code&quot;:404,&quot;className&quot;:&quot;not-found&quot;,&quot;data&quot;:{&quot;url&quot;:&quot;/brands?%24eager=%5Bmanufacturer%5D&quot;},&quot;errors&quot;:{}}}&quot;; line: 1, column: 11] (through reference chain: ObjectResponse.BrandResponse[&quot;error&quot;])" type="java.lang.RuntimeException">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;error&quot; (class ObjectResponse.BrandResponse), not marked as ignorable (16 known properties: &quot;manufacturer_id&quot;, &quot;created_at&quot;, &quot;name&quot;, &quot;created_by&quot;, &quot;manufacturer&quot;, &quot;updatedBy&quot;, &quot;updated_at&quot;, &quot;name_exactly&quot;, &quot;deleted_at&quot;, &quot;id&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;not_archived&quot;, &quot;title&quot;, &quot;updated_by&quot;, &quot;is_active&quot;])
- at [Source: (String)&quot;{&quot;error&quot;:{&quot;name&quot;:&quot;NotFound&quot;,&quot;message&quot;:&quot;Page not found&quot;,&quot;code&quot;:404,&quot;className&quot;:&quot;not-found&quot;,&quot;data&quot;:{&quot;url&quot;:&quot;/brands?%24eager=%5Bmanufacturer%5D&quot;},&quot;errors&quot;:{}}}&quot;; line: 1, column: 11] (through reference chain: ObjectResponse.BrandResponse[&quot;error&quot;])
-	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
-	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
-	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
-	at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
-	at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
-	at Tests.BrandTest.createBrandValidation(BrandTest.java:46)
-Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;error&quot; (class ObjectResponse.BrandResponse), not marked as ignorable (16 known properties: &quot;manufacturer_id&quot;, &quot;created_at&quot;, &quot;name&quot;, &quot;created_by&quot;, &quot;manufacturer&quot;, &quot;updatedBy&quot;, &quot;updated_at&quot;, &quot;name_exactly&quot;, &quot;deleted_at&quot;, &quot;id&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;not_archived&quot;, &quot;title&quot;, &quot;updated_by&quot;, &quot;is_active&quot;])
- at [Source: (String)&quot;{&quot;error&quot;:{&quot;name&quot;:&quot;NotFound&quot;,&quot;message&quot;:&quot;Page not found&quot;,&quot;code&quot;:404,&quot;className&quot;:&quot;not-found&quot;,&quot;data&quot;:{&quot;url&quot;:&quot;/brands?%24eager=%5Bmanufacturer%5D&quot;},&quot;errors&quot;:{}}}&quot;; line: 1, column: 11] (through reference chain: ObjectResponse.BrandResponse[&quot;error&quot;])
-	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
-	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
-	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
-	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1709)
-	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1687)
-	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320)
-	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
-	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
-	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
-	... 39 more
-</failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjA5ODI1MTksImV4cCI6MTcyMzU3NDUxOSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImJjYzQ5NTQzLTJjZWEtNGIzNi04MWFlLWE3MDFkZWE4OGNjYSJ9.cSBgvU44HGeY5LvgRTaw-Jrs9Jr8_LdxBXyfQ6Ek3Po
-{
-    &quot;error&quot;: {
-        &quot;name&quot;: &quot;NotFound&quot;,
-        &quot;message&quot;: &quot;Page not found&quot;,
-        &quot;code&quot;: 404,
-        &quot;className&quot;: &quot;not-found&quot;,
-        &quot;data&quot;: {
-            &quot;url&quot;: &quot;/brands?%24eager=%5Bmanufacturer%5D&quot;
-        },
-        &quot;errors&quot;: {
-            
-        }
-    }
-}
-</system-out>
-  </testcase>
-  <testcase classname="Tests.BrandTest" name="deleteBrandValidation" time="0.645">
-    <failure message="1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.BrandTest.deleteBrandValidation(BrandTest.java:71)
-</failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjA5ODI1MjAsImV4cCI6MTcyMzU3NDUyMCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjdjNGQ3MGIzLTVjODItNDc4MS1iYzgyLTI4ZWRkNzdiZDM4YyJ9.eWdCwP8v2D_JZZ16GQ0r5dpmgzxCmIpgO2A9PT8DznM
-{
-    &quot;error&quot;: {
-        &quot;name&quot;: &quot;NotFound&quot;,
-        &quot;message&quot;: &quot;Page not found&quot;,
-        &quot;code&quot;: 404,
-        &quot;className&quot;: &quot;not-found&quot;,
-        &quot;data&quot;: {
-            &quot;url&quot;: &quot;/brands/0&quot;
-        },
-        &quot;errors&quot;: {
-            
-        }
-    }
-}
-</system-out>
-  </testcase>
-  <testcase classname="Tests.BrandTest" name="getListBrandDefaultValidation" time="0.887">
-    <failure message="1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.BrandTest.getListBrandDefaultValidation(BrandTest.java:36)
-</failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjA5ODI1MjAsImV4cCI6MTcyMzU3NDUyMCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImU2NjNhZGQ3LWU4OTctNGQyYy05MmZkLTM1MmQxNTQ3MDViNSJ9.yyItalijIhRa7MeSsG9DbCndJzyrjl19GX84op5IqC8
-{
-    &quot;error&quot;: {
-        &quot;name&quot;: &quot;NotFound&quot;,
-        &quot;message&quot;: &quot;Page not found&quot;,
-        &quot;code&quot;: 404,
-        &quot;className&quot;: &quot;not-found&quot;,
-        &quot;data&quot;: {
-            &quot;url&quot;: &quot;/brands&quot;
-        },
-        &quot;errors&quot;: {
-            
-        }
-    }
-}
-</system-out>
-  </testcase>
-  <testcase classname="Tests.BrandTest" name="updateBrandValidation" time="0.457">
+  <testcase classname="Tests.BrandTest" name="createBrandValidation" time="0.764"/>
+  <testcase classname="Tests.BrandTest" name="deleteBrandValidation" time="0.609"/>
+  <testcase classname="Tests.BrandTest" name="getListBrandDefaultValidation" time="0.573"/>
+  <testcase classname="Tests.BrandTest" name="updateBrandValidation" time="0.296">
     <failure message="1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 " type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
@@ -364,16 +279,13 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at Tests.BrandTest.updateBrandValidation(BrandTest.java:60)
 </failure>
     <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjA5ODI1MjEsImV4cCI6MTcyMzU3NDUyMSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImMxYzlmYWFlLTRmZDgtNDJkNC04NTRiLWU4MTRmOTk0NjRjMCJ9.8mmm0syUwV64RhXUZzmhG6ase56eX60Zuy9IwhCN-Zw
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjcsImV4cCI6MTcyNTM3NzQ2NywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6Ijc5ZDllYjE4LTRhYTAtNDFjOS1hMmJhLWM0OTY5Y2ViMWE2MyJ9.iheNjT0tX8kLwYdBglzy-v6Z6eAbVmGehRItKevoMQ0
 {
     &quot;error&quot;: {
         &quot;name&quot;: &quot;NotFound&quot;,
-        &quot;message&quot;: &quot;Page not found&quot;,
+        &quot;message&quot;: &quot;No record found for id &apos;18127250&apos;&quot;,
         &quot;code&quot;: 404,
         &quot;className&quot;: &quot;not-found&quot;,
-        &quot;data&quot;: {
-            &quot;url&quot;: &quot;/brands/0?%24eager=%5Bmanufacturer%5D&quot;
-        },
         &quot;errors&quot;: {
             
         }
@@ -381,67 +293,8 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 </system-out>
   </testcase>
-  <testcase classname="Tests.ModelTest" name="createModelValidation" time="0.299">
-    <failure message="1 expectation failed.
-Expected status code &lt;201&gt; but was &lt;404&gt;.
-" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;201&gt; but was &lt;404&gt;.
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ModelTest.createModelValidation(ModelTest.java:45)
-</failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjA5ODI1MjIsImV4cCI6MTcyMzU3NDUyMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImVjZWFmYzNhLWRiZDMtNDBmYi04NzFhLTk2NzE5NDg4MTA4MyJ9.XX2ZtiS5bK1_RfCLqXrovkYzcVmn0V_wS_eQRRqb1-Q
-{
-    &quot;error&quot;: {
-        &quot;name&quot;: &quot;NotFound&quot;,
-        &quot;message&quot;: &quot;Page not found&quot;,
-        &quot;code&quot;: 404,
-        &quot;className&quot;: &quot;not-found&quot;,
-        &quot;data&quot;: {
-            &quot;url&quot;: &quot;/models?%24eager=product_line.%5Bbrand%2Cindustry%5D&quot;
-        },
-        &quot;errors&quot;: {
-            
-        }
-    }
-}
-</system-out>
-  </testcase>
-  <testcase classname="Tests.ModelTest" name="deleteModelValidation" time="0.421">
-    <failure message="expected [201] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: expected [201] but found [404]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1419)
-	at org.testng.Assert.assertEquals(Assert.java:1383)
-	at org.testng.Assert.assertEquals(Assert.java:1429)
-	at Tests.ModelTest.deleteModelValidation(ModelTest.java:68)
-</failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjA5ODI1MjIsImV4cCI6MTcyMzU3NDUyMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImNmNzY0ZjEwLWU4ODctNDAxMi05NTliLTIwNzVjYjQ3ZDRlMyJ9.0g3S0jMglgS7qsvb07HYzhg-uLT0voCprLgqEka5aTg
-</system-out>
-  </testcase>
-  <testcase classname="Tests.ModelTest" name="getListModelDefaultValidation" time="0.575">
+  <testcase classname="Tests.ModelTest" name="createModelValidation" time="0.45"/>
+  <testcase classname="Tests.ModelTest" name="deleteModelValidation" time="0.436">
     <failure message="1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 " type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
@@ -466,31 +319,298 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ModelTest.getListModelDefaultValidation(ModelTest.java:34)
+	at Tests.ModelTest.deleteModelValidation(ModelTest.java:74)
 </failure>
     <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjA5ODI1MjIsImV4cCI6MTcyMzU3NDUyMiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjQwOWRjYzBmLTIxOTItNDJmOC1iYjBmLTBmMDY2NjlkNmZiYSJ9.eVq6hXD2eCy37V2tDqEhZUDB1Vs6btmtZfq7sYz1c7M
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjgsImV4cCI6MTcyNTM3NzQ2OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjdjYWNiYzcyLTg5ZWQtNDI2NC1iODAzLTVlNjg2MzA1YTg3NSJ9.FbuDKlCLyzl9yyJ8c1pFU4ArSSECIHBA9Rovywl1Jds
+</system-out>
+  </testcase>
+  <testcase classname="Tests.ModelTest" name="getListModelDefaultValidation" time="0.491">
+    <failure message="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;total&quot; (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: &quot;productLine&quot;, &quot;queryExactly&quot;, &quot;query&quot;, &quot;productId&quot;, &quot;name&quot;, &quot;deletedAt&quot;, &quot;displayName&quot;, &quot;updatedAt&quot;, &quot;updatedBy&quot;, &quot;id&quot;, &quot;updatedByUser&quot;, &quot;productLineId&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;createdAt&quot;, &quot;createdByUser&quot;])
+ at [Source: (String)&quot;{&quot;total&quot;:21951,&quot;limit&quot;:10,&quot;skip&quot;:0,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Galaxy S21&quot;,&quot;display_name&quot;:&quot;Galaxy S21&quot;,&quot;query&quot;:null,&quot;query_exactly&quot;:0,&quot;is_model_deleted&quot;:&quot;0&quot;,&quot;created_by&quot;:null,&quot;created_at&quot;:&quot;2022-08-04T15:54:35.222Z&quot;,&quot;updated_by&quot;:6145,&quot;updated_at&quot;:&quot;2024-03-27T09:31:58.752Z&quot;,&quot;deleted_at&quot;:null,&quot;product_line_id&quot;:1,&quot;product_line_name&quot;:&quot;Galaxy S21+&quot;,&quot;is_product_line_deleted&quot;:&quot;0&quot;,&quot;brand_id&quot;:1,&quot;brand_name&quot;:&quot;Samsung&quot;,&quot;is_brand_deleted&quot;:&quot;0&quot;,&quot;industry_id&quot;:1,&quot;industry_name&quot;:&quot;Hand Phone&quot;,&quot;is_industry_deleted&quot;:&quot;0&quot;&quot;[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse[&quot;total&quot;])" type="java.lang.RuntimeException">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;total&quot; (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: &quot;productLine&quot;, &quot;queryExactly&quot;, &quot;query&quot;, &quot;productId&quot;, &quot;name&quot;, &quot;deletedAt&quot;, &quot;displayName&quot;, &quot;updatedAt&quot;, &quot;updatedBy&quot;, &quot;id&quot;, &quot;updatedByUser&quot;, &quot;productLineId&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;createdAt&quot;, &quot;createdByUser&quot;])
+ at [Source: (String)&quot;{&quot;total&quot;:21951,&quot;limit&quot;:10,&quot;skip&quot;:0,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Galaxy S21&quot;,&quot;display_name&quot;:&quot;Galaxy S21&quot;,&quot;query&quot;:null,&quot;query_exactly&quot;:0,&quot;is_model_deleted&quot;:&quot;0&quot;,&quot;created_by&quot;:null,&quot;created_at&quot;:&quot;2022-08-04T15:54:35.222Z&quot;,&quot;updated_by&quot;:6145,&quot;updated_at&quot;:&quot;2024-03-27T09:31:58.752Z&quot;,&quot;deleted_at&quot;:null,&quot;product_line_id&quot;:1,&quot;product_line_name&quot;:&quot;Galaxy S21+&quot;,&quot;is_product_line_deleted&quot;:&quot;0&quot;,&quot;brand_id&quot;:1,&quot;brand_name&quot;:&quot;Samsung&quot;,&quot;is_brand_deleted&quot;:&quot;0&quot;,&quot;industry_id&quot;:1,&quot;industry_name&quot;:&quot;Hand Phone&quot;,&quot;is_industry_deleted&quot;:&quot;0&quot;&quot;[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse[&quot;total&quot;])
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
+	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
+	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
+	at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
+	at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
+	at Tests.ModelTest.getListModelDefaultValidation(ModelTest.java:38)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;total&quot; (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: &quot;productLine&quot;, &quot;queryExactly&quot;, &quot;query&quot;, &quot;productId&quot;, &quot;name&quot;, &quot;deletedAt&quot;, &quot;displayName&quot;, &quot;updatedAt&quot;, &quot;updatedBy&quot;, &quot;id&quot;, &quot;updatedByUser&quot;, &quot;productLineId&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;createdAt&quot;, &quot;createdByUser&quot;])
+ at [Source: (String)&quot;{&quot;total&quot;:21951,&quot;limit&quot;:10,&quot;skip&quot;:0,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Galaxy S21&quot;,&quot;display_name&quot;:&quot;Galaxy S21&quot;,&quot;query&quot;:null,&quot;query_exactly&quot;:0,&quot;is_model_deleted&quot;:&quot;0&quot;,&quot;created_by&quot;:null,&quot;created_at&quot;:&quot;2022-08-04T15:54:35.222Z&quot;,&quot;updated_by&quot;:6145,&quot;updated_at&quot;:&quot;2024-03-27T09:31:58.752Z&quot;,&quot;deleted_at&quot;:null,&quot;product_line_id&quot;:1,&quot;product_line_name&quot;:&quot;Galaxy S21+&quot;,&quot;is_product_line_deleted&quot;:&quot;0&quot;,&quot;brand_id&quot;:1,&quot;brand_name&quot;:&quot;Samsung&quot;,&quot;is_brand_deleted&quot;:&quot;0&quot;,&quot;industry_id&quot;:1,&quot;industry_name&quot;:&quot;Hand Phone&quot;,&quot;is_industry_deleted&quot;:&quot;0&quot;&quot;[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse[&quot;total&quot;])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1709)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1687)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
+	... 39 more
+</failure>
+    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjgsImV4cCI6MTcyNTM3NzQ2OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImQ3MmNlMmNkLTA0MGItNDU5Ni05OTRiLTcwZGNiNmQ4ZmI2MyJ9.s8rjQZDKuHMFrOpKh0yr-i91h82yFsPjUTaAou255_0
 {
-    &quot;error&quot;: {
-        &quot;name&quot;: &quot;NotFound&quot;,
-        &quot;message&quot;: &quot;Page not found&quot;,
-        &quot;code&quot;: 404,
-        &quot;className&quot;: &quot;not-found&quot;,
-        &quot;data&quot;: {
-            &quot;url&quot;: &quot;/view-product-models&quot;
+    &quot;total&quot;: 21951,
+    &quot;limit&quot;: 10,
+    &quot;skip&quot;: 0,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Galaxy S21&quot;,
+            &quot;display_name&quot;: &quot;Galaxy S21&quot;,
+            &quot;query&quot;: null,
+            &quot;query_exactly&quot;: 0,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: 6145,
+            &quot;updated_at&quot;: &quot;2024-03-27T09:31:58.752Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_line_id&quot;: 1,
+            &quot;product_line_name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 1,
+            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;
         },
-        &quot;errors&quot;: {
-            
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;GS_Galaxy S21+&quot;,
+            &quot;display_name&quot;: &quot;Galaxy S21+++&quot;,
+            &quot;query&quot;: null,
+            &quot;query_exactly&quot;: 0,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: 6094,
+            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_line_id&quot;: 6,
+            &quot;product_line_name&quot;: &quot;Iphone 12 +++&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 3,
+            &quot;brand_name&quot;: &quot;Realme&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Galaxy S21 Ultra&quot;,
+            &quot;display_name&quot;: &quot;Galaxy S21 Ultra&quot;,
+            &quot;query&quot;: null,
+            &quot;query_exactly&quot;: 0,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: 2247,
+            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_line_id&quot;: 9544,
+            &quot;product_line_name&quot;: &quot;p1-3-test&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;1&quot;,
+            &quot;brand_id&quot;: 4939,
+            &quot;brand_name&quot;: &quot;Ngân debug 12&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;,
+            &quot;updatedBy&quot;: {
+                &quot;id&quot;: 2247,
+                &quot;email&quot;: &quot;nganltk@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Le Thi Kim Ngan&quot;
+            }
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;name&quot;: &quot;Galaxy S20 FE&quot;,
+            &quot;display_name&quot;: &quot;Galaxy S20 FE&quot;,
+            &quot;query&quot;: null,
+            &quot;query_exactly&quot;: 0,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: 5812,
+            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_line_id&quot;: 1,
+            &quot;product_line_name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 1,
+            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;,
+            &quot;updatedBy&quot;: {
+                &quot;id&quot;: 5812,
+                &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Lâm TT&quot;
+            }
+        },
+        {
+            &quot;id&quot;: 5,
+            &quot;name&quot;: &quot;Galaxy S20&quot;,
+            &quot;display_name&quot;: &quot;Galaxy S20&quot;,
+            &quot;query&quot;: null,
+            &quot;query_exactly&quot;: 0,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: 5812,
+            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_line_id&quot;: 1,
+            &quot;product_line_name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 1,
+            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;,
+            &quot;updatedBy&quot;: {
+                &quot;id&quot;: 5812,
+                &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Lâm TT&quot;
+            }
+        },
+        {
+            &quot;id&quot;: 6,
+            &quot;name&quot;: &quot;Galaxy S10&quot;,
+            &quot;display_name&quot;: &quot;Galaxy S10&quot;,
+            &quot;query&quot;: null,
+            &quot;query_exactly&quot;: 0,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: 5812,
+            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_line_id&quot;: 1,
+            &quot;product_line_name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 1,
+            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;,
+            &quot;updatedBy&quot;: {
+                &quot;id&quot;: 5812,
+                &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Lâm TT&quot;
+            }
+        },
+        {
+            &quot;id&quot;: 7,
+            &quot;name&quot;: &quot;Galaxy S10e&quot;,
+            &quot;display_name&quot;: &quot;Galaxy S10e&quot;,
+            &quot;query&quot;: null,
+            &quot;query_exactly&quot;: 0,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: 5812,
+            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_line_id&quot;: 1,
+            &quot;product_line_name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 1,
+            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;,
+            &quot;updatedBy&quot;: {
+                &quot;id&quot;: 5812,
+                &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Lâm TT&quot;
+            }
+        },
+        {
+            &quot;id&quot;: 9,
+            &quot;name&quot;: &quot;Galaxy Note20&quot;,
+            &quot;display_name&quot;: &quot;Galaxy Note20&quot;,
+            &quot;query&quot;: null,
+            &quot;query_exactly&quot;: 0,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: null,
+            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_line_id&quot;: 2,
+            &quot;product_line_name&quot;: &quot;Galaxy Note&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 1,
+            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;
+        },
+        {
+            &quot;id&quot;: 10,
+            &quot;name&quot;: &quot;Galaxy Note20 Ultra&quot;,
+            &quot;display_name&quot;: &quot;Galaxy Note20 Ultra&quot;,
+            &quot;query&quot;: null,
+            &quot;query_exactly&quot;: 0,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: null,
+            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_line_id&quot;: 2,
+            &quot;product_line_name&quot;: &quot;Galaxy Note&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 1,
+            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;
+        },
+        {
+            &quot;id&quot;: 11,
+            &quot;name&quot;: &quot;Galaxy Note10&quot;,
+            &quot;display_name&quot;: &quot;Galaxy Note10&quot;,
+            &quot;query&quot;: null,
+            &quot;query_exactly&quot;: 0,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: null,
+            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_line_id&quot;: 2,
+            &quot;product_line_name&quot;: &quot;Galaxy Note&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 1,
+            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;
         }
-    }
+    ]
 }
 </system-out>
   </testcase>
-  <testcase classname="Tests.ModelTest" name="updateModelValidation" time="0.307">
+  <testcase classname="Tests.ModelTest" name="updateModelValidation" time="0.407">
     <failure message="1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
 " type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -511,18 +631,35 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ModelTest.updateModelValidation(ModelTest.java:56)
+	at Tests.ModelTest.updateModelValidation(ModelTest.java:63)
 </failure>
     <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjA5ODI1MjMsImV4cCI6MTcyMzU3NDUyMywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjA1NzllN2M0LTRkYmEtNDRlMi1iYzRhLTk4NjRjOTNkNzlhYiJ9.ySx4YP-Q8q94pkdDbB5zuhG0SqaD76IW40Huf0FiXdc
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjgsImV4cCI6MTcyNTM3NzQ2OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImU5OTYxNzY5LTAzMjQtNDdmNi1iNTQ3LWQ1OTgwYjQyMmY1OSJ9.O5ue_NuHFvnOnWMQeaEBeRdZ_jhPRUOzVOIsqubdE-I
 {
     &quot;error&quot;: {
-        &quot;name&quot;: &quot;NotFound&quot;,
-        &quot;message&quot;: &quot;Page not found&quot;,
-        &quot;code&quot;: 404,
-        &quot;className&quot;: &quot;not-found&quot;,
+        &quot;name&quot;: &quot;BadRequest&quot;,
+        &quot;message&quot;: &quot;display name: property display name is required, product line id: property product line id is required&quot;,
+        &quot;code&quot;: 400,
+        &quot;className&quot;: &quot;bad-request&quot;,
         &quot;data&quot;: {
-            &quot;url&quot;: &quot;/models/17407?%24eager=product_line.%5Bbrand%2Cindustry%5D&quot;
+            &quot;display_name&quot;: [
+                {
+                    &quot;message&quot;: &quot;display name is required&quot;,
+                    &quot;keyword&quot;: &quot;required&quot;,
+                    &quot;params&quot;: {
+                        &quot;missingProperty&quot;: &quot;display_name&quot;
+                    }
+                }
+            ],
+            &quot;product_line_id&quot;: [
+                {
+                    &quot;message&quot;: &quot;product line id is required&quot;,
+                    &quot;keyword&quot;: &quot;required&quot;,
+                    &quot;params&quot;: {
+                        &quot;missingProperty&quot;: &quot;product_line_id&quot;
+                    }
+                }
+            ]
         },
         &quot;errors&quot;: {
             
