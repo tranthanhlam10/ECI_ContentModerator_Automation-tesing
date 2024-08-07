@@ -3,20 +3,26 @@ package APIs;
 import Objects.Model;
 import Objects.Model_Update;
 import io.restassured.response.Response;
+import utils.PropertiesReader;
 import utils.RandomString;
 
 import static io.restassured.RestAssured.*;
 
 public class ModelAPIs {
-    Authencation authencation = new Authencation();
     public void setUpBasePath(){
-        basePath = "/eca";
+        PropertiesReader reader = BaseSetup.getPropertiesReader();
+        basePath = reader.getProperty("basePath");
+        System.out.println("Property value: " + basePath);
+    }
+
+    private String getToken() {
+        return  Authencation.getInstance().getToken();
     }
 
 
     public Response getListModelsValidation(){
         String endpoint_getlist = "view-product-models";
-        return given().auth().oauth2(authencation.getToken()).when().get(endpoint_getlist);
+        return given().auth().oauth2(getToken()).when().get(endpoint_getlist);
     }
 
     public Response createModelsValidation(){
@@ -29,7 +35,7 @@ public class ModelAPIs {
         model.setQuery_exactly(0);
         model.setQuery("Samsung");
 
-        return given().auth().oauth2(authencation.getToken()).contentType("application/json").when().body(model).post(endpoint_addModel);
+        return given().auth().oauth2(getToken()).contentType("application/json").when().body(model).post(endpoint_addModel);
     }
 
     public Response updateModelValidation(int model_id){
@@ -45,17 +51,13 @@ public class ModelAPIs {
         model_update.setQuery("Samsung");
 
 
-        return given().auth().oauth2(authencation.getToken()).when().body(model_update).put(endpoint_updateModel);
+        return given().auth().oauth2(getToken()).when().body(model_update).put(endpoint_updateModel);
     }
 
     public Response deleteModelValidation(int model_id){
         String endpoint_deleteModel = "/models/"+model_id;
-        return given().auth().oauth2(authencation.getToken()).when().delete(endpoint_deleteModel);
+        return given().auth().oauth2(getToken()).when().delete(endpoint_deleteModel);
     }
-
-
-
-
 
 
 

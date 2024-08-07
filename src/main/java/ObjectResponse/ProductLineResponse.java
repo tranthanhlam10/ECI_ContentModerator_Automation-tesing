@@ -16,5 +16,4 @@ public class ProductLineResponse {
     public int getId() {
         return id;
     }
-
 }

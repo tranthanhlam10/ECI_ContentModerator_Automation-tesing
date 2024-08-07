@@ -2,6 +2,7 @@ package APIs;
 
 import Objects.Brand;
 import io.restassured.response.Response;
+import utils.PropertiesReader;
 import utils.RandomString;
 
 import static io.restassured.RestAssured.basePath;
@@ -9,20 +10,25 @@ import static io.restassured.RestAssured.given;
 
 public class BrandAPIs {
 
-    Authencation authencation = new Authencation();
 
-    public  void setUpBasePath(){
-        basePath = "/eca";
+    public void setUpBasePath(){
+        PropertiesReader reader = BaseSetup.getPropertiesReader();
+        basePath = reader.getProperty("basePath");
+        System.out.println("Property value: " + basePath);
     }
 
+    private String getToken() {
+        return  Authencation.getInstance().getToken();
+    }
 
     public Response getListBrands(){
 
         String endpoint_getlist = "/brands";
 
-        return given().auth().oauth2(authencation.getToken()).when().get(endpoint_getlist);
+        return given().auth().oauth2(getToken()).when().get(endpoint_getlist);
 
     }
+
 
 
 
@@ -40,7 +46,7 @@ public class BrandAPIs {
         brand.setManufacturer_id(100);
         brand.setIs_active(0);
 
-        return given().auth().oauth2(authencation.getToken()).contentType("application/json").when().body(brand).post(endpoint_addBrand);
+        return given().auth().oauth2(getToken()).contentType("application/json").when().body(brand).post(endpoint_addBrand);
     }
 
     public Response updateBrandValidation(int brand_id){
@@ -52,12 +58,12 @@ public class BrandAPIs {
         brand.setIs_active(0);
 
 
-        return given().auth().oauth2(authencation.getToken()).contentType("application/json").when().body(brand).patch(endpoint_updateBrand);
+        return given().auth().oauth2(getToken()).contentType("application/json").when().body(brand).patch(endpoint_updateBrand);
     }
 
     public Response deleteBrandValidation(int brand_id){
         String endpoint_deleteBrand = "/brands/" + brand_id;
-        return given().auth().oauth2(authencation.getToken()).contentType("application/json").when().delete(endpoint_deleteBrand);
+        return given().auth().oauth2(getToken()).contentType("application/json").when().delete(endpoint_deleteBrand);
     }
 
 

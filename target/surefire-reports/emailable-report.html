@@ -9,75 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">11</td><td class="num">6,493</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">8,129</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">Tests.BrandTest</td><td><a href="#m0">createBrandValidation</a></td><td rowspan="1">1720982519533</td><td rowspan="1">308</td></tr><tr class="failedeven"><td><a href="#m1">deleteBrandValidation</a></td><td rowspan="1">1720982519842</td><td rowspan="1">629</td></tr><tr class="failedeven"><td><a href="#m2">getListBrandDefaultValidation</a></td><td rowspan="1">1720982520484</td><td rowspan="1">888</td></tr><tr class="failedeven"><td><a href="#m3">updateBrandValidation</a></td><td rowspan="1">1720982521376</td><td rowspan="1">456</td></tr><tr class="failedodd"><td rowspan="4">Tests.ModelTest</td><td><a href="#m4">createModelValidation</a></td><td rowspan="1">1720982521833</td><td rowspan="1">298</td></tr><tr class="failedodd"><td><a href="#m5">deleteModelValidation</a></td><td rowspan="1">1720982522133</td><td rowspan="1">420</td></tr><tr class="failedodd"><td><a href="#m6">getListModelDefaultValidation</a></td><td rowspan="1">1720982522554</td><td rowspan="1">573</td></tr><tr class="failedodd"><td><a href="#m7">updateModelValidation</a></td><td rowspan="1">1720982523130</td><td rowspan="1">306</td></tr><tr class="failedeven"><td rowspan="3">Tests.ProductLineTest</td><td><a href="#m8">deleteProductLineValidation</a></td><td rowspan="1">1720982518575</td><td rowspan="1">312</td></tr><tr class="failedeven"><td><a href="#m9">getListProductLineDefaultValidation</a></td><td rowspan="1">1720982518890</td><td rowspan="1">382</td></tr><tr class="failedeven"><td><a href="#m10">updateProductLineValidation</a></td><td rowspan="1">1720982519274</td><td rowspan="1">257</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.ProductLineTest</td><td><a href="#m11">createProductLineValidation</a></td><td rowspan="1">1720982516957</td><td rowspan="1">1601</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.BrandTest</td><td><a href="#m0">updateBrandValidation</a></td><td rowspan="1">1722785467073</td><td rowspan="1">296</td></tr><tr class="failedodd"><td rowspan="3">Tests.ModelTest</td><td><a href="#m1">deleteModelValidation</a></td><td rowspan="1">1722785467824</td><td rowspan="1">433</td></tr><tr class="failedodd"><td><a href="#m2">getListModelDefaultValidation</a></td><td rowspan="1">1722785468263</td><td rowspan="1">487</td></tr><tr class="failedodd"><td><a href="#m3">updateModelValidation</a></td><td rowspan="1">1722785468755</td><td rowspan="1">405</td></tr><tr class="failedeven"><td rowspan="3">Tests.ProductLineTest</td><td><a href="#m4">createProductLineValidation</a></td><td rowspan="1">1722785461068</td><td rowspan="1">1541</td></tr><tr class="failedeven"><td><a href="#m5">deleteProductLineValidation</a></td><td rowspan="1">1722785462618</td><td rowspan="1">567</td></tr><tr class="failedeven"><td><a href="#m6">updateProductLineValidation</a></td><td rowspan="1">1722785464613</td><td rowspan="1">507</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Tests.BrandTest</td><td><a href="#m7">createBrandValidation</a></td><td rowspan="1">1722785465124</td><td rowspan="1">762</td></tr><tr class="passedeven"><td><a href="#m8">deleteBrandValidation</a></td><td rowspan="1">1722785465889</td><td rowspan="1">608</td></tr><tr class="passedeven"><td><a href="#m9">getListBrandDefaultValidation</a></td><td rowspan="1">1722785466499</td><td rowspan="1">572</td></tr><tr class="passedodd"><td rowspan="1">Tests.ModelTest</td><td><a href="#m10">createModelValidation</a></td><td rowspan="1">1722785467371</td><td rowspan="1">450</td></tr><tr class="passedeven"><td rowspan="1">Tests.ProductLineTest</td><td><a href="#m11">getListProductLineDefaultValidation</a></td><td rowspan="1">1722785463188</td><td rowspan="1">1423</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">Tests.BrandTest#createBrandValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;error&quot; (class ObjectResponse.BrandResponse), not marked as ignorable (16 known properties: &quot;manufacturer_id&quot;, &quot;created_at&quot;, &quot;name&quot;, &quot;created_by&quot;, &quot;manufacturer&quot;, &quot;updatedBy&quot;, &quot;updated_at&quot;, &quot;name_exactly&quot;, &quot;deleted_at&quot;, &quot;id&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;not_archived&quot;, &quot;title&quot;, &quot;updated_by&quot;, &quot;is_active&quot;])
- at [Source: (String)&quot;{&quot;error&quot;:{&quot;name&quot;:&quot;NotFound&quot;,&quot;message&quot;:&quot;Page not found&quot;,&quot;code&quot;:404,&quot;className&quot;:&quot;not-found&quot;,&quot;data&quot;:{&quot;url&quot;:&quot;/brands?%24eager=%5Bmanufacturer%5D&quot;},&quot;errors&quot;:{}}}&quot;; line: 1, column: 11] (through reference chain: ObjectResponse.BrandResponse[&quot;error&quot;])
-	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
-	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
-	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
-	at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
-	at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
-	at Tests.BrandTest.createBrandValidation(BrandTest.java:46)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;error&quot; (class ObjectResponse.BrandResponse), not marked as ignorable (16 known properties: &quot;manufacturer_id&quot;, &quot;created_at&quot;, &quot;name&quot;, &quot;created_by&quot;, &quot;manufacturer&quot;, &quot;updatedBy&quot;, &quot;updated_at&quot;, &quot;name_exactly&quot;, &quot;deleted_at&quot;, &quot;id&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;not_archived&quot;, &quot;title&quot;, &quot;updated_by&quot;, &quot;is_active&quot;])
- at [Source: (String)&quot;{&quot;error&quot;:{&quot;name&quot;:&quot;NotFound&quot;,&quot;message&quot;:&quot;Page not found&quot;,&quot;code&quot;:404,&quot;className&quot;:&quot;not-found&quot;,&quot;data&quot;:{&quot;url&quot;:&quot;/brands?%24eager=%5Bmanufacturer%5D&quot;},&quot;errors&quot;:{}}}&quot;; line: 1, column: 11] (through reference chain: ObjectResponse.BrandResponse[&quot;error&quot;])
-	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
-	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
-	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
-	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1709)
-	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1687)
-	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320)
-	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
-	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
-	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
-	... 39 more
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Tests.BrandTest#deleteBrandValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.BrandTest.deleteBrandValidation(BrandTest.java:71)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Tests.BrandTest#getListBrandDefaultValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.BrandTest.getListBrandDefaultValidation(BrandTest.java:36)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Tests.BrandTest#updateBrandValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+<h2>Command line test</h2><h3 id="m0">Tests.BrandTest#updateBrandValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
@@ -97,31 +33,7 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at Tests.BrandTest.updateBrandValidation(BrandTest.java:60)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Tests.ModelTest#createModelValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;201&gt; but was &lt;404&gt;.
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ModelTest.createModelValidation(ModelTest.java:45)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">Tests.ModelTest#deleteModelValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [201] but found [404]
-	at Tests.ModelTest.deleteModelValidation(ModelTest.java:68)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">Tests.ModelTest#getListModelDefaultValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+<h3 id="m1">Tests.ModelTest#deleteModelValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
@@ -138,11 +50,35 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ModelTest.getListModelDefaultValidation(ModelTest.java:34)
+	at Tests.ModelTest.deleteModelValidation(ModelTest.java:74)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">Tests.ModelTest#updateModelValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
+<h3 id="m2">Tests.ModelTest#getListModelDefaultValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;total&quot; (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: &quot;productLine&quot;, &quot;queryExactly&quot;, &quot;query&quot;, &quot;productId&quot;, &quot;name&quot;, &quot;deletedAt&quot;, &quot;displayName&quot;, &quot;updatedAt&quot;, &quot;updatedBy&quot;, &quot;id&quot;, &quot;updatedByUser&quot;, &quot;productLineId&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;createdAt&quot;, &quot;createdByUser&quot;])
+ at [Source: (String)&quot;{&quot;total&quot;:21951,&quot;limit&quot;:10,&quot;skip&quot;:0,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Galaxy S21&quot;,&quot;display_name&quot;:&quot;Galaxy S21&quot;,&quot;query&quot;:null,&quot;query_exactly&quot;:0,&quot;is_model_deleted&quot;:&quot;0&quot;,&quot;created_by&quot;:null,&quot;created_at&quot;:&quot;2022-08-04T15:54:35.222Z&quot;,&quot;updated_by&quot;:6145,&quot;updated_at&quot;:&quot;2024-03-27T09:31:58.752Z&quot;,&quot;deleted_at&quot;:null,&quot;product_line_id&quot;:1,&quot;product_line_name&quot;:&quot;Galaxy S21+&quot;,&quot;is_product_line_deleted&quot;:&quot;0&quot;,&quot;brand_id&quot;:1,&quot;brand_name&quot;:&quot;Samsung&quot;,&quot;is_brand_deleted&quot;:&quot;0&quot;,&quot;industry_id&quot;:1,&quot;industry_name&quot;:&quot;Hand Phone&quot;,&quot;is_industry_deleted&quot;:&quot;0&quot;&quot;[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse[&quot;total&quot;])
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
+	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
+	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
+	at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
+	at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
+	at Tests.ModelTest.getListModelDefaultValidation(ModelTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;total&quot; (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: &quot;productLine&quot;, &quot;queryExactly&quot;, &quot;query&quot;, &quot;productId&quot;, &quot;name&quot;, &quot;deletedAt&quot;, &quot;displayName&quot;, &quot;updatedAt&quot;, &quot;updatedBy&quot;, &quot;id&quot;, &quot;updatedByUser&quot;, &quot;productLineId&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;createdAt&quot;, &quot;createdByUser&quot;])
+ at [Source: (String)&quot;{&quot;total&quot;:21951,&quot;limit&quot;:10,&quot;skip&quot;:0,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Galaxy S21&quot;,&quot;display_name&quot;:&quot;Galaxy S21&quot;,&quot;query&quot;:null,&quot;query_exactly&quot;:0,&quot;is_model_deleted&quot;:&quot;0&quot;,&quot;created_by&quot;:null,&quot;created_at&quot;:&quot;2022-08-04T15:54:35.222Z&quot;,&quot;updated_by&quot;:6145,&quot;updated_at&quot;:&quot;2024-03-27T09:31:58.752Z&quot;,&quot;deleted_at&quot;:null,&quot;product_line_id&quot;:1,&quot;product_line_name&quot;:&quot;Galaxy S21+&quot;,&quot;is_product_line_deleted&quot;:&quot;0&quot;,&quot;brand_id&quot;:1,&quot;brand_name&quot;:&quot;Samsung&quot;,&quot;is_brand_deleted&quot;:&quot;0&quot;,&quot;industry_id&quot;:1,&quot;industry_name&quot;:&quot;Hand Phone&quot;,&quot;is_industry_deleted&quot;:&quot;0&quot;&quot;[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse[&quot;total&quot;])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1709)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1687)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
+	... 39 more
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Tests.ModelTest#updateModelValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
 
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
@@ -158,10 +94,34 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ModelTest.updateModelValidation(ModelTest.java:56)
+	at Tests.ModelTest.updateModelValidation(ModelTest.java:63)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">Tests.ProductLineTest#deleteProductLineValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+<h3 id="m4">Tests.ProductLineTest#createProductLineValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;name&quot; (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: &quot;id&quot;])
+ at [Source: (String)&quot;{&quot;id&quot;:36796,&quot;name&quot;:&quot;Lam Test Product Line Automation 7Oh2l&quot;,&quot;slug&quot;:null,&quot;brand_id&quot;:1,&quot;industry_id&quot;:1,&quot;created_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;updated_by&quot;:5812,&quot;deleted_at&quot;:null,&quot;brand&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Samsung&quot;,&quot;slug&quot;:&quot;samsung&quot;,&quot;manufacturer_id&quot;:210,&quot;created_at&quot;:&quot;2022-08-04T15:54:34.512Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-03-07T04:19:11.162Z&quot;,&quot;updated_by&quot;:5527,&quot;is_active&quot;:1,&quot;name_exactly&quot;:&quot;samsung&quot;,&quot;not_archived&quot;:1,&quot;title&quot;:&quot;Samsung&quot;},&quot;i&quot;[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse[&quot;name&quot;])
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
+	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
+	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
+	at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
+	at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
+	at Tests.ProductLineTest.createProductLineValidation(ProductLineTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;name&quot; (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: &quot;id&quot;])
+ at [Source: (String)&quot;{&quot;id&quot;:36796,&quot;name&quot;:&quot;Lam Test Product Line Automation 7Oh2l&quot;,&quot;slug&quot;:null,&quot;brand_id&quot;:1,&quot;industry_id&quot;:1,&quot;created_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;updated_by&quot;:5812,&quot;deleted_at&quot;:null,&quot;brand&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Samsung&quot;,&quot;slug&quot;:&quot;samsung&quot;,&quot;manufacturer_id&quot;:210,&quot;created_at&quot;:&quot;2022-08-04T15:54:34.512Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-03-07T04:19:11.162Z&quot;,&quot;updated_by&quot;:5527,&quot;is_active&quot;:1,&quot;name_exactly&quot;:&quot;samsung&quot;,&quot;not_archived&quot;:1,&quot;title&quot;:&quot;Samsung&quot;},&quot;i&quot;[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse[&quot;name&quot;])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1709)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1687)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:320)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
+	... 39 more
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Tests.ProductLineTest#deleteProductLineValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;404&gt;.
 
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
@@ -170,40 +130,28 @@ Expected status code &lt;201&gt; but was &lt;404&gt;.
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
 	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
 	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
 	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ProductLineTest.deleteProductLineValidation(ProductLineTest.java:65)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">Tests.ProductLineTest#getListProductLineDefaultValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ProductLineTest.getListProductLineDefaultValidation(ProductLineTest.java:31)
+	at Tests.ProductLineTest.deleteProductLineValidation(ProductLineTest.java:72)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">Tests.ProductLineTest#updateProductLineValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+<h3 id="m6">Tests.ProductLineTest#updateProductLineValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;404&gt;.
 
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
@@ -220,9 +168,13 @@ Expected status code &lt;201&gt; but was &lt;404&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ProductLineTest.updateProductLineValidation(ProductLineTest.java:52)
+	at Tests.ProductLineTest.updateProductLineValidation(ProductLineTest.java:59)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">Tests.ProductLineTest#createProductLineValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Tests.BrandTest#createBrandValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Tests.BrandTest#deleteBrandValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Tests.BrandTest#getListBrandDefaultValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Tests.ModelTest#createModelValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Tests.ProductLineTest#getListProductLineDefaultValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
