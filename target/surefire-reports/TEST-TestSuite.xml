@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="7" name="TestSuite" time="8.076" errors="0" skipped="0">
+<testsuite tests="12" failures="7" name="TestSuite" time="33.922" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2023.1.7"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -45,7 +45,7 @@
     <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="20"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.1.7 test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.1.7 verify"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home"/>
     <property name="apple.awt.application.name" value="Launcher"/>
     <property name="user.language" value="en"/>
@@ -65,18 +65,18 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="Tests.ProductLineTest" name="createProductLineValidation" time="1.548">
+  <testcase classname="Tests.ProductLineTest" name="createProductLineValidation" time="2.871">
     <failure message="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;name&quot; (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: &quot;id&quot;])
- at [Source: (String)&quot;{&quot;id&quot;:36796,&quot;name&quot;:&quot;Lam Test Product Line Automation 7Oh2l&quot;,&quot;slug&quot;:null,&quot;brand_id&quot;:1,&quot;industry_id&quot;:1,&quot;created_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;updated_by&quot;:5812,&quot;deleted_at&quot;:null,&quot;brand&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Samsung&quot;,&quot;slug&quot;:&quot;samsung&quot;,&quot;manufacturer_id&quot;:210,&quot;created_at&quot;:&quot;2022-08-04T15:54:34.512Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-03-07T04:19:11.162Z&quot;,&quot;updated_by&quot;:5527,&quot;is_active&quot;:1,&quot;name_exactly&quot;:&quot;samsung&quot;,&quot;not_archived&quot;:1,&quot;title&quot;:&quot;Samsung&quot;},&quot;i&quot;[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse[&quot;name&quot;])" type="java.lang.RuntimeException">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;name&quot; (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: &quot;id&quot;])
- at [Source: (String)&quot;{&quot;id&quot;:36796,&quot;name&quot;:&quot;Lam Test Product Line Automation 7Oh2l&quot;,&quot;slug&quot;:null,&quot;brand_id&quot;:1,&quot;industry_id&quot;:1,&quot;created_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;updated_by&quot;:5812,&quot;deleted_at&quot;:null,&quot;brand&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Samsung&quot;,&quot;slug&quot;:&quot;samsung&quot;,&quot;manufacturer_id&quot;:210,&quot;created_at&quot;:&quot;2022-08-04T15:54:34.512Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-03-07T04:19:11.162Z&quot;,&quot;updated_by&quot;:5527,&quot;is_active&quot;:1,&quot;name_exactly&quot;:&quot;samsung&quot;,&quot;not_archived&quot;:1,&quot;title&quot;:&quot;Samsung&quot;},&quot;i&quot;[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse[&quot;name&quot;])
+ at [Source: (String)&quot;{&quot;id&quot;:29852,&quot;name&quot;:&quot;Lam Test Product Line Automation 3yjj3&quot;,&quot;slug&quot;:null,&quot;brand_id&quot;:1,&quot;industry_id&quot;:1,&quot;created_at&quot;:&quot;2024-08-09T18:32:37.000Z&quot;,&quot;created_by&quot;:3425,&quot;updated_at&quot;:&quot;2024-08-09T18:32:37.000Z&quot;,&quot;updated_by&quot;:3425,&quot;deleted_at&quot;:null,&quot;brand&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;SAMSUNG&quot;,&quot;slug&quot;:&quot;samsung&quot;,&quot;manufacturer_id&quot;:110,&quot;created_at&quot;:&quot;2022-08-04T15:54:34.512Z&quot;,&quot;created_by&quot;:null,&quot;updated_at&quot;:&quot;2024-03-13T09:54:54.000Z&quot;,&quot;updated_by&quot;:2445,&quot;is_active&quot;:1,&quot;name_exactly&quot;:&quot;samsung&quot;,&quot;not_archived&quot;:1,&quot;title&quot;:&quot;SAMSUNG&quot;},&quot;i&quot;[truncated 2278 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse[&quot;name&quot;])" type="java.lang.RuntimeException">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;name&quot; (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: &quot;id&quot;])
+ at [Source: (String)&quot;{&quot;id&quot;:29852,&quot;name&quot;:&quot;Lam Test Product Line Automation 3yjj3&quot;,&quot;slug&quot;:null,&quot;brand_id&quot;:1,&quot;industry_id&quot;:1,&quot;created_at&quot;:&quot;2024-08-09T18:32:37.000Z&quot;,&quot;created_by&quot;:3425,&quot;updated_at&quot;:&quot;2024-08-09T18:32:37.000Z&quot;,&quot;updated_by&quot;:3425,&quot;deleted_at&quot;:null,&quot;brand&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;SAMSUNG&quot;,&quot;slug&quot;:&quot;samsung&quot;,&quot;manufacturer_id&quot;:110,&quot;created_at&quot;:&quot;2022-08-04T15:54:34.512Z&quot;,&quot;created_by&quot;:null,&quot;updated_at&quot;:&quot;2024-03-13T09:54:54.000Z&quot;,&quot;updated_by&quot;:2445,&quot;is_active&quot;:1,&quot;name_exactly&quot;:&quot;samsung&quot;,&quot;not_archived&quot;:1,&quot;title&quot;:&quot;SAMSUNG&quot;},&quot;i&quot;[truncated 2278 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse[&quot;name&quot;])
 	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
 	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
 	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
 	at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
 	at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
-	at Tests.ProductLineTest.createProductLineValidation(ProductLineTest.java:45)
+	at Tests.ProductLineTest.createProductLineValidation(ProductLineTest.java:47)
 Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;name&quot; (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: &quot;id&quot;])
- at [Source: (String)&quot;{&quot;id&quot;:36796,&quot;name&quot;:&quot;Lam Test Product Line Automation 7Oh2l&quot;,&quot;slug&quot;:null,&quot;brand_id&quot;:1,&quot;industry_id&quot;:1,&quot;created_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-08-04T15:31:02.000Z&quot;,&quot;updated_by&quot;:5812,&quot;deleted_at&quot;:null,&quot;brand&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Samsung&quot;,&quot;slug&quot;:&quot;samsung&quot;,&quot;manufacturer_id&quot;:210,&quot;created_at&quot;:&quot;2022-08-04T15:54:34.512Z&quot;,&quot;created_by&quot;:5812,&quot;updated_at&quot;:&quot;2024-03-07T04:19:11.162Z&quot;,&quot;updated_by&quot;:5527,&quot;is_active&quot;:1,&quot;name_exactly&quot;:&quot;samsung&quot;,&quot;not_archived&quot;:1,&quot;title&quot;:&quot;Samsung&quot;},&quot;i&quot;[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse[&quot;name&quot;])
+ at [Source: (String)&quot;{&quot;id&quot;:29852,&quot;name&quot;:&quot;Lam Test Product Line Automation 3yjj3&quot;,&quot;slug&quot;:null,&quot;brand_id&quot;:1,&quot;industry_id&quot;:1,&quot;created_at&quot;:&quot;2024-08-09T18:32:37.000Z&quot;,&quot;created_by&quot;:3425,&quot;updated_at&quot;:&quot;2024-08-09T18:32:37.000Z&quot;,&quot;updated_by&quot;:3425,&quot;deleted_at&quot;:null,&quot;brand&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;SAMSUNG&quot;,&quot;slug&quot;:&quot;samsung&quot;,&quot;manufacturer_id&quot;:110,&quot;created_at&quot;:&quot;2022-08-04T15:54:34.512Z&quot;,&quot;created_by&quot;:null,&quot;updated_at&quot;:&quot;2024-03-13T09:54:54.000Z&quot;,&quot;updated_by&quot;:2445,&quot;is_active&quot;:1,&quot;name_exactly&quot;:&quot;samsung&quot;,&quot;not_archived&quot;:1,&quot;title&quot;:&quot;SAMSUNG&quot;},&quot;i&quot;[truncated 2278 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse[&quot;name&quot;])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -91,32 +91,33 @@ Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unr
 	... 39 more
 </failure>
     <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@30c7da1e
-http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjIsImV4cCI6MTcyNTM3NzQ2MiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjM3YmE5ZDcyLThkMzgtNDRlMC05MzZhLWNlMzA5ODg5ZjBkYiJ9.7ePE6GjqwI2a33NyrypFzCD6yyYYUs2mcNf-Xz_pHic
+Property value: /eca
+https://api-staging-eca.younetmedia.com/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjM0MjUsImlkIjozNDI1LCJ1c2VyIjp7ImlkIjozNDI1LCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDk4NDY1NzQ0MyIsImZ1bGxuYW1lIjoibGFtbXR0In0sImlhdCI6MTcyMzIyODM1NSwiZXhwIjoxNzI1ODIwMzU1LCJhdWQiOiJodHRwczovL3lvdXJkb21haW4uY29tIiwiaXNzIjoiZmVhdGhlcnMiLCJzdWIiOiIzNDI1IiwianRpIjoiZGIyN2ExYmQtN2FhMy00ZWQyLTkxZjgtYTA5YTU3NTFjZDNkIn0.bZpgp0cZ_WK34m8wbyLLl1vAhTSWEGVNkZRFp1SdkAc
 {
-    &quot;id&quot;: 36796,
-    &quot;name&quot;: &quot;Lam Test Product Line Automation 7Oh2l&quot;,
+    &quot;id&quot;: 29852,
+    &quot;name&quot;: &quot;Lam Test Product Line Automation 3yjj3&quot;,
     &quot;slug&quot;: null,
     &quot;brand_id&quot;: 1,
     &quot;industry_id&quot;: 1,
-    &quot;created_at&quot;: &quot;2024-08-04T15:31:02.000Z&quot;,
-    &quot;created_by&quot;: 5812,
-    &quot;updated_at&quot;: &quot;2024-08-04T15:31:02.000Z&quot;,
-    &quot;updated_by&quot;: 5812,
+    &quot;created_at&quot;: &quot;2024-08-09T18:32:37.000Z&quot;,
+    &quot;created_by&quot;: 3425,
+    &quot;updated_at&quot;: &quot;2024-08-09T18:32:37.000Z&quot;,
+    &quot;updated_by&quot;: 3425,
     &quot;deleted_at&quot;: null,
     &quot;brand&quot;: {
         &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Samsung&quot;,
+        &quot;name&quot;: &quot;SAMSUNG&quot;,
         &quot;slug&quot;: &quot;samsung&quot;,
-        &quot;manufacturer_id&quot;: 210,
+        &quot;manufacturer_id&quot;: 110,
         &quot;created_at&quot;: &quot;2022-08-04T15:54:34.512Z&quot;,
-        &quot;created_by&quot;: 5812,
-        &quot;updated_at&quot;: &quot;2024-03-07T04:19:11.162Z&quot;,
-        &quot;updated_by&quot;: 5527,
+        &quot;created_by&quot;: null,
+        &quot;updated_at&quot;: &quot;2024-03-13T09:54:54.000Z&quot;,
+        &quot;updated_by&quot;: 2445,
         &quot;is_active&quot;: 1,
         &quot;name_exactly&quot;: &quot;samsung&quot;,
         &quot;not_archived&quot;: 1,
-        &quot;title&quot;: &quot;Samsung&quot;
+        &quot;title&quot;: &quot;SAMSUNG&quot;
     },
     &quot;industry&quot;: {
         &quot;id&quot;: 1,
@@ -125,35 +126,33 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
         &quot;slug&quot;: &quot;handphone&quot;,
         &quot;spam_query&quot;: &quot;[\&quot;search_text:((dây AND (đeo da thép \\\&quot;đồng hồ\\\&quot; \\\&quot;apple watch\\\&quot; \\\&quot;thay thế\\\&quot;)) (\\\&quot;thay\\\&quot; AND (pin nắp \\\&quot;mặt kính\\\&quot; \\\&quot;màn hình\\\&quot;)) (\\\&quot;màn hình\\\&quot; AND (\\\&quot;miếng dán\\\&quot;)) (vỏ AND (\\\&quot;samsung\\\&quot; \\\&quot;iphone\\\&quot; \\\&quot;oppo\\\&quot; sườn độ )) \\\&quot;viền bảo vệ\\\&quot; \\\&quot;đế sạc\\\&quot; \\\&quot;đèn để bàn\\\&quot; \\\&quot;bóc máy\\\&quot; \\\&quot;cường lực\\\&quot; \\\&quot;tông đơ hớt tóc\\\&quot; \\\&quot;tv box\\\&quot; MAINBOARD \\\&quot;cốc sạc\\\&quot; \\\&quot;bóc máy\\\&quot; \\\&quot;miếng dán cường lực\\\&quot; \\\&quot;ppf\\\&quot; \\\&quot;bao da\\\&quot; \\\&quot;son môi\\\&quot; \\\&quot; Camera hành trình\\\&quot; \\\&quot;kính đọc sách\\\&quot; \\\&quot;máy đọc sách\\\&quot; \\\&quot;skin dán\\\&quot; \\\&quot;ốp lưng\\\&quot; \\\&quot;king kong\\\&quot; \\\&quot;kingkong\\\&quot; \\\&quot;remax\\\&quot; \\\&quot;bo mạch\\\&quot; \\\&quot;bộ sạc\\\&quot; \\\&quot;ổ cứng\\\&quot; \\\&quot;củ sạc\\\&quot; \\\&quot;ốp nhựa\\\&quot; \\\&quot;ốp điện thoại\\\&quot; \\\&quot;ốp đt\\\&quot; \\\&quot;tai nghe\\\&quot; \\\&quot;phụ kiện\\\&quot; case cover \\\&quot;sạc dự phòng\\\&quot; \\\&quot;miếng dán mh\\\&quot; \\\&quot;cáp sạc\\\&quot; \\\&quot;dây sạc\\\&quot; \\\&quot;bộ sạc\\\&quot; \\\&quot;mạch\\\&quot; \\\&quot;hư\\\&quot; \\\&quot;xác\\\&quot; \\\&quot;simđt\\\&quot; \\\&quot;kích sim\\\&quot; \\\&quot;main\\\&quot; \\\&quot;mạch\\\&quot; \\\&quot;ốp\\\&quot;)\&quot;,\&quot;-search_text:(\\\&quot;tặng\\\&quot; \\\&quot;kèm\\\&quot; \\\&quot;có sẵn\\\&quot; \\\&quot;combo\\\&quot; \\\&quot;full\\\&quot; \\\&quot;fullbox\\\&quot; ((đủ có) AND \\\&quot;phụ kiện\\\&quot;) \\\&quot;chính hãng\\\&quot; \\\&quot;nhập khẩu\\\&quot; \\\&quot;chưa kích hoạt\\\&quot; \\\&quot;quốc tế\\\&quot; \\\&quot;hàng mới\\\&quot; \\\&quot;màn vô cực\\\&quot; \\\&quot;màn tràn viền\\\&quot;)\&quot;]&quot;,
         &quot;is_model_ready&quot;: 1,
-        &quot;created_at&quot;: &quot;2022-06-27T09:34:17.438Z&quot;,
+        &quot;created_at&quot;: &quot;2022-06-27T09:48:33.693Z&quot;,
         &quot;created_by&quot;: null,
-        &quot;updated_at&quot;: &quot;2023-09-11T10:10:01.825Z&quot;,
+        &quot;updated_at&quot;: &quot;2023-09-22T08:36:46.617Z&quot;,
         &quot;updated_by&quot;: null
     },
     &quot;createdBy&quot;: {
-        &quot;id&quot;: 5812,
+        &quot;id&quot;: 3425,
         &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
-        &quot;fullname&quot;: &quot;Lâm TT&quot;
+        &quot;fullname&quot;: &quot;lammtt&quot;
     },
     &quot;updatedBy&quot;: {
-        &quot;id&quot;: 5812,
+        &quot;id&quot;: 3425,
         &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
-        &quot;fullname&quot;: &quot;Lâm TT&quot;
+        &quot;fullname&quot;: &quot;lammtt&quot;
     }
 }
 </system-out>
     <system-err>SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Aug 04, 2024 10:31:01 PM APIs.BaseSetup setUp
-WARNING: BASE_URL in http://sl-api-eci-v1-20-0.datatrend.io Environment has been created
-Aug 04, 2024 10:31:01 PM APIs.BaseSetup setUp
+Aug 10, 2024 1:32:33 AM APIs.BaseSetup setUp
+WARNING: URIhttps://api-staging-eca.younetmedia.com
+Aug 10, 2024 1:32:33 AM APIs.BaseSetup setUp
 WARNING: BASE_URL in dev Environment has been created
-Aug 04, 2024 10:31:01 PM APIs.BaseSetup setUp
-WARNING: BASE_PATH  dev Environment has been already created
 </system-err>
   </testcase>
-  <testcase classname="Tests.ProductLineTest" name="deleteProductLineValidation" time="0.569">
+  <testcase classname="Tests.ProductLineTest" name="deleteProductLineValidation" time="2.056">
     <failure message="1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;404&gt;.
 " type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
@@ -188,10 +187,11 @@ Expected status code &lt;201&gt; but was &lt;404&gt;.
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ProductLineTest.deleteProductLineValidation(ProductLineTest.java:72)
+	at Tests.ProductLineTest.deleteProductLineValidation(ProductLineTest.java:74)
 </failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjIsImV4cCI6MTcyNTM3NzQ2MiwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6Ijg2YTdhNGFkLWM4MGQtNGNkNy04MWU2LTNjY2ViNTRmNGIxMyJ9.5nnjZgAGscvxiJ64V93wU3PWMwcnq0pUEMzzZiu9BMo
+    <system-out>Property value: /eca
+https://api-staging-eca.younetmedia.com/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjM0MjUsImlkIjozNDI1LCJ1c2VyIjp7ImlkIjozNDI1LCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDk4NDY1NzQ0MyIsImZ1bGxuYW1lIjoibGFtbXR0In0sImlhdCI6MTcyMzIyODM1OCwiZXhwIjoxNzI1ODIwMzU4LCJhdWQiOiJodHRwczovL3lvdXJkb21haW4uY29tIiwiaXNzIjoiZmVhdGhlcnMiLCJzdWIiOiIzNDI1IiwianRpIjoiMzIwZGY3MDMtZDdhYi00ZjNjLWExODAtNzM1Njk2ZTJlMGRlIn0.kUte6PUbquY6WlMbSq69x6RD6U9QLa_xoNCUlod6KjI
 {
     &quot;error&quot;: {
         &quot;name&quot;: &quot;NotFound&quot;,
@@ -205,8 +205,8 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 </system-out>
   </testcase>
-  <testcase classname="Tests.ProductLineTest" name="getListProductLineDefaultValidation" time="1.424"/>
-  <testcase classname="Tests.ProductLineTest" name="updateProductLineValidation" time="0.509">
+  <testcase classname="Tests.ProductLineTest" name="getListProductLineDefaultValidation" time="1.961"/>
+  <testcase classname="Tests.ProductLineTest" name="updateProductLineValidation" time="2.414">
     <failure message="1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;404&gt;.
 " type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
@@ -231,10 +231,11 @@ Expected status code &lt;201&gt; but was &lt;404&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ProductLineTest.updateProductLineValidation(ProductLineTest.java:59)
+	at Tests.ProductLineTest.updateProductLineValidation(ProductLineTest.java:61)
 </failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjQsImV4cCI6MTcyNTM3NzQ2NCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImM0YjU3N2E0LTA1MWYtNDE5Yy1hMTViLTI5YWEzYzQ4ZTNiMiJ9.ZCXM4b5o1eBfE1QbaAMDiM0hgKeuDHefuxXLxNHfMwU
+    <system-out>Property value: /eca
+https://api-staging-eca.younetmedia.com/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjM0MjUsImlkIjozNDI1LCJ1c2VyIjp7ImlkIjozNDI1LCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDk4NDY1NzQ0MyIsImZ1bGxuYW1lIjoibGFtbXR0In0sImlhdCI6MTcyMzIyODM2MiwiZXhwIjoxNzI1ODIwMzYyLCJhdWQiOiJodHRwczovL3lvdXJkb21haW4uY29tIiwiaXNzIjoiZmVhdGhlcnMiLCJzdWIiOiIzNDI1IiwianRpIjoiZDJiNjFlYjUtZDgwZC00NmRiLWE3NzgtOTMzYjk5NTIxOWE3In0.6hTYRvvnVfmHa5JcXRdAFgqzcJMZH0ZPFbAM3NVoVWg
 {
     &quot;error&quot;: {
         &quot;name&quot;: &quot;NotFound&quot;,
@@ -248,10 +249,10 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 </system-out>
   </testcase>
-  <testcase classname="Tests.BrandTest" name="createBrandValidation" time="0.764"/>
-  <testcase classname="Tests.BrandTest" name="deleteBrandValidation" time="0.609"/>
-  <testcase classname="Tests.BrandTest" name="getListBrandDefaultValidation" time="0.573"/>
-  <testcase classname="Tests.BrandTest" name="updateBrandValidation" time="0.296">
+  <testcase classname="Tests.BrandTest" name="createBrandValidation" time="2.758"/>
+  <testcase classname="Tests.BrandTest" name="deleteBrandValidation" time="2.583"/>
+  <testcase classname="Tests.BrandTest" name="getListBrandDefaultValidation" time="7.775"/>
+  <testcase classname="Tests.BrandTest" name="updateBrandValidation" time="2.079">
     <failure message="1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 " type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
@@ -276,14 +277,15 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.BrandTest.updateBrandValidation(BrandTest.java:60)
+	at Tests.BrandTest.updateBrandValidation(BrandTest.java:69)
 </failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjcsImV4cCI6MTcyNTM3NzQ2NywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6Ijc5ZDllYjE4LTRhYTAtNDFjOS1hMmJhLWM0OTY5Y2ViMWE2MyJ9.iheNjT0tX8kLwYdBglzy-v6Z6eAbVmGehRItKevoMQ0
+    <system-out>dev
+https://api-staging-eca.younetmedia.com/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjM0MjUsImlkIjozNDI1LCJ1c2VyIjp7ImlkIjozNDI1LCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDk4NDY1NzQ0MyIsImZ1bGxuYW1lIjoibGFtbXR0In0sImlhdCI6MTcyMzIyODM3NywiZXhwIjoxNzI1ODIwMzc3LCJhdWQiOiJodHRwczovL3lvdXJkb21haW4uY29tIiwiaXNzIjoiZmVhdGhlcnMiLCJzdWIiOiIzNDI1IiwianRpIjoiNjc4ODQzYmQtNzZmZC00NTdiLThkMGQtYTM2YmY3NmZmM2M2In0.iT-qMfsxGvcrqpGXP6xuCip3hiU-67JCVBhg8Jjc7_4
 {
     &quot;error&quot;: {
         &quot;name&quot;: &quot;NotFound&quot;,
-        &quot;message&quot;: &quot;No record found for id &apos;18127250&apos;&quot;,
+        &quot;message&quot;: &quot;No record found for id &apos;5853524&apos;&quot;,
         &quot;code&quot;: 404,
         &quot;className&quot;: &quot;not-found&quot;,
         &quot;errors&quot;: {
@@ -293,8 +295,8 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 </system-out>
   </testcase>
-  <testcase classname="Tests.ModelTest" name="createModelValidation" time="0.45"/>
-  <testcase classname="Tests.ModelTest" name="deleteModelValidation" time="0.436">
+  <testcase classname="Tests.ModelTest" name="createModelValidation" time="2.815"/>
+  <testcase classname="Tests.ModelTest" name="deleteModelValidation" time="1.944">
     <failure message="1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 " type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
@@ -319,24 +321,36 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ModelTest.deleteModelValidation(ModelTest.java:74)
+	at Tests.ModelTest.deleteModelValidation(ModelTest.java:77)
 </failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjgsImV4cCI6MTcyNTM3NzQ2OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6IjdjYWNiYzcyLTg5ZWQtNDI2NC1iODAzLTVlNjg2MzA1YTg3NSJ9.FbuDKlCLyzl9yyJ8c1pFU4ArSSECIHBA9Rovywl1Jds
+    <system-out>Property value: /eca
+https://api-staging-eca.younetmedia.com/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjM0MjUsImlkIjozNDI1LCJ1c2VyIjp7ImlkIjozNDI1LCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDk4NDY1NzQ0MyIsImZ1bGxuYW1lIjoibGFtbXR0In0sImlhdCI6MTcyMzIyODM4MiwiZXhwIjoxNzI1ODIwMzgyLCJhdWQiOiJodHRwczovL3lvdXJkb21haW4uY29tIiwiaXNzIjoiZmVhdGhlcnMiLCJzdWIiOiIzNDI1IiwianRpIjoiYTNlYzVlNTctZmI2ZC00NzRmLWEzODAtOTI0ZWFhOTIwZDI3In0.YxquTNYQwepwI9FC3GJQPnugdBdcobABFKaFXcCN5aA
+{
+    &quot;error&quot;: {
+        &quot;name&quot;: &quot;NotFound&quot;,
+        &quot;message&quot;: &quot;No record found for id &apos;0&apos;&quot;,
+        &quot;code&quot;: 404,
+        &quot;className&quot;: &quot;not-found&quot;,
+        &quot;errors&quot;: {
+            
+        }
+    }
+}
 </system-out>
   </testcase>
-  <testcase classname="Tests.ModelTest" name="getListModelDefaultValidation" time="0.491">
+  <testcase classname="Tests.ModelTest" name="getListModelDefaultValidation" time="2.581">
     <failure message="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;total&quot; (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: &quot;productLine&quot;, &quot;queryExactly&quot;, &quot;query&quot;, &quot;productId&quot;, &quot;name&quot;, &quot;deletedAt&quot;, &quot;displayName&quot;, &quot;updatedAt&quot;, &quot;updatedBy&quot;, &quot;id&quot;, &quot;updatedByUser&quot;, &quot;productLineId&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;createdAt&quot;, &quot;createdByUser&quot;])
- at [Source: (String)&quot;{&quot;total&quot;:21951,&quot;limit&quot;:10,&quot;skip&quot;:0,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Galaxy S21&quot;,&quot;display_name&quot;:&quot;Galaxy S21&quot;,&quot;query&quot;:null,&quot;query_exactly&quot;:0,&quot;is_model_deleted&quot;:&quot;0&quot;,&quot;created_by&quot;:null,&quot;created_at&quot;:&quot;2022-08-04T15:54:35.222Z&quot;,&quot;updated_by&quot;:6145,&quot;updated_at&quot;:&quot;2024-03-27T09:31:58.752Z&quot;,&quot;deleted_at&quot;:null,&quot;product_line_id&quot;:1,&quot;product_line_name&quot;:&quot;Galaxy S21+&quot;,&quot;is_product_line_deleted&quot;:&quot;0&quot;,&quot;brand_id&quot;:1,&quot;brand_name&quot;:&quot;Samsung&quot;,&quot;is_brand_deleted&quot;:&quot;0&quot;,&quot;industry_id&quot;:1,&quot;industry_name&quot;:&quot;Hand Phone&quot;,&quot;is_industry_deleted&quot;:&quot;0&quot;&quot;[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse[&quot;total&quot;])" type="java.lang.RuntimeException">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;total&quot; (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: &quot;productLine&quot;, &quot;queryExactly&quot;, &quot;query&quot;, &quot;productId&quot;, &quot;name&quot;, &quot;deletedAt&quot;, &quot;displayName&quot;, &quot;updatedAt&quot;, &quot;updatedBy&quot;, &quot;id&quot;, &quot;updatedByUser&quot;, &quot;productLineId&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;createdAt&quot;, &quot;createdByUser&quot;])
- at [Source: (String)&quot;{&quot;total&quot;:21951,&quot;limit&quot;:10,&quot;skip&quot;:0,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Galaxy S21&quot;,&quot;display_name&quot;:&quot;Galaxy S21&quot;,&quot;query&quot;:null,&quot;query_exactly&quot;:0,&quot;is_model_deleted&quot;:&quot;0&quot;,&quot;created_by&quot;:null,&quot;created_at&quot;:&quot;2022-08-04T15:54:35.222Z&quot;,&quot;updated_by&quot;:6145,&quot;updated_at&quot;:&quot;2024-03-27T09:31:58.752Z&quot;,&quot;deleted_at&quot;:null,&quot;product_line_id&quot;:1,&quot;product_line_name&quot;:&quot;Galaxy S21+&quot;,&quot;is_product_line_deleted&quot;:&quot;0&quot;,&quot;brand_id&quot;:1,&quot;brand_name&quot;:&quot;Samsung&quot;,&quot;is_brand_deleted&quot;:&quot;0&quot;,&quot;industry_id&quot;:1,&quot;industry_name&quot;:&quot;Hand Phone&quot;,&quot;is_industry_deleted&quot;:&quot;0&quot;&quot;[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse[&quot;total&quot;])
+ at [Source: (String)&quot;{&quot;total&quot;:19680,&quot;limit&quot;:10,&quot;skip&quot;:0,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Galaxy S21&quot;,&quot;display_name&quot;:&quot;Galaxy S21&quot;,&quot;query&quot;:&quot;(\&quot;Galaxy S21\&quot; \&quot;Samsung S21\&quot; \&quot;Sam sung S21\&quot; \&quot;Galasy S21\&quot;)&quot;,&quot;query_exactly&quot;:1,&quot;is_model_deleted&quot;:&quot;0&quot;,&quot;created_by&quot;:null,&quot;created_at&quot;:&quot;2022-08-04T15:54:35.222Z&quot;,&quot;updated_by&quot;:3081,&quot;updated_at&quot;:&quot;2023-12-06T10:01:59.074Z&quot;,&quot;deleted_at&quot;:null,&quot;product_id&quot;:1,&quot;product_name&quot;:&quot;Galaxy S&quot;,&quot;is_product_deleted&quot;:&quot;0&quot;,&quot;product_line_id&quot;:1,&quot;product_line_name&quot;:&quot;Galaxy S&quot;,&quot;is_product_line_deleted&quot;:&quot;0&quot;,&quot;bra&quot;[truncated 7656 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse[&quot;total&quot;])" type="java.lang.RuntimeException">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;total&quot; (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: &quot;productLine&quot;, &quot;queryExactly&quot;, &quot;query&quot;, &quot;productId&quot;, &quot;name&quot;, &quot;deletedAt&quot;, &quot;displayName&quot;, &quot;updatedAt&quot;, &quot;updatedBy&quot;, &quot;id&quot;, &quot;updatedByUser&quot;, &quot;productLineId&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;createdAt&quot;, &quot;createdByUser&quot;])
+ at [Source: (String)&quot;{&quot;total&quot;:19680,&quot;limit&quot;:10,&quot;skip&quot;:0,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Galaxy S21&quot;,&quot;display_name&quot;:&quot;Galaxy S21&quot;,&quot;query&quot;:&quot;(\&quot;Galaxy S21\&quot; \&quot;Samsung S21\&quot; \&quot;Sam sung S21\&quot; \&quot;Galasy S21\&quot;)&quot;,&quot;query_exactly&quot;:1,&quot;is_model_deleted&quot;:&quot;0&quot;,&quot;created_by&quot;:null,&quot;created_at&quot;:&quot;2022-08-04T15:54:35.222Z&quot;,&quot;updated_by&quot;:3081,&quot;updated_at&quot;:&quot;2023-12-06T10:01:59.074Z&quot;,&quot;deleted_at&quot;:null,&quot;product_id&quot;:1,&quot;product_name&quot;:&quot;Galaxy S&quot;,&quot;is_product_deleted&quot;:&quot;0&quot;,&quot;product_line_id&quot;:1,&quot;product_line_name&quot;:&quot;Galaxy S&quot;,&quot;is_product_line_deleted&quot;:&quot;0&quot;,&quot;bra&quot;[truncated 7656 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse[&quot;total&quot;])
 	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
 	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
 	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
 	at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
 	at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
-	at Tests.ModelTest.getListModelDefaultValidation(ModelTest.java:38)
+	at Tests.ModelTest.getListModelDefaultValidation(ModelTest.java:41)
 Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;total&quot; (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: &quot;productLine&quot;, &quot;queryExactly&quot;, &quot;query&quot;, &quot;productId&quot;, &quot;name&quot;, &quot;deletedAt&quot;, &quot;displayName&quot;, &quot;updatedAt&quot;, &quot;updatedBy&quot;, &quot;id&quot;, &quot;updatedByUser&quot;, &quot;productLineId&quot;, &quot;createdBy&quot;, &quot;slug&quot;, &quot;createdAt&quot;, &quot;createdByUser&quot;])
- at [Source: (String)&quot;{&quot;total&quot;:21951,&quot;limit&quot;:10,&quot;skip&quot;:0,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Galaxy S21&quot;,&quot;display_name&quot;:&quot;Galaxy S21&quot;,&quot;query&quot;:null,&quot;query_exactly&quot;:0,&quot;is_model_deleted&quot;:&quot;0&quot;,&quot;created_by&quot;:null,&quot;created_at&quot;:&quot;2022-08-04T15:54:35.222Z&quot;,&quot;updated_by&quot;:6145,&quot;updated_at&quot;:&quot;2024-03-27T09:31:58.752Z&quot;,&quot;deleted_at&quot;:null,&quot;product_line_id&quot;:1,&quot;product_line_name&quot;:&quot;Galaxy S21+&quot;,&quot;is_product_line_deleted&quot;:&quot;0&quot;,&quot;brand_id&quot;:1,&quot;brand_name&quot;:&quot;Samsung&quot;,&quot;is_brand_deleted&quot;:&quot;0&quot;,&quot;industry_id&quot;:1,&quot;industry_name&quot;:&quot;Hand Phone&quot;,&quot;is_industry_deleted&quot;:&quot;0&quot;&quot;[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse[&quot;total&quot;])
+ at [Source: (String)&quot;{&quot;total&quot;:19680,&quot;limit&quot;:10,&quot;skip&quot;:0,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Galaxy S21&quot;,&quot;display_name&quot;:&quot;Galaxy S21&quot;,&quot;query&quot;:&quot;(\&quot;Galaxy S21\&quot; \&quot;Samsung S21\&quot; \&quot;Sam sung S21\&quot; \&quot;Galasy S21\&quot;)&quot;,&quot;query_exactly&quot;:1,&quot;is_model_deleted&quot;:&quot;0&quot;,&quot;created_by&quot;:null,&quot;created_at&quot;:&quot;2022-08-04T15:54:35.222Z&quot;,&quot;updated_by&quot;:3081,&quot;updated_at&quot;:&quot;2023-12-06T10:01:59.074Z&quot;,&quot;deleted_at&quot;:null,&quot;product_id&quot;:1,&quot;product_name&quot;:&quot;Galaxy S&quot;,&quot;is_product_deleted&quot;:&quot;0&quot;,&quot;product_line_id&quot;:1,&quot;product_line_name&quot;:&quot;Galaxy S&quot;,&quot;is_product_line_deleted&quot;:&quot;0&quot;,&quot;bra&quot;[truncated 7656 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse[&quot;total&quot;])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -350,10 +364,11 @@ Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unr
 	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
 	... 39 more
 </failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjgsImV4cCI6MTcyNTM3NzQ2OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImQ3MmNlMmNkLTA0MGItNDU5Ni05OTRiLTcwZGNiNmQ4ZmI2MyJ9.s8rjQZDKuHMFrOpKh0yr-i91h82yFsPjUTaAou255_0
+    <system-out>Property value: /eca
+https://api-staging-eca.younetmedia.com/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjM0MjUsImlkIjozNDI1LCJ1c2VyIjp7ImlkIjozNDI1LCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDk4NDY1NzQ0MyIsImZ1bGxuYW1lIjoibGFtbXR0In0sImlhdCI6MTcyMzIyODM4NCwiZXhwIjoxNzI1ODIwMzg0LCJhdWQiOiJodHRwczovL3lvdXJkb21haW4uY29tIiwiaXNzIjoiZmVhdGhlcnMiLCJzdWIiOiIzNDI1IiwianRpIjoiMjI1ZmYyN2QtMWExZC00MWIzLThkY2ItYmI1NGNhMjMxMGVhIn0.HWoNNLuYEnRX2IfNM8F0v3TX_tnMvVXqOdn-HNSkVxE
 {
-    &quot;total&quot;: 21951,
+    &quot;total&quot;: 19680,
     &quot;limit&quot;: 10,
     &quot;skip&quot;: 0,
     &quot;data&quot;: [
@@ -361,198 +376,262 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
             &quot;id&quot;: 1,
             &quot;name&quot;: &quot;Galaxy S21&quot;,
             &quot;display_name&quot;: &quot;Galaxy S21&quot;,
-            &quot;query&quot;: null,
-            &quot;query_exactly&quot;: 0,
+            &quot;query&quot;: &quot;(\&quot;Galaxy S21\&quot; \&quot;Samsung S21\&quot; \&quot;Sam sung S21\&quot; \&quot;Galasy S21\&quot;)&quot;,
+            &quot;query_exactly&quot;: 1,
             &quot;is_model_deleted&quot;: &quot;0&quot;,
             &quot;created_by&quot;: null,
             &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
-            &quot;updated_by&quot;: 6145,
-            &quot;updated_at&quot;: &quot;2024-03-27T09:31:58.752Z&quot;,
+            &quot;updated_by&quot;: 3081,
+            &quot;updated_at&quot;: &quot;2023-12-06T10:01:59.074Z&quot;,
             &quot;deleted_at&quot;: null,
+            &quot;product_id&quot;: 1,
+            &quot;product_name&quot;: &quot;Galaxy S&quot;,
+            &quot;is_product_deleted&quot;: &quot;0&quot;,
             &quot;product_line_id&quot;: 1,
-            &quot;product_line_name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;product_line_name&quot;: &quot;Galaxy S&quot;,
             &quot;is_product_line_deleted&quot;: &quot;0&quot;,
             &quot;brand_id&quot;: 1,
-            &quot;brand_name&quot;: &quot;Samsung&quot;,
-            &quot;is_brand_deleted&quot;: &quot;0&quot;,
-            &quot;industry_id&quot;: 1,
-            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
-            &quot;is_industry_deleted&quot;: &quot;0&quot;
-        },
-        {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;GS_Galaxy S21+&quot;,
-            &quot;display_name&quot;: &quot;Galaxy S21+++&quot;,
-            &quot;query&quot;: null,
-            &quot;query_exactly&quot;: 0,
-            &quot;is_model_deleted&quot;: &quot;0&quot;,
-            &quot;created_by&quot;: null,
-            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
-            &quot;updated_by&quot;: 6094,
-            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
-            &quot;deleted_at&quot;: null,
-            &quot;product_line_id&quot;: 6,
-            &quot;product_line_name&quot;: &quot;Iphone 12 +++&quot;,
-            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
-            &quot;brand_id&quot;: 3,
-            &quot;brand_name&quot;: &quot;Realme&quot;,
-            &quot;is_brand_deleted&quot;: &quot;0&quot;,
-            &quot;industry_id&quot;: 1,
-            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
-            &quot;is_industry_deleted&quot;: &quot;0&quot;
-        },
-        {
-            &quot;id&quot;: 3,
-            &quot;name&quot;: &quot;Galaxy S21 Ultra&quot;,
-            &quot;display_name&quot;: &quot;Galaxy S21 Ultra&quot;,
-            &quot;query&quot;: null,
-            &quot;query_exactly&quot;: 0,
-            &quot;is_model_deleted&quot;: &quot;0&quot;,
-            &quot;created_by&quot;: null,
-            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
-            &quot;updated_by&quot;: 2247,
-            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
-            &quot;deleted_at&quot;: null,
-            &quot;product_line_id&quot;: 9544,
-            &quot;product_line_name&quot;: &quot;p1-3-test&quot;,
-            &quot;is_product_line_deleted&quot;: &quot;1&quot;,
-            &quot;brand_id&quot;: 4939,
-            &quot;brand_name&quot;: &quot;Ngân debug 12&quot;,
+            &quot;brand_name&quot;: &quot;SAMSUNG&quot;,
             &quot;is_brand_deleted&quot;: &quot;0&quot;,
             &quot;industry_id&quot;: 1,
             &quot;industry_name&quot;: &quot;Hand Phone&quot;,
             &quot;is_industry_deleted&quot;: &quot;0&quot;,
             &quot;updatedBy&quot;: {
-                &quot;id&quot;: 2247,
-                &quot;email&quot;: &quot;nganltk@younetgroup.com&quot;,
-                &quot;fullname&quot;: &quot;Le Thi Kim Ngan&quot;
+                &quot;id&quot;: 3081,
+                &quot;email&quot;: &quot;quantt@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Trần Trung Quân QuanTT&quot;
+            }
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;display_name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;query&quot;: &quot;(\&quot;Galaxy S21+\&quot; \&quot;Samsung S21+\&quot; \&quot;Sam sung S21+\&quot; \&quot;Galasy S21+\&quot; \&quot;Galaxy S21plus\&quot; \&quot;Samsung S21plus\&quot; \&quot;Sam sung S21plus\&quot; \&quot;Galasy S21Plus\&quot; \&quot;Galaxy S21 plus\&quot; \&quot;Samsung S21 plus\&quot; \&quot;Sam sung S21 plus\&quot; \&quot;Galasy S21 Plus\&quot; \&quot;galaxy Samsung S21 plus\&quot; \&quot;galaxy Samsung S21+\&quot; \&quot;galaxy Samsung S21 +\&quot; \&quot;galasy Samsung S21 plus\&quot; \&quot;galasy Samsung S21+\&quot; \&quot;galasy Samsung S21 +\&quot; \&quot;galaxy Sam sung S21 plus\&quot; \&quot;galaxy Sam sung S21+\&quot; \&quot;galaxy Sam sung S21 +\&quot; \&quot;galasy Sam sung S21 plus\&quot; \&quot;galasy Sam sung S21+\&quot; \&quot;galasy Sam sung S21 +\&quot;)&quot;,
+            &quot;query_exactly&quot;: 1,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: 3081,
+            &quot;updated_at&quot;: &quot;2023-12-06T10:01:59.074Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_id&quot;: 1,
+            &quot;product_name&quot;: &quot;Galaxy S&quot;,
+            &quot;is_product_deleted&quot;: &quot;0&quot;,
+            &quot;product_line_id&quot;: 1,
+            &quot;product_line_name&quot;: &quot;Galaxy S&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 1,
+            &quot;brand_name&quot;: &quot;SAMSUNG&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;,
+            &quot;updatedBy&quot;: {
+                &quot;id&quot;: 3081,
+                &quot;email&quot;: &quot;quantt@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Trần Trung Quân QuanTT&quot;
+            }
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Galaxy S21 Ultra&quot;,
+            &quot;display_name&quot;: &quot;Galaxy S21 Ultra&quot;,
+            &quot;query&quot;: &quot;(\&quot;Galaxy S21Ultra\&quot; \&quot;Samsung S21Ultra\&quot; \&quot;Sam sung S21Ultra\&quot; \&quot;S21Ultra\&quot; \&quot;Galaxy S21 Ultra\&quot; \&quot;Samsung S21 Ultra\&quot; \&quot;Sam sung S21 Ultra\&quot; \&quot;S21 Ultra\&quot; \&quot;Galasy S21Ultra\&quot; \&quot;Galasy S21 Ultra\&quot;)&quot;,
+            &quot;query_exactly&quot;: 1,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: 3081,
+            &quot;updated_at&quot;: &quot;2023-12-06T10:01:59.074Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_id&quot;: 1,
+            &quot;product_name&quot;: &quot;Galaxy S&quot;,
+            &quot;is_product_deleted&quot;: &quot;0&quot;,
+            &quot;product_line_id&quot;: 1,
+            &quot;product_line_name&quot;: &quot;Galaxy S&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 1,
+            &quot;brand_name&quot;: &quot;SAMSUNG&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;,
+            &quot;updatedBy&quot;: {
+                &quot;id&quot;: 3081,
+                &quot;email&quot;: &quot;quantt@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Trần Trung Quân QuanTT&quot;
             }
         },
         {
             &quot;id&quot;: 4,
             &quot;name&quot;: &quot;Galaxy S20 FE&quot;,
             &quot;display_name&quot;: &quot;Galaxy S20 FE&quot;,
-            &quot;query&quot;: null,
-            &quot;query_exactly&quot;: 0,
+            &quot;query&quot;: &quot;(\&quot;Galaxy S20FE\&quot; \&quot;Samsung S20FE\&quot; \&quot;Sam sung S20FE\&quot; \&quot;Galaxy S20 FE\&quot; \&quot;Samsung S20 FE\&quot; \&quot;Sam sung S20 FE\&quot; \&quot;Galasy S20FE\&quot; \&quot;Galasy S20 FE\&quot;)&quot;,
+            &quot;query_exactly&quot;: 1,
             &quot;is_model_deleted&quot;: &quot;0&quot;,
             &quot;created_by&quot;: null,
             &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
-            &quot;updated_by&quot;: 5812,
-            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;updated_by&quot;: 3081,
+            &quot;updated_at&quot;: &quot;2023-12-06T10:01:59.074Z&quot;,
             &quot;deleted_at&quot;: null,
+            &quot;product_id&quot;: 1,
+            &quot;product_name&quot;: &quot;Galaxy S&quot;,
+            &quot;is_product_deleted&quot;: &quot;0&quot;,
             &quot;product_line_id&quot;: 1,
-            &quot;product_line_name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;product_line_name&quot;: &quot;Galaxy S&quot;,
             &quot;is_product_line_deleted&quot;: &quot;0&quot;,
             &quot;brand_id&quot;: 1,
-            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;brand_name&quot;: &quot;SAMSUNG&quot;,
             &quot;is_brand_deleted&quot;: &quot;0&quot;,
             &quot;industry_id&quot;: 1,
             &quot;industry_name&quot;: &quot;Hand Phone&quot;,
             &quot;is_industry_deleted&quot;: &quot;0&quot;,
             &quot;updatedBy&quot;: {
-                &quot;id&quot;: 5812,
-                &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
-                &quot;fullname&quot;: &quot;Lâm TT&quot;
+                &quot;id&quot;: 3081,
+                &quot;email&quot;: &quot;quantt@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Trần Trung Quân QuanTT&quot;
             }
         },
         {
             &quot;id&quot;: 5,
             &quot;name&quot;: &quot;Galaxy S20&quot;,
             &quot;display_name&quot;: &quot;Galaxy S20&quot;,
-            &quot;query&quot;: null,
-            &quot;query_exactly&quot;: 0,
+            &quot;query&quot;: &quot;(\&quot;Galaxy S20\&quot; \&quot;Samsung S20\&quot; \&quot;Sam sung S20\&quot; \&quot;Galasy S20\&quot;)&quot;,
+            &quot;query_exactly&quot;: 1,
             &quot;is_model_deleted&quot;: &quot;0&quot;,
             &quot;created_by&quot;: null,
             &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
-            &quot;updated_by&quot;: 5812,
-            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;updated_by&quot;: 3484,
+            &quot;updated_at&quot;: &quot;2023-12-06T10:01:59.074Z&quot;,
             &quot;deleted_at&quot;: null,
-            &quot;product_line_id&quot;: 1,
-            &quot;product_line_name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;product_id&quot;: 18,
+            &quot;product_name&quot;: &quot;Oppo Find X Series&quot;,
+            &quot;is_product_deleted&quot;: &quot;0&quot;,
+            &quot;product_line_id&quot;: 18,
+            &quot;product_line_name&quot;: &quot;Oppo Find X Series&quot;,
             &quot;is_product_line_deleted&quot;: &quot;0&quot;,
-            &quot;brand_id&quot;: 1,
-            &quot;brand_name&quot;: &quot;Samsung&quot;,
-            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 84782,
+            &quot;brand_name&quot;: &quot;sokamocka&quot;,
+            &quot;is_brand_deleted&quot;: &quot;1&quot;,
             &quot;industry_id&quot;: 1,
             &quot;industry_name&quot;: &quot;Hand Phone&quot;,
             &quot;is_industry_deleted&quot;: &quot;0&quot;,
             &quot;updatedBy&quot;: {
-                &quot;id&quot;: 5812,
-                &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
-                &quot;fullname&quot;: &quot;Lâm TT&quot;
+                &quot;id&quot;: 3484,
+                &quot;email&quot;: &quot;Demo@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Account Demo&quot;
             }
         },
         {
             &quot;id&quot;: 6,
             &quot;name&quot;: &quot;Galaxy S10&quot;,
             &quot;display_name&quot;: &quot;Galaxy S10&quot;,
-            &quot;query&quot;: null,
-            &quot;query_exactly&quot;: 0,
+            &quot;query&quot;: &quot;(\&quot;Galaxy S10\&quot; \&quot;Samsung S10\&quot; \&quot;Sam sung S10\&quot; \&quot;Galasy S10\&quot;)&quot;,
+            &quot;query_exactly&quot;: 1,
             &quot;is_model_deleted&quot;: &quot;0&quot;,
             &quot;created_by&quot;: null,
             &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
-            &quot;updated_by&quot;: 5812,
-            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;updated_by&quot;: 3081,
+            &quot;updated_at&quot;: &quot;2023-12-06T10:01:59.074Z&quot;,
             &quot;deleted_at&quot;: null,
+            &quot;product_id&quot;: 1,
+            &quot;product_name&quot;: &quot;Galaxy S&quot;,
+            &quot;is_product_deleted&quot;: &quot;0&quot;,
             &quot;product_line_id&quot;: 1,
-            &quot;product_line_name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;product_line_name&quot;: &quot;Galaxy S&quot;,
             &quot;is_product_line_deleted&quot;: &quot;0&quot;,
             &quot;brand_id&quot;: 1,
-            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;brand_name&quot;: &quot;SAMSUNG&quot;,
             &quot;is_brand_deleted&quot;: &quot;0&quot;,
             &quot;industry_id&quot;: 1,
             &quot;industry_name&quot;: &quot;Hand Phone&quot;,
             &quot;is_industry_deleted&quot;: &quot;0&quot;,
             &quot;updatedBy&quot;: {
-                &quot;id&quot;: 5812,
-                &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
-                &quot;fullname&quot;: &quot;Lâm TT&quot;
+                &quot;id&quot;: 3081,
+                &quot;email&quot;: &quot;quantt@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Trần Trung Quân QuanTT&quot;
             }
         },
         {
             &quot;id&quot;: 7,
             &quot;name&quot;: &quot;Galaxy S10e&quot;,
             &quot;display_name&quot;: &quot;Galaxy S10e&quot;,
-            &quot;query&quot;: null,
-            &quot;query_exactly&quot;: 0,
+            &quot;query&quot;: &quot;(\&quot;Galaxy S10e\&quot; \&quot;Samsung S10e\&quot; \&quot;Sam sung S10e\&quot; \&quot;Galaxy S10 e\&quot; \&quot;Samsung S10 e\&quot; \&quot;Sam sung S10 e\&quot; \&quot;Galaxy S 10e\&quot; \&quot;Samsung S 10e\&quot; \&quot;Sam sung S 10e\&quot;)&quot;,
+            &quot;query_exactly&quot;: 1,
             &quot;is_model_deleted&quot;: &quot;0&quot;,
             &quot;created_by&quot;: null,
             &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
-            &quot;updated_by&quot;: 5812,
-            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;updated_by&quot;: 3081,
+            &quot;updated_at&quot;: &quot;2023-12-06T10:01:59.074Z&quot;,
             &quot;deleted_at&quot;: null,
+            &quot;product_id&quot;: 1,
+            &quot;product_name&quot;: &quot;Galaxy S&quot;,
+            &quot;is_product_deleted&quot;: &quot;0&quot;,
             &quot;product_line_id&quot;: 1,
-            &quot;product_line_name&quot;: &quot;Galaxy S21+&quot;,
+            &quot;product_line_name&quot;: &quot;Galaxy S&quot;,
             &quot;is_product_line_deleted&quot;: &quot;0&quot;,
             &quot;brand_id&quot;: 1,
-            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;brand_name&quot;: &quot;SAMSUNG&quot;,
             &quot;is_brand_deleted&quot;: &quot;0&quot;,
             &quot;industry_id&quot;: 1,
             &quot;industry_name&quot;: &quot;Hand Phone&quot;,
             &quot;is_industry_deleted&quot;: &quot;0&quot;,
             &quot;updatedBy&quot;: {
-                &quot;id&quot;: 5812,
-                &quot;email&quot;: &quot;lamtt@younetgroup.com&quot;,
-                &quot;fullname&quot;: &quot;Lâm TT&quot;
+                &quot;id&quot;: 3081,
+                &quot;email&quot;: &quot;quantt@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Trần Trung Quân QuanTT&quot;
+            }
+        },
+        {
+            &quot;id&quot;: 8,
+            &quot;name&quot;: &quot;Galaxy S10+&quot;,
+            &quot;display_name&quot;: &quot;Galaxy S10+&quot;,
+            &quot;query&quot;: &quot;(\&quot;Galaxy S10+\&quot; \&quot;Samsung S10+\&quot; \&quot;Sam sung S10+\&quot; \&quot;Galaxy S10plus\&quot; \&quot;Samsung S10plus\&quot; \&quot;Sam sung S10plus\&quot; \&quot;Galaxy S10 plus\&quot; \&quot;Samsung S10 plus\&quot; \&quot;Sam sung S10 plus\&quot; \&quot;Galasy S10 plus\&quot; \&quot;Galasy S10plus\&quot; \&quot;Galasy S10+\&quot;)&quot;,
+            &quot;query_exactly&quot;: 1,
+            &quot;is_model_deleted&quot;: &quot;0&quot;,
+            &quot;created_by&quot;: null,
+            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
+            &quot;updated_by&quot;: 3081,
+            &quot;updated_at&quot;: &quot;2023-12-06T10:01:59.074Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;product_id&quot;: 1,
+            &quot;product_name&quot;: &quot;Galaxy S&quot;,
+            &quot;is_product_deleted&quot;: &quot;0&quot;,
+            &quot;product_line_id&quot;: 1,
+            &quot;product_line_name&quot;: &quot;Galaxy S&quot;,
+            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
+            &quot;brand_id&quot;: 1,
+            &quot;brand_name&quot;: &quot;SAMSUNG&quot;,
+            &quot;is_brand_deleted&quot;: &quot;0&quot;,
+            &quot;industry_id&quot;: 1,
+            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
+            &quot;is_industry_deleted&quot;: &quot;0&quot;,
+            &quot;updatedBy&quot;: {
+                &quot;id&quot;: 3081,
+                &quot;email&quot;: &quot;quantt@younetgroup.com&quot;,
+                &quot;fullname&quot;: &quot;Trần Trung Quân QuanTT&quot;
             }
         },
         {
             &quot;id&quot;: 9,
             &quot;name&quot;: &quot;Galaxy Note20&quot;,
             &quot;display_name&quot;: &quot;Galaxy Note20&quot;,
-            &quot;query&quot;: null,
-            &quot;query_exactly&quot;: 0,
+            &quot;query&quot;: &quot;(\&quot;Galaxy Note 20\&quot; \&quot;Samsung Note 20\&quot; \&quot;Sam sung Note 20\&quot; \&quot;Galaxy Note20\&quot; \&quot;Samsung Note20\&quot; \&quot;Sam sung Note20\&quot; \&quot;Galasy Note20\&quot; \&quot;Galasy Note 20\&quot;)&quot;,
+            &quot;query_exactly&quot;: 1,
             &quot;is_model_deleted&quot;: &quot;0&quot;,
             &quot;created_by&quot;: null,
             &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
             &quot;updated_by&quot;: null,
-            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;updated_at&quot;: &quot;2023-12-06T10:01:59.074Z&quot;,
             &quot;deleted_at&quot;: null,
+            &quot;product_id&quot;: 2,
+            &quot;product_name&quot;: &quot;Galaxy Note&quot;,
+            &quot;is_product_deleted&quot;: &quot;0&quot;,
             &quot;product_line_id&quot;: 2,
             &quot;product_line_name&quot;: &quot;Galaxy Note&quot;,
             &quot;is_product_line_deleted&quot;: &quot;0&quot;,
-            &quot;brand_id&quot;: 1,
-            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;brand_id&quot;: 2,
+            &quot;brand_name&quot;: &quot;iPhone&quot;,
             &quot;is_brand_deleted&quot;: &quot;0&quot;,
             &quot;industry_id&quot;: 1,
             &quot;industry_name&quot;: &quot;Hand Phone&quot;,
@@ -562,41 +641,22 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
             &quot;id&quot;: 10,
             &quot;name&quot;: &quot;Galaxy Note20 Ultra&quot;,
             &quot;display_name&quot;: &quot;Galaxy Note20 Ultra&quot;,
-            &quot;query&quot;: null,
-            &quot;query_exactly&quot;: 0,
+            &quot;query&quot;: &quot;(\&quot;Galaxy Note 20Ultra\&quot; \&quot;Samsung Note 20Ultra\&quot; \&quot;Sam sung Note 20Ultra\&quot; \&quot;Galaxy Note20 Ultra\&quot; \&quot;Samsung Note20 Ultra\&quot; \&quot;Sam sung Note20 Ultra\&quot; \&quot;Galaxy Note 20 Ultra\&quot; \&quot;Samsung Note 20 Ultra\&quot; \&quot;Sam sung Note 20 Ultra\&quot; \&quot;Galaxy Note20Ultra\&quot; \&quot;Samsung Note20Ultra\&quot; \&quot;Sam sung Note20Ultra\&quot; \&quot;Galasy Note 20Ultra\&quot; \&quot;Galasy Note20 Ultra\&quot; \&quot;Galasy Note 20 Ultra\&quot; \&quot;Galasy Note20Ultra\&quot;)&quot;,
+            &quot;query_exactly&quot;: 1,
             &quot;is_model_deleted&quot;: &quot;0&quot;,
             &quot;created_by&quot;: null,
             &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
             &quot;updated_by&quot;: null,
-            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
+            &quot;updated_at&quot;: &quot;2023-12-06T10:01:59.074Z&quot;,
             &quot;deleted_at&quot;: null,
+            &quot;product_id&quot;: 2,
+            &quot;product_name&quot;: &quot;Galaxy Note&quot;,
+            &quot;is_product_deleted&quot;: &quot;0&quot;,
             &quot;product_line_id&quot;: 2,
             &quot;product_line_name&quot;: &quot;Galaxy Note&quot;,
             &quot;is_product_line_deleted&quot;: &quot;0&quot;,
-            &quot;brand_id&quot;: 1,
-            &quot;brand_name&quot;: &quot;Samsung&quot;,
-            &quot;is_brand_deleted&quot;: &quot;0&quot;,
-            &quot;industry_id&quot;: 1,
-            &quot;industry_name&quot;: &quot;Hand Phone&quot;,
-            &quot;is_industry_deleted&quot;: &quot;0&quot;
-        },
-        {
-            &quot;id&quot;: 11,
-            &quot;name&quot;: &quot;Galaxy Note10&quot;,
-            &quot;display_name&quot;: &quot;Galaxy Note10&quot;,
-            &quot;query&quot;: null,
-            &quot;query_exactly&quot;: 0,
-            &quot;is_model_deleted&quot;: &quot;0&quot;,
-            &quot;created_by&quot;: null,
-            &quot;created_at&quot;: &quot;2022-08-04T15:54:35.222Z&quot;,
-            &quot;updated_by&quot;: null,
-            &quot;updated_at&quot;: &quot;2024-03-08T04:07:39.017Z&quot;,
-            &quot;deleted_at&quot;: null,
-            &quot;product_line_id&quot;: 2,
-            &quot;product_line_name&quot;: &quot;Galaxy Note&quot;,
-            &quot;is_product_line_deleted&quot;: &quot;0&quot;,
-            &quot;brand_id&quot;: 1,
-            &quot;brand_name&quot;: &quot;Samsung&quot;,
+            &quot;brand_id&quot;: 2,
+            &quot;brand_name&quot;: &quot;iPhone&quot;,
             &quot;is_brand_deleted&quot;: &quot;0&quot;,
             &quot;industry_id&quot;: 1,
             &quot;industry_name&quot;: &quot;Hand Phone&quot;,
@@ -606,7 +666,7 @@ Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyL
 }
 </system-out>
   </testcase>
-  <testcase classname="Tests.ModelTest" name="updateModelValidation" time="0.407">
+  <testcase classname="Tests.ModelTest" name="updateModelValidation" time="2.085">
     <failure message="1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
 " type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
@@ -631,10 +691,11 @@ Expected status code &lt;200&gt; but was &lt;400&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ModelTest.updateModelValidation(ModelTest.java:63)
+	at Tests.ModelTest.updateModelValidation(ModelTest.java:66)
 </failure>
-    <system-out>http://sl-api-eci-v1-20-0.datatrend.io/authentication
-Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjU4MTIsImlkIjo1ODEyLCJ1c2VyIjp7ImlkIjo1ODEyLCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDAwMDAwMDAwMCIsImZ1bGxuYW1lIjoiTMOibSBUVCJ9LCJpYXQiOjE3MjI3ODU0NjgsImV4cCI6MTcyNTM3NzQ2OCwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiNTgxMiIsImp0aSI6ImU5OTYxNzY5LTAzMjQtNDdmNi1iNTQ3LWQ1OTgwYjQyMmY1OSJ9.O5ue_NuHFvnOnWMQeaEBeRdZ_jhPRUOzVOIsqubdE-I
+    <system-out>Property value: /eca
+https://api-staging-eca.younetmedia.com/authentication
+Token eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJ1c2VySWQiOjM0MjUsImlkIjozNDI1LCJ1c2VyIjp7ImlkIjozNDI1LCJlbWFpbCI6ImxhbXR0QHlvdW5ldGdyb3VwLmNvbSIsInBob25lIjoiMDk4NDY1NzQ0MyIsImZ1bGxuYW1lIjoibGFtbXR0In0sImlhdCI6MTcyMzIyODM4NywiZXhwIjoxNzI1ODIwMzg3LCJhdWQiOiJodHRwczovL3lvdXJkb21haW4uY29tIiwiaXNzIjoiZmVhdGhlcnMiLCJzdWIiOiIzNDI1IiwianRpIjoiMTQyMjVkZWMtN2JhZC00YWIwLWJhYmItZWIxYjI1Y2JlZWY4In0.zPlVWaBgwYsQ-GYNoT517ozWKBj20Mmq84o-h-Mtj4E
 {
     &quot;error&quot;: {
         &quot;name&quot;: &quot;BadRequest&quot;,

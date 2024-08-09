@@ -2,36 +2,40 @@
 <testng-results ignored="0" total="12" passed="5" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-04T22:31:01 ICT" name="Command line suite" finished-at="2024-08-04T22:31:09 ICT" duration-ms="8129">
+  <suite started-at="2024-08-10T01:32:33 ICT" name="Command line suite" finished-at="2024-08-10T01:33:07 ICT" duration-ms="33968">
     <groups>
     </groups>
-    <test started-at="2024-08-04T22:31:01 ICT" name="Command line test" finished-at="2024-08-04T22:31:09 ICT" duration-ms="8129">
+    <test started-at="2024-08-10T01:32:33 ICT" name="Command line test" finished-at="2024-08-10T01:33:07 ICT" duration-ms="33968">
       <class name="Tests.BrandTest">
-        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@6236eb5f]" started-at="2024-08-04T22:31:05 ICT" name="setBrandApis" finished-at="2024-08-04T22:31:05 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@7c1e2a9e]" started-at="2024-08-10T01:32:43 ICT" name="setBrandApis" finished-at="2024-08-10T01:32:43 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrandApis -->
-        <test-method signature="createBrandValidation()[pri:0, instance:Tests.BrandTest@6236eb5f]" started-at="2024-08-04T22:31:05 ICT" name="createBrandValidation" finished-at="2024-08-04T22:31:05 ICT" duration-ms="762" status="PASS">
+        <test-method signature="createBrandValidation()[pri:0, instance:Tests.BrandTest@7c1e2a9e]" started-at="2024-08-10T01:32:43 ICT" name="createBrandValidation" finished-at="2024-08-10T01:32:45 ICT" duration-ms="2757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBrandValidation -->
-        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@6236eb5f]" started-at="2024-08-04T22:31:05 ICT" name="setBrandApis" finished-at="2024-08-04T22:31:05 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@7c1e2a9e]" started-at="2024-08-10T01:32:45 ICT" name="setBrandApis" finished-at="2024-08-10T01:32:45 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrandApis -->
-        <test-method signature="deleteBrandValidation()[pri:0, instance:Tests.BrandTest@6236eb5f]" started-at="2024-08-04T22:31:05 ICT" name="deleteBrandValidation" finished-at="2024-08-04T22:31:06 ICT" duration-ms="608" status="PASS">
+        <test-method signature="deleteBrandValidation()[pri:0, instance:Tests.BrandTest@7c1e2a9e]" started-at="2024-08-10T01:32:45 ICT" name="deleteBrandValidation" finished-at="2024-08-10T01:32:48 ICT" duration-ms="2581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBrandValidation -->
-        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@6236eb5f]" started-at="2024-08-04T22:31:06 ICT" name="setBrandApis" finished-at="2024-08-04T22:31:06 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@7c1e2a9e]" started-at="2024-08-10T01:32:48 ICT" name="setBrandApis" finished-at="2024-08-10T01:32:48 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrandApis -->
-        <test-method signature="getListBrandDefaultValidation()[pri:0, instance:Tests.BrandTest@6236eb5f]" started-at="2024-08-04T22:31:06 ICT" name="getListBrandDefaultValidation" finished-at="2024-08-04T22:31:07 ICT" duration-ms="572" status="PASS">
+        <test-method signature="getListBrandDefaultValidation()[pri:0, instance:Tests.BrandTest@7c1e2a9e]" started-at="2024-08-10T01:32:48 ICT" name="getListBrandDefaultValidation" finished-at="2024-08-10T01:32:56 ICT" duration-ms="7776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListBrandDefaultValidation -->
-        <test-method signature="updateBrandValidation()[pri:0, instance:Tests.BrandTest@6236eb5f]" started-at="2024-08-04T22:31:07 ICT" name="updateBrandValidation" finished-at="2024-08-04T22:31:07 ICT" duration-ms="296" status="FAIL">
+        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@7c1e2a9e]" started-at="2024-08-10T01:32:56 ICT" name="setBrandApis" finished-at="2024-08-10T01:32:56 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrandApis -->
+        <test-method signature="updateBrandValidation()[pri:0, instance:Tests.BrandTest@7c1e2a9e]" started-at="2024-08-10T01:32:56 ICT" name="updateBrandValidation" finished-at="2024-08-10T01:32:58 ICT" duration-ms="2073" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -62,7 +66,7 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at Tests.BrandTest.updateBrandValidation(BrandTest.java:60)
+at Tests.BrandTest.updateBrandValidation(BrandTest.java:69)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -103,35 +107,31 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBrandValidation -->
-        <test-method is-config="true" signature="setBrandApis()[pri:0, instance:Tests.BrandTest@6236eb5f]" started-at="2024-08-04T22:31:07 ICT" name="setBrandApis" finished-at="2024-08-04T22:31:07 ICT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrandApis -->
       </class> <!-- Tests.BrandTest -->
       <class name="Tests.ProductLineTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.ProductLineTest@6a03bcb1]" started-at="2024-08-04T22:31:00 ICT" name="setUp" finished-at="2024-08-04T22:31:01 ICT" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.ProductLineTest@21b2e768]" started-at="2024-08-10T01:32:33 ICT" name="setUp" finished-at="2024-08-10T01:32:33 ICT" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@6a03bcb1]" started-at="2024-08-04T22:31:01 ICT" name="setProductLineApis" finished-at="2024-08-04T22:31:01 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@21b2e768]" started-at="2024-08-10T01:32:33 ICT" name="setProductLineApis" finished-at="2024-08-10T01:32:33 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProductLineApis -->
-        <test-method signature="createProductLineValidation()[pri:0, instance:Tests.ProductLineTest@6a03bcb1]" started-at="2024-08-04T22:31:01 ICT" name="createProductLineValidation" finished-at="2024-08-04T22:31:02 ICT" duration-ms="1541" status="FAIL">
+        <test-method signature="createProductLineValidation()[pri:0, instance:Tests.ProductLineTest@21b2e768]" started-at="2024-08-10T01:32:33 ICT" name="createProductLineValidation" finished-at="2024-08-10T01:32:36 ICT" duration-ms="2864" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "name" (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: "id"])
- at [Source: (String)"{"id":36796,"name":"Lam Test Product Line Automation 7Oh2l","slug":null,"brand_id":1,"industry_id":1,"created_at":"2024-08-04T15:31:02.000Z","created_by":5812,"updated_at":"2024-08-04T15:31:02.000Z","updated_by":5812,"deleted_at":null,"brand":{"id":1,"name":"Samsung","slug":"samsung","manufacturer_id":210,"created_at":"2022-08-04T15:54:34.512Z","created_by":5812,"updated_at":"2024-03-07T04:19:11.162Z","updated_by":5527,"is_active":1,"name_exactly":"samsung","not_archived":1,"title":"Samsung"},"i"[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse["name"])]]>
+ at [Source: (String)"{"id":29852,"name":"Lam Test Product Line Automation 3yjj3","slug":null,"brand_id":1,"industry_id":1,"created_at":"2024-08-09T18:32:37.000Z","created_by":3425,"updated_at":"2024-08-09T18:32:37.000Z","updated_by":3425,"deleted_at":null,"brand":{"id":1,"name":"SAMSUNG","slug":"samsung","manufacturer_id":110,"created_at":"2022-08-04T15:54:34.512Z","created_by":null,"updated_at":"2024-03-13T09:54:54.000Z","updated_by":2445,"is_active":1,"name_exactly":"samsung","not_archived":1,"title":"SAMSUNG"},"i"[truncated 2278 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse["name"])]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "name" (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: "id"])
- at [Source: (String)"{"id":36796,"name":"Lam Test Product Line Automation 7Oh2l","slug":null,"brand_id":1,"industry_id":1,"created_at":"2024-08-04T15:31:02.000Z","created_by":5812,"updated_at":"2024-08-04T15:31:02.000Z","updated_by":5812,"deleted_at":null,"brand":{"id":1,"name":"Samsung","slug":"samsung","manufacturer_id":210,"created_at":"2022-08-04T15:54:34.512Z","created_by":5812,"updated_at":"2024-03-07T04:19:11.162Z","updated_by":5527,"is_active":1,"name_exactly":"samsung","not_archived":1,"title":"Samsung"},"i"[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse["name"])
+ at [Source: (String)"{"id":29852,"name":"Lam Test Product Line Automation 3yjj3","slug":null,"brand_id":1,"industry_id":1,"created_at":"2024-08-09T18:32:37.000Z","created_by":3425,"updated_at":"2024-08-09T18:32:37.000Z","updated_by":3425,"deleted_at":null,"brand":{"id":1,"name":"SAMSUNG","slug":"samsung","manufacturer_id":110,"created_at":"2022-08-04T15:54:34.512Z","created_by":null,"updated_at":"2024-03-13T09:54:54.000Z","updated_by":2445,"is_active":1,"name_exactly":"samsung","not_archived":1,"title":"SAMSUNG"},"i"[truncated 2278 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse["name"])
 at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
 at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
 at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
 at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
 at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
-at Tests.ProductLineTest.createProductLineValidation(ProductLineTest.java:45)
+at Tests.ProductLineTest.createProductLineValidation(ProductLineTest.java:47)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -167,7 +167,7 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "name" (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: "id"])
- at [Source: (String)"{"id":36796,"name":"Lam Test Product Line Automation 7Oh2l","slug":null,"brand_id":1,"industry_id":1,"created_at":"2024-08-04T15:31:02.000Z","created_by":5812,"updated_at":"2024-08-04T15:31:02.000Z","updated_by":5812,"deleted_at":null,"brand":{"id":1,"name":"Samsung","slug":"samsung","manufacturer_id":210,"created_at":"2022-08-04T15:54:34.512Z","created_by":5812,"updated_at":"2024-03-07T04:19:11.162Z","updated_by":5527,"is_active":1,"name_exactly":"samsung","not_archived":1,"title":"Samsung"},"i"[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse["name"])
+ at [Source: (String)"{"id":29852,"name":"Lam Test Product Line Automation 3yjj3","slug":null,"brand_id":1,"industry_id":1,"created_at":"2024-08-09T18:32:37.000Z","created_by":3425,"updated_at":"2024-08-09T18:32:37.000Z","updated_by":3425,"deleted_at":null,"brand":{"id":1,"name":"SAMSUNG","slug":"samsung","manufacturer_id":110,"created_at":"2022-08-04T15:54:34.512Z","created_by":null,"updated_at":"2024-03-13T09:54:54.000Z","updated_by":2445,"is_active":1,"name_exactly":"samsung","not_archived":1,"title":"SAMSUNG"},"i"[truncated 2278 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse["name"])
 at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
 at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -186,11 +186,11 @@ at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProductLineValidation -->
-        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@6a03bcb1]" started-at="2024-08-04T22:31:02 ICT" name="setProductLineApis" finished-at="2024-08-04T22:31:02 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@21b2e768]" started-at="2024-08-10T01:32:36 ICT" name="setProductLineApis" finished-at="2024-08-10T01:32:36 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProductLineApis -->
-        <test-method signature="deleteProductLineValidation()[pri:0, instance:Tests.ProductLineTest@6a03bcb1]" started-at="2024-08-04T22:31:02 ICT" name="deleteProductLineValidation" finished-at="2024-08-04T22:31:03 ICT" duration-ms="567" status="FAIL">
+        <test-method signature="deleteProductLineValidation()[pri:0, instance:Tests.ProductLineTest@21b2e768]" started-at="2024-08-10T01:32:36 ICT" name="deleteProductLineValidation" finished-at="2024-08-10T01:32:38 ICT" duration-ms="2053" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -231,7 +231,7 @@ at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCal
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at Tests.ProductLineTest.deleteProductLineValidation(ProductLineTest.java:72)
+at Tests.ProductLineTest.deleteProductLineValidation(ProductLineTest.java:74)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -272,19 +272,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteProductLineValidation -->
-        <test-method signature="getListProductLineDefaultValidation()[pri:0, instance:Tests.ProductLineTest@6a03bcb1]" started-at="2024-08-04T22:31:03 ICT" name="getListProductLineDefaultValidation" finished-at="2024-08-04T22:31:04 ICT" duration-ms="1423" status="PASS">
+        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@21b2e768]" started-at="2024-08-10T01:32:38 ICT" name="setProductLineApis" finished-at="2024-08-10T01:32:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProductLineApis -->
+        <test-method signature="getListProductLineDefaultValidation()[pri:0, instance:Tests.ProductLineTest@21b2e768]" started-at="2024-08-10T01:32:38 ICT" name="getListProductLineDefaultValidation" finished-at="2024-08-10T01:32:40 ICT" duration-ms="1961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListProductLineDefaultValidation -->
-        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@6a03bcb1]" started-at="2024-08-04T22:31:03 ICT" name="setProductLineApis" finished-at="2024-08-04T22:31:03 ICT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setProductLineApis -->
-        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@6a03bcb1]" started-at="2024-08-04T22:31:04 ICT" name="setProductLineApis" finished-at="2024-08-04T22:31:04 ICT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setProductLineApis -->
-        <test-method signature="updateProductLineValidation()[pri:0, instance:Tests.ProductLineTest@6a03bcb1]" started-at="2024-08-04T22:31:04 ICT" name="updateProductLineValidation" finished-at="2024-08-04T22:31:05 ICT" duration-ms="507" status="FAIL">
+        <test-method signature="updateProductLineValidation()[pri:0, instance:Tests.ProductLineTest@21b2e768]" started-at="2024-08-10T01:32:40 ICT" name="updateProductLineValidation" finished-at="2024-08-10T01:32:43 ICT" duration-ms="2409" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -315,7 +311,7 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at Tests.ProductLineTest.updateProductLineValidation(ProductLineTest.java:59)
+at Tests.ProductLineTest.updateProductLineValidation(ProductLineTest.java:61)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -356,21 +352,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateProductLineValidation -->
+        <test-method is-config="true" signature="setProductLineApis()[pri:0, instance:Tests.ProductLineTest@21b2e768]" started-at="2024-08-10T01:32:40 ICT" name="setProductLineApis" finished-at="2024-08-10T01:32:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProductLineApis -->
       </class> <!-- Tests.ProductLineTest -->
       <class name="Tests.ModelTest">
-        <test-method signature="createModelValidation()[pri:0, instance:Tests.ModelTest@fa36558]" started-at="2024-08-04T22:31:07 ICT" name="createModelValidation" finished-at="2024-08-04T22:31:07 ICT" duration-ms="450" status="PASS">
+        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@672872e1]" started-at="2024-08-10T01:32:58 ICT" name="setModelApis" finished-at="2024-08-10T01:32:58 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setModelApis -->
+        <test-method signature="createModelValidation()[pri:0, instance:Tests.ModelTest@672872e1]" started-at="2024-08-10T01:32:58 ICT" name="createModelValidation" finished-at="2024-08-10T01:33:01 ICT" duration-ms="2815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createModelValidation -->
-        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@fa36558]" started-at="2024-08-04T22:31:07 ICT" name="setModelApis" finished-at="2024-08-04T22:31:07 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@672872e1]" started-at="2024-08-10T01:33:01 ICT" name="setModelApis" finished-at="2024-08-10T01:33:01 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setModelApis -->
-        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@fa36558]" started-at="2024-08-04T22:31:07 ICT" name="setModelApis" finished-at="2024-08-04T22:31:07 ICT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setModelApis -->
-        <test-method signature="deleteModelValidation()[pri:0, instance:Tests.ModelTest@fa36558]" started-at="2024-08-04T22:31:07 ICT" name="deleteModelValidation" finished-at="2024-08-04T22:31:08 ICT" duration-ms="433" status="FAIL">
+        <test-method signature="deleteModelValidation()[pri:0, instance:Tests.ModelTest@672872e1]" started-at="2024-08-10T01:33:01 ICT" name="deleteModelValidation" finished-at="2024-08-10T01:33:03 ICT" duration-ms="1940" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -401,7 +401,7 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at Tests.ModelTest.deleteModelValidation(ModelTest.java:74)
+at Tests.ModelTest.deleteModelValidation(ModelTest.java:77)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -442,25 +442,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteModelValidation -->
-        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@fa36558]" started-at="2024-08-04T22:31:08 ICT" name="setModelApis" finished-at="2024-08-04T22:31:08 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@672872e1]" started-at="2024-08-10T01:33:03 ICT" name="setModelApis" finished-at="2024-08-10T01:33:03 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setModelApis -->
-        <test-method signature="getListModelDefaultValidation()[pri:0, instance:Tests.ModelTest@fa36558]" started-at="2024-08-04T22:31:08 ICT" name="getListModelDefaultValidation" finished-at="2024-08-04T22:31:08 ICT" duration-ms="487" status="FAIL">
+        <test-method signature="getListModelDefaultValidation()[pri:0, instance:Tests.ModelTest@672872e1]" started-at="2024-08-10T01:33:03 ICT" name="getListModelDefaultValidation" finished-at="2024-08-10T01:33:05 ICT" duration-ms="2578" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "total" (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: "productLine", "queryExactly", "query", "productId", "name", "deletedAt", "displayName", "updatedAt", "updatedBy", "id", "updatedByUser", "productLineId", "createdBy", "slug", "createdAt", "createdByUser"])
- at [Source: (String)"{"total":21951,"limit":10,"skip":0,"data":[{"id":1,"name":"Galaxy S21","display_name":"Galaxy S21","query":null,"query_exactly":0,"is_model_deleted":"0","created_by":null,"created_at":"2022-08-04T15:54:35.222Z","updated_by":6145,"updated_at":"2024-03-27T09:31:58.752Z","deleted_at":null,"product_line_id":1,"product_line_name":"Galaxy S21+","is_product_line_deleted":"0","brand_id":1,"brand_name":"Samsung","is_brand_deleted":"0","industry_id":1,"industry_name":"Hand Phone","is_industry_deleted":"0""[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse["total"])]]>
+ at [Source: (String)"{"total":19680,"limit":10,"skip":0,"data":[{"id":1,"name":"Galaxy S21","display_name":"Galaxy S21","query":"(\"Galaxy S21\" \"Samsung S21\" \"Sam sung S21\" \"Galasy S21\")","query_exactly":1,"is_model_deleted":"0","created_by":null,"created_at":"2022-08-04T15:54:35.222Z","updated_by":3081,"updated_at":"2023-12-06T10:01:59.074Z","deleted_at":null,"product_id":1,"product_name":"Galaxy S","is_product_deleted":"0","product_line_id":1,"product_line_name":"Galaxy S","is_product_line_deleted":"0","bra"[truncated 7656 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse["total"])]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "total" (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: "productLine", "queryExactly", "query", "productId", "name", "deletedAt", "displayName", "updatedAt", "updatedBy", "id", "updatedByUser", "productLineId", "createdBy", "slug", "createdAt", "createdByUser"])
- at [Source: (String)"{"total":21951,"limit":10,"skip":0,"data":[{"id":1,"name":"Galaxy S21","display_name":"Galaxy S21","query":null,"query_exactly":0,"is_model_deleted":"0","created_by":null,"created_at":"2022-08-04T15:54:35.222Z","updated_by":6145,"updated_at":"2024-03-27T09:31:58.752Z","deleted_at":null,"product_line_id":1,"product_line_name":"Galaxy S21+","is_product_line_deleted":"0","brand_id":1,"brand_name":"Samsung","is_brand_deleted":"0","industry_id":1,"industry_name":"Hand Phone","is_industry_deleted":"0""[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse["total"])
+ at [Source: (String)"{"total":19680,"limit":10,"skip":0,"data":[{"id":1,"name":"Galaxy S21","display_name":"Galaxy S21","query":"(\"Galaxy S21\" \"Samsung S21\" \"Sam sung S21\" \"Galasy S21\")","query_exactly":1,"is_model_deleted":"0","created_by":null,"created_at":"2022-08-04T15:54:35.222Z","updated_by":3081,"updated_at":"2023-12-06T10:01:59.074Z","deleted_at":null,"product_id":1,"product_name":"Galaxy S","is_product_deleted":"0","product_line_id":1,"product_line_name":"Galaxy S","is_product_line_deleted":"0","bra"[truncated 7656 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse["total"])
 at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
 at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
 at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
 at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
 at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
-at Tests.ModelTest.getListModelDefaultValidation(ModelTest.java:38)
+at Tests.ModelTest.getListModelDefaultValidation(ModelTest.java:41)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -496,7 +496,7 @@ at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFacto
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "total" (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: "productLine", "queryExactly", "query", "productId", "name", "deletedAt", "displayName", "updatedAt", "updatedBy", "id", "updatedByUser", "productLineId", "createdBy", "slug", "createdAt", "createdByUser"])
- at [Source: (String)"{"total":21951,"limit":10,"skip":0,"data":[{"id":1,"name":"Galaxy S21","display_name":"Galaxy S21","query":null,"query_exactly":0,"is_model_deleted":"0","created_by":null,"created_at":"2022-08-04T15:54:35.222Z","updated_by":6145,"updated_at":"2024-03-27T09:31:58.752Z","deleted_at":null,"product_line_id":1,"product_line_name":"Galaxy S21+","is_product_line_deleted":"0","brand_id":1,"brand_name":"Samsung","is_brand_deleted":"0","industry_id":1,"industry_name":"Hand Phone","is_industry_deleted":"0""[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse["total"])
+ at [Source: (String)"{"total":19680,"limit":10,"skip":0,"data":[{"id":1,"name":"Galaxy S21","display_name":"Galaxy S21","query":"(\"Galaxy S21\" \"Samsung S21\" \"Sam sung S21\" \"Galasy S21\")","query_exactly":1,"is_model_deleted":"0","created_by":null,"created_at":"2022-08-04T15:54:35.222Z","updated_by":3081,"updated_at":"2023-12-06T10:01:59.074Z","deleted_at":null,"product_id":1,"product_name":"Galaxy S","is_product_deleted":"0","product_line_id":1,"product_line_name":"Galaxy S","is_product_line_deleted":"0","bra"[truncated 7656 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse["total"])
 at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
 at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -515,11 +515,11 @@ at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListModelDefaultValidation -->
-        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@fa36558]" started-at="2024-08-04T22:31:08 ICT" name="setModelApis" finished-at="2024-08-04T22:31:08 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setModelApis()[pri:0, instance:Tests.ModelTest@672872e1]" started-at="2024-08-10T01:33:05 ICT" name="setModelApis" finished-at="2024-08-10T01:33:05 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setModelApis -->
-        <test-method signature="updateModelValidation()[pri:0, instance:Tests.ModelTest@fa36558]" started-at="2024-08-04T22:31:08 ICT" name="updateModelValidation" finished-at="2024-08-04T22:31:09 ICT" duration-ms="405" status="FAIL">
+        <test-method signature="updateModelValidation()[pri:0, instance:Tests.ModelTest@672872e1]" started-at="2024-08-10T01:33:05 ICT" name="updateModelValidation" finished-at="2024-08-10T01:33:07 ICT" duration-ms="2081" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -550,7 +550,7 @@ at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecific
 at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at Tests.ModelTest.updateModelValidation(ModelTest.java:63)
+at Tests.ModelTest.updateModelValidation(ModelTest.java:66)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)

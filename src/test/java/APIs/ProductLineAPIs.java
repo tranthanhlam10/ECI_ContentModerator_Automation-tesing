@@ -5,16 +5,19 @@ import io.restassured.response.Response;
 import utils.PropertiesReader;
 import utils.RandomString;
 
+import java.io.IOException;
+
 import static io.restassured.RestAssured.basePath;
 import static io.restassured.RestAssured.given;
 
 public class ProductLineAPIs {
-    public void setUpBasePath(){
-        PropertiesReader reader = BaseSetup.getPropertiesReader();
-        basePath = reader.getProperty("basePath");
-        System.out.println("Property value: " + basePath);
-    }
+    public void setUpBasePath() throws IOException {
 
+        String env = BaseSetup.getEnv();
+        basePath = PropertiesReader.getProperty("src/test/resources/environments/" + env + "-env.properties", "basePath");
+        System.out.println("Property value: " + basePath);
+
+    }
     private String getToken() {
         return  Authencation.getInstance().getToken();
     }

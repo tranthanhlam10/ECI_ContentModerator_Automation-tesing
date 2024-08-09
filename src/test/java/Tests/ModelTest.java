@@ -10,6 +10,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 
@@ -26,7 +28,7 @@ public class ModelTest extends BaseSetup {
     private int model_id;
 
     @BeforeMethod
-    public void setModelApis(){
+    public void setModelApis() throws IOException {
         modelAPIs.setUpBasePath();
     }
 
@@ -35,6 +37,7 @@ public class ModelTest extends BaseSetup {
 
         Response res = modelAPIs.getListModelsValidation();
         res.prettyPrint();
+
         ModelResponse modelRes = res.jsonPath().getObject("", ModelResponse.class);
         model_id = modelRes.getId();
 
@@ -68,7 +71,7 @@ public class ModelTest extends BaseSetup {
     @Test
     public void deleteModelValidation(){
         Response res = modelAPIs.deleteModelValidation(model_id);
-        int status_code = res.statusCode();
+        res.prettyPrint();
 
         // Check null response
         res.then().assertThat().statusCode(200);

@@ -7,11 +7,18 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import java.io.IOException;
+import java.util.logging.Logger;
 
 
+import static io.restassured.RestAssured.basePath;
+import static io.restassured.RestAssured.baseURI;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 public class BrandTest extends BaseSetup {
+
+    static Logger logger = Logger.getLogger("BaseSetup");
+
+
     BrandAPIs brandAPIs = new BrandAPIs();
     final String GET_LIST_BRAND_SCHEMA = "Schema/Brand/get_list_brand_schema.json";
     final String CREATE_BRAND_SCHEMA = "Schema/Brand/create_brand_schema.json";
@@ -21,12 +28,16 @@ public class BrandTest extends BaseSetup {
     private int brand_id;
 
     @BeforeMethod
-    public void setBrandApis(){
+    public void setBrandApis() throws IOException {
        brandAPIs.setUpBasePath();
     }
 
     @Test
     public void getListBrandDefaultValidation() throws IOException {
+
+
+        logger.warning("basePath" + basePath);
+        logger.warning("current baseURI" + baseURI);
 
         Response res = brandAPIs.getListBrands();
         res.prettyPrint();

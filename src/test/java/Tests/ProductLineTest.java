@@ -8,6 +8,8 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 
@@ -22,7 +24,7 @@ public class ProductLineTest extends BaseSetup {
     private int product_line_id;
 
     @BeforeMethod
-    public void setProductLineApis(){
+    public void setProductLineApis() throws IOException {
         productLineAPIs.setUpBasePath();
     }
 

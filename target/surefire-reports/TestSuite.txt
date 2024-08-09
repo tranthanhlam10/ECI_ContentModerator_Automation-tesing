@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 8.607 sec <<< FAILURE!
-createProductLineValidation(Tests.ProductLineTest)  Time elapsed: 1.548 sec  <<< FAILURE!
+Tests run: 12, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 34.397 sec <<< FAILURE!
+createProductLineValidation(Tests.ProductLineTest)  Time elapsed: 2.871 sec  <<< FAILURE!
 java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "name" (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: "id"])
- at [Source: (String)"{"id":36796,"name":"Lam Test Product Line Automation 7Oh2l","slug":null,"brand_id":1,"industry_id":1,"created_at":"2024-08-04T15:31:02.000Z","created_by":5812,"updated_at":"2024-08-04T15:31:02.000Z","updated_by":5812,"deleted_at":null,"brand":{"id":1,"name":"Samsung","slug":"samsung","manufacturer_id":210,"created_at":"2022-08-04T15:54:34.512Z","created_by":5812,"updated_at":"2024-03-07T04:19:11.162Z","updated_by":5527,"is_active":1,"name_exactly":"samsung","not_archived":1,"title":"Samsung"},"i"[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse["name"])
+ at [Source: (String)"{"id":29852,"name":"Lam Test Product Line Automation 3yjj3","slug":null,"brand_id":1,"industry_id":1,"created_at":"2024-08-09T18:32:37.000Z","created_by":3425,"updated_at":"2024-08-09T18:32:37.000Z","updated_by":3425,"deleted_at":null,"brand":{"id":1,"name":"SAMSUNG","slug":"samsung","manufacturer_id":110,"created_at":"2022-08-04T15:54:34.512Z","created_by":null,"updated_at":"2024-03-13T09:54:54.000Z","updated_by":2445,"is_active":1,"name_exactly":"samsung","not_archived":1,"title":"SAMSUNG"},"i"[truncated 2278 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse["name"])
 	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
 	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
 	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
 	at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
 	at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
-	at Tests.ProductLineTest.createProductLineValidation(ProductLineTest.java:45)
+	at Tests.ProductLineTest.createProductLineValidation(ProductLineTest.java:47)
 Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "name" (class ObjectResponse.ProductLineResponse), not marked as ignorable (one known property: "id"])
- at [Source: (String)"{"id":36796,"name":"Lam Test Product Line Automation 7Oh2l","slug":null,"brand_id":1,"industry_id":1,"created_at":"2024-08-04T15:31:02.000Z","created_by":5812,"updated_at":"2024-08-04T15:31:02.000Z","updated_by":5812,"deleted_at":null,"brand":{"id":1,"name":"Samsung","slug":"samsung","manufacturer_id":210,"created_at":"2022-08-04T15:54:34.512Z","created_by":5812,"updated_at":"2024-03-07T04:19:11.162Z","updated_by":5527,"is_active":1,"name_exactly":"samsung","not_archived":1,"title":"Samsung"},"i"[truncated 2288 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse["name"])
+ at [Source: (String)"{"id":29852,"name":"Lam Test Product Line Automation 3yjj3","slug":null,"brand_id":1,"industry_id":1,"created_at":"2024-08-09T18:32:37.000Z","created_by":3425,"updated_at":"2024-08-09T18:32:37.000Z","updated_by":3425,"deleted_at":null,"brand":{"id":1,"name":"SAMSUNG","slug":"samsung","manufacturer_id":110,"created_at":"2022-08-04T15:54:34.512Z","created_by":null,"updated_at":"2024-03-13T09:54:54.000Z","updated_by":2445,"is_active":1,"name_exactly":"samsung","not_archived":1,"title":"SAMSUNG"},"i"[truncated 2278 chars]; line: 1, column: 21] (through reference chain: ObjectResponse.ProductLineResponse["name"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -26,7 +26,7 @@ Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unr
 	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
 	... 39 more
 
-deleteProductLineValidation(Tests.ProductLineTest)  Time elapsed: 0.569 sec  <<< FAILURE!
+deleteProductLineValidation(Tests.ProductLineTest)  Time elapsed: 2.056 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <404>.
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
@@ -59,9 +59,9 @@ Expected status code <201> but was <404>.
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ProductLineTest.deleteProductLineValidation(ProductLineTest.java:72)
+	at Tests.ProductLineTest.deleteProductLineValidation(ProductLineTest.java:74)
 
-updateProductLineValidation(Tests.ProductLineTest)  Time elapsed: 0.509 sec  <<< FAILURE!
+updateProductLineValidation(Tests.ProductLineTest)  Time elapsed: 2.414 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <404>.
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
@@ -84,9 +84,9 @@ Expected status code <201> but was <404>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ProductLineTest.updateProductLineValidation(ProductLineTest.java:59)
+	at Tests.ProductLineTest.updateProductLineValidation(ProductLineTest.java:61)
 
-updateBrandValidation(Tests.BrandTest)  Time elapsed: 0.296 sec  <<< FAILURE!
+updateBrandValidation(Tests.BrandTest)  Time elapsed: 2.079 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <200> but was <404>.
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
@@ -109,9 +109,9 @@ Expected status code <200> but was <404>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.BrandTest.updateBrandValidation(BrandTest.java:60)
+	at Tests.BrandTest.updateBrandValidation(BrandTest.java:69)
 
-deleteModelValidation(Tests.ModelTest)  Time elapsed: 0.436 sec  <<< FAILURE!
+deleteModelValidation(Tests.ModelTest)  Time elapsed: 1.944 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <200> but was <404>.
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
@@ -134,19 +134,19 @@ Expected status code <200> but was <404>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ModelTest.deleteModelValidation(ModelTest.java:74)
+	at Tests.ModelTest.deleteModelValidation(ModelTest.java:77)
 
-getListModelDefaultValidation(Tests.ModelTest)  Time elapsed: 0.491 sec  <<< FAILURE!
+getListModelDefaultValidation(Tests.ModelTest)  Time elapsed: 2.581 sec  <<< FAILURE!
 java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "total" (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: "productLine", "queryExactly", "query", "productId", "name", "deletedAt", "displayName", "updatedAt", "updatedBy", "id", "updatedByUser", "productLineId", "createdBy", "slug", "createdAt", "createdByUser"])
- at [Source: (String)"{"total":21951,"limit":10,"skip":0,"data":[{"id":1,"name":"Galaxy S21","display_name":"Galaxy S21","query":null,"query_exactly":0,"is_model_deleted":"0","created_by":null,"created_at":"2022-08-04T15:54:35.222Z","updated_by":6145,"updated_at":"2024-03-27T09:31:58.752Z","deleted_at":null,"product_line_id":1,"product_line_name":"Galaxy S21+","is_product_line_deleted":"0","brand_id":1,"brand_name":"Samsung","is_brand_deleted":"0","industry_id":1,"industry_name":"Hand Phone","is_industry_deleted":"0""[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse["total"])
+ at [Source: (String)"{"total":19680,"limit":10,"skip":0,"data":[{"id":1,"name":"Galaxy S21","display_name":"Galaxy S21","query":"(\"Galaxy S21\" \"Samsung S21\" \"Sam sung S21\" \"Galasy S21\")","query_exactly":1,"is_model_deleted":"0","created_by":null,"created_at":"2022-08-04T15:54:35.222Z","updated_by":3081,"updated_at":"2023-12-06T10:01:59.074Z","deleted_at":null,"product_id":1,"product_name":"Galaxy S","is_product_deleted":"0","product_line_id":1,"product_line_name":"Galaxy S","is_product_line_deleted":"0","bra"[truncated 7656 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse["total"])
 	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
 	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserializeWithJackson2(JsonObjectDeserializer.java:93)
 	at io.restassured.internal.path.json.mapping.JsonObjectDeserializer.deserialize(JsonObjectDeserializer.java:53)
 	at io.restassured.path.json.JsonPath.jsonStringToObject(JsonPath.java:1093)
 	at io.restassured.path.json.JsonPath.getObject(JsonPath.java:560)
-	at Tests.ModelTest.getListModelDefaultValidation(ModelTest.java:38)
+	at Tests.ModelTest.getListModelDefaultValidation(ModelTest.java:41)
 Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "total" (class ObjectResponse.ModelResponse), not marked as ignorable (16 known properties: "productLine", "queryExactly", "query", "productId", "name", "deletedAt", "displayName", "updatedAt", "updatedBy", "id", "updatedByUser", "productLineId", "createdBy", "slug", "createdAt", "createdByUser"])
- at [Source: (String)"{"total":21951,"limit":10,"skip":0,"data":[{"id":1,"name":"Galaxy S21","display_name":"Galaxy S21","query":null,"query_exactly":0,"is_model_deleted":"0","created_by":null,"created_at":"2022-08-04T15:54:35.222Z","updated_by":6145,"updated_at":"2024-03-27T09:31:58.752Z","deleted_at":null,"product_line_id":1,"product_line_name":"Galaxy S21+","is_product_line_deleted":"0","brand_id":1,"brand_name":"Samsung","is_brand_deleted":"0","industry_id":1,"industry_name":"Hand Phone","is_industry_deleted":"0""[truncated 4620 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse["total"])
+ at [Source: (String)"{"total":19680,"limit":10,"skip":0,"data":[{"id":1,"name":"Galaxy S21","display_name":"Galaxy S21","query":"(\"Galaxy S21\" \"Samsung S21\" \"Sam sung S21\" \"Galasy S21\")","query_exactly":1,"is_model_deleted":"0","created_by":null,"created_at":"2022-08-04T15:54:35.222Z","updated_by":3081,"updated_at":"2023-12-06T10:01:59.074Z","deleted_at":null,"product_id":1,"product_name":"Galaxy S","is_product_deleted":"0","product_line_id":1,"product_line_name":"Galaxy S","is_product_line_deleted":"0","bra"[truncated 7656 chars]; line: 1, column: 15] (through reference chain: ObjectResponse.ModelResponse["total"])
 	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1138)
 	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2224)
@@ -160,7 +160,7 @@ Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unr
 	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
 	... 39 more
 
-updateModelValidation(Tests.ModelTest)  Time elapsed: 0.407 sec  <<< FAILURE!
+updateModelValidation(Tests.ModelTest)  Time elapsed: 2.085 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <200> but was <400>.
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
@@ -183,5 +183,5 @@ Expected status code <200> but was <400>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at Tests.ModelTest.updateModelValidation(ModelTest.java:63)
+	at Tests.ModelTest.updateModelValidation(ModelTest.java:66)
 
