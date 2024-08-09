@@ -6,13 +6,17 @@ import io.restassured.response.Response;
 import utils.PropertiesReader;
 import utils.RandomString;
 
+import java.io.IOException;
+
 import static io.restassured.RestAssured.*;
 
 public class ModelAPIs {
-    public void setUpBasePath(){
-        PropertiesReader reader = BaseSetup.getPropertiesReader();
-        basePath = reader.getProperty("basePath");
+    public void setUpBasePath() throws IOException {
+
+        String env = BaseSetup.getEnv();
+        basePath = PropertiesReader.getProperty("src/test/resources/environments/" + env + "-env.properties", "basePath");
         System.out.println("Property value: " + basePath);
+
     }
 
     private String getToken() {
@@ -40,8 +44,6 @@ public class ModelAPIs {
 
     public Response updateModelValidation(int model_id){
         String endpoint_updateModel = "/models/"+ model_id +"?$eager=product_line.[brand,industry]";
-        // Cho ID nay nen su ly bang cach truyen file vao doc ID
-        // Tao mot file excel doc het cac properties do len
 
         Model_Update model_update = new Model_Update();
         model_update.setDisplay_name("Lam Test Update Model Automation " + RandomString.getRandomString() );

@@ -8,21 +8,24 @@ import java.util.Properties;
 public class PropertiesReader {
 
     public String fileName;
-    Properties p;
+    static Properties p;
 
 
-    public PropertiesReader(String fileName) throws IOException {
+//    public PropertiesReader(String fileName) throws IOException {
+//
+//        this.fileName = fileName;
+//        FileReader file = new FileReader(fileName);
+//        p = new Properties();
+//        p.load(file);
+//
+//    }
 
-        this.fileName = fileName;
+
+    public static String getProperty(String fileName,String propertiesValue) throws IOException {
+        //this.fileName = fileName;
         FileReader file = new FileReader(fileName);
         p = new Properties();
         p.load(file);
-
-    }
-
-
-    public String getProperty(String propertiesValue)  {
-
         return p.getProperty(propertiesValue);
 
     }

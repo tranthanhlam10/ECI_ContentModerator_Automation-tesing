@@ -5,16 +5,21 @@ import io.restassured.response.Response;
 import utils.PropertiesReader;
 import utils.RandomString;
 
-import static io.restassured.RestAssured.basePath;
-import static io.restassured.RestAssured.given;
+import java.io.IOException;
+import java.util.logging.Logger;
+
+import static io.restassured.RestAssured.*;
 
 public class BrandAPIs {
 
+    static Logger logger = Logger.getLogger("BaseSetup");
 
-    public void setUpBasePath(){
-        PropertiesReader reader = BaseSetup.getPropertiesReader();
-        basePath = reader.getProperty("basePath");
-        System.out.println("Property value: " + basePath);
+    public void setUpBasePath() throws IOException {
+
+        String env = BaseSetup.getEnv();
+        System.out.println(env);
+        basePath = PropertiesReader.getProperty("src/test/resources/environments/" + env + "-env.properties", "basePath");
+
     }
 
     private String getToken() {
