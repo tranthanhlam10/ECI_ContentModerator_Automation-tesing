@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.util.logging.Logger;
 
 import static io.restassured.RestAssured.baseURI;
-import static io.restassured.RestAssured.get;
 
 
 public class BaseSetup {
@@ -27,7 +26,5 @@ public class BaseSetup {
         logger.warning("BASE_URL in" + " "+ env+ " " + "Environment has been created");
 
     }
-
-
 
 }

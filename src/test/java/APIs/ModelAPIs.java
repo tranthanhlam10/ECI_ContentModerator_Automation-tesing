@@ -26,6 +26,7 @@ public class ModelAPIs {
 
     public Response getListModelsValidation(){
         String endpoint_getlist = "view-product-models";
+        System.out.println("Trần Thanh Lâm");
         return given().auth().oauth2(getToken()).when().get(endpoint_getlist);
     }
 

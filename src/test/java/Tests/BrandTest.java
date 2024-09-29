@@ -2,7 +2,6 @@ package Tests;
 
 import APIs.BaseSetup;
 import APIs.BrandAPIs;
-import ObjectResponse.BrandResponse;
 import io.restassured.response.Response;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -35,7 +34,6 @@ public class BrandTest extends BaseSetup {
     @Test
     public void getListBrandDefaultValidation() throws IOException {
 
-
         logger.warning("basePath" + basePath);
         logger.warning("current baseURI" + baseURI);
 
@@ -43,6 +41,7 @@ public class BrandTest extends BaseSetup {
         res.prettyPrint();
 
         res.then().assertThat().statusCode(200);
+
         res.then().assertThat().body(matchesJsonSchemaInClasspath(GET_LIST_BRAND_SCHEMA));
     }
     //@Test(dataProvider = "excelData_Brand", dataProviderClass = ExcelReader.class)
@@ -51,9 +50,6 @@ public class BrandTest extends BaseSetup {
 
         Response res = brandAPIs.createBrandsValidation();
         res.prettyPrint();
-
-        BrandResponse brandRes = res.jsonPath().getObject("", BrandResponse.class);
-        brand_id = brandRes.getId();
 
         res.then().assertThat().statusCode(201);
         res.then().assertThat().body(matchesJsonSchemaInClasspath(CREATE_BRAND_SCHEMA));
@@ -80,5 +76,97 @@ public class BrandTest extends BaseSetup {
         res.then().assertThat().statusCode(200);
         res.then().assertThat().body(matchesJsonSchemaInClasspath(DELETE_BRAND_SCHEMA));
     }
+
+
+
+    // CREATE BRAND
+    @Test
+    public void checkJsonSchemaWhenCreateBrand(){
+
+    }
+
+    @Test
+    public void checkManufacturerIdWhenCreateBrand(){
+
+    }
+
+    @Test
+    public void checkBrandNameWhenCreateBrand(){
+
+    }
+
+    @Test
+    public void checkStatusCodeWhenCreateBrand(){
+
+    }
+
+    @Test
+    public void checkContentType(){
+
+    }
+
+
+    @Test
+    public void checkBrandNameContainStringWhenCreateBrand(){
+
+    }
+
+    //UPDATE BRAND
+    @Test
+    public void checkJsonSchemaWhenUpdateBrand(){
+
+    }
+
+    @Test
+    public void checkManufacturerIdWhenUpdateBrand(){
+
+    }
+
+    @Test
+    public void checkBrandNameWhenUdpateBrand(){
+
+    }
+
+    @Test
+    public void checkBrandIdWhenUdpateBrand(){
+
+    }
+
+    @Test
+    public void checkStatusCodeWhenUpdateBrand(){
+
+    }
+
+    @Test
+    public void checkBrandNameContainStringWhenUpdateBrand(){
+
+    }
+
+    // DELETE BRAND
+    @Test
+    public void checkJsonSchemaWhenDeleteBrand(){
+
+    }
+
+    @Test
+    public void checkManufacturerIdWhenDelteBrand(){
+
+    }
+
+    @Test
+    public void checkBrandNameWhenDeleteBrand(){
+
+    }
+
+    @Test
+    public void checkBrandIdWhenDeleteBrand(){
+
+    }
+
+    @Test
+    public void checkStatusCodeWhenDeleteBrand(){
+
+    }
+
 
 }

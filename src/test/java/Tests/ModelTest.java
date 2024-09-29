@@ -38,9 +38,6 @@ public class ModelTest extends BaseSetup {
         Response res = modelAPIs.getListModelsValidation();
         res.prettyPrint();
 
-        ModelResponse modelRes = res.jsonPath().getObject("", ModelResponse.class);
-        model_id = modelRes.getId();
-
         res.then().assertThat().statusCode(200);
         res.then().assertThat().body(matchesJsonSchemaInClasspath(GET_LIST_MODEL_SCHEMA));
 
