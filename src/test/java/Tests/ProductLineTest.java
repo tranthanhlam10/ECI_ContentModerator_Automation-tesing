@@ -44,9 +44,6 @@ public class ProductLineTest extends BaseSetup {
         Response res = productLineAPIs.createProductLinesValidation();
         res.prettyPrint();
 
-        ProductLineResponse productlineRes = res.jsonPath().getObject("", ProductLineResponse.class);
-        product_line_id = productlineRes.getId();
-
         res.then().assertThat().statusCode(201);
         res.then().assertThat().body(matchesJsonSchemaInClasspath(CREATE_PRODUCT_LINE_SCHEMA));
 
@@ -61,8 +58,6 @@ public class ProductLineTest extends BaseSetup {
         res.then().assertThat().statusCode(201);
         res.then().assertThat().body(matchesJsonSchemaInClasspath(UPDATE_PRODUCT_LINE_SCHEMA));
 
-
-
     }
 
     @Test
@@ -75,4 +70,6 @@ public class ProductLineTest extends BaseSetup {
         res.then().assertThat().body(matchesJsonSchemaInClasspath(DELETE_PRODUCT_LINE_SCHEMA));
 
     }
+
+
 }
